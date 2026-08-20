@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新星雷達</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #15231c;
+      --muted: #4d5c55;
+      --accent: #1f4d3a;
+      --paper: #eef3f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Source Serif 4", "Iwanami Mincho", serif;
+      background:
+        radial-gradient(1200px 480px at 10% -10%, rgba(31, 77, 58, 0.12), transparent 55%),
+        radial-gradient(900px 420px at 110% 8%, rgba(196, 146, 58, 0.14), transparent 50%),
+        linear-gradient(180deg, #f4f7f5 0%, var(--paper) 45%, #e7ece8 100%);
+      min-height: 100vh;
+    }
+    main {
+      width: min(42rem, calc(100% - 2.5rem));
+      margin: 0 auto;
+      padding: 18vh 0 12vh;
+    }
+    .brand {
+      font-family: Fraunces, serif;
+      font-size: clamp(2.8rem, 8vw, 4.6rem);
+      letter-spacing: -0.04em;
+      line-height: 0.95;
+      margin: 0 0 0.6rem;
+      animation: rise 0.8s ease both;
+    }
+    .lede {
+      margin: 0 0 3.5rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+      animation: rise 0.8s ease 0.12s both;
+    }
+    h2 {
+      font-family: Fraunces, serif;
+      font-size: 0.92rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 2.4rem 0 0.8rem;
+      border-top: 1px solid rgba(21, 35, 28, 0.18);
+      padding-top: 1.1rem;
+    }
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      padding: 0.9rem 0 1.15rem;
+      border-bottom: 1px solid rgba(21, 35, 28, 0.08);
+      animation: rise 0.6s ease both;
+    }
+    h3 {
+      font-family: Fraunces, serif;
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin: 0 0 0.45rem;
+    }
+    h3 a {
+      color: inherit;
+      text-decoration: none;
+      background-image: linear-gradient(var(--accent), var(--accent));
+      background-size: 0 1px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
+      transition: background-size 0.25s ease;
+    }
+    h3 a:hover { background-size: 100% 1px; }
+    h3 span {
+      margin-left: 0.45rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    p { margin: 0.15rem 0; }
+    p em {
+      font-style: normal;
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-size: 0.82rem;
+    }
+    .empty { color: var(--muted); }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">新星雷達</p>
+    <p class="lede">每日選入的 GitHub 新星與 Hacker News，由新到舊。</p>
+    <section><h2>2026-08-20</h2><ol><li><h3><a href="https://github.com/cinderline/northcinder">cinderline/northcinder</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 強調去廣告、買家導向的購物代理，利用確定性排名與審計軌跡，回應消費者對 AI 購物代理信任感不足的需求。</p><p><em>架構亮點</em> 整合 MCP (Model Context Protocol) 標準，具備確定的購物評分邏輯、電子簽名採購指令及本地審計軌跡。</p><p><em>安全風險</em> 涉及金融採購指令與簽名機制，若加密架構遭破解或本地紀錄被竄改，可能導致財務損失或未經授權採購。</p></li><li><h3><a href="https://github.com/dsh-market/dsh-market">dsh-market/dsh-market</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 為 DeepSeek Harness 生態建立集中式插件市場，解決插件尋找與安裝的破碎化問題，降低用戶使用門檻。</p><p><em>架構亮點</em> 視覺化插件管理系統，具備瀏覽、搜尋與一鍵安裝功能，介接於插件生態系統之上。</p><p><em>安全風險</em> 市場模式若未嚴格審核插件內容，易導致惡意插件透過一鍵安裝機制植入系統，存在供應鏈攻擊風險。</p></li><li><h3><a href="https://github.com/s1dashu/ip-as-logo-skill">s1dashu/ip-as-logo-skill</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 針對 AI Agents 提供視覺生成技能，解決生成式 AI 製作 logo 風格不統一的問題，標榜 neo-skeuomorphic 擬真視覺。</p><p><em>架構亮點</em> 將 Logo 設計封裝為可呼叫的 Agent Skill，提供參數化生成能力，專注於 IP 吉祥物設計。</p><p><em>安全風險</em> 未見明顯風險，主要是視覺生成模型可能產生的版權或品牌侵權爭議。</p></li><li><h3><a href="https://github.com/yetone/cumora">yetone/cumora</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 定義 AI Agents 為一等公民的協作空間，解決多 Agent 團隊協作與跨平台溝通的痛點，整合 Claude/Codex 腦部模型。</p><p><em>架構亮點</em> 跨平台架構，支援雲端與自攜模型（BYOM）混合部署，強化 Agent 間的互動協議層。</p><p><em>安全風險</em> 若開放 Agent 進行團隊作業，存在權限提升與跨 Agent 惡意指令注入風險，需審慎管理 API 金鑰存取。</p></li><li><h3><a href="https://github.com/xiaobright/dsh-anchored-standard">xiaobright/dsh-anchored-standard</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 作為 DeepSeek Harness 的兩階段啟動與工具配置工具，提供標準化環境設置，適合需要快速對接 DeepSeek 生態的用戶。</p><p><em>架構亮點</em> 區分「最小化對齊啟動（Minimal-aligned bootstrap）」與「全功能標準工具集」兩階段，優化初始部署負載。</p><p><em>安全風險</em> 未見明顯風險，但需確保啟動腳本來源可信，避免在引導過程中被植入不當環境配置。</p></li><li><h3><a href="https://github.com/yjh051108/dsh-routing-suite">yjh051108/dsh-routing-suite</a> <span>GitHub</span></h3><p><em>為什麼爆紅</em> 提供 DeepSeek Harness 的路由與注入預設配置，降低複雜推理模型的部署與調度門檻，滿足開發者對優化推理效能的剛需。</p><p><em>架構亮點</em> 採用執行時期注入器（runtime injector）與任務感知推理路由模組（task-aware reasoning-mode router），具備特定性能測試指標。</p><p><em>安全風險</em> 注入器若具備高權限執行能力，可能成為惡意腳本的攻擊向量，且 PowerShell 執行環境的權限管控需額外注意。</p></li></ol></section>
+  </main>
+</body>
+</html>
