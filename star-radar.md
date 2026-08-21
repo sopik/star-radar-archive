@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-21
+
+- **[vvxw/deploy-vercel](https://github.com/vvxw/deploy-vercel)** · GitHub
+  - 為什麼爆紅：名稱極具誤導性，利用開發者慣性點擊，透過簡化指令快速吸引大量關注與潛在的 npm 套件安全隱患。
+  - 架構亮點：資料不足
+  - 安全風險：高度疑慮。該 repo 命名具攻擊性，透過簡短指令誘騙執行，極可能包含惡意 npm 腳本或帳號劫持代碼。
+
+- **[AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html)** · HN
+  - 為什麼爆紅：揭發大型電商透過 WebAudio 進行非法指紋追蹤，且副作用直接干擾硬體設備（藍牙多點），引起隱私與技術愛好者關注。
+  - 架構亮點：利用 WebAudio API 生成高頻音訊或分析頻率響應，藉此產生跨 Session 的裝置唯一識別碼（Fingerprint）。
+  - 安全風險：濫用 WebAudio 進行跨網站追蹤，侵害使用者隱私權，並對藍牙連結穩定性造成硬體層級的干擾。
+
+- **[Leutenegger/watermarks-remover](https://github.com/Leutenegger/watermarks-remover)** · GitHub
+  - 為什麼爆紅：直接解決創作者對 AI 溯源標記（C2PA 等）的反制需求，符合對隱私防護與去標記技術的地下化興趣。
+  - 架構亮點：結合 Unicode  Sanitization、統計級改寫與中繼資料剝離，針對多種檔案格式實作自動化溯源去除。
+  - 安全風險：此工具可被濫用於清除偽造內容的來源標記，協助大規模散佈錯誤資訊或規避著作權查核機制。
+
+- **[Aaron Swartz was prosecuted for scraping, while Meta does it without consequence](https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/)** · HN
+  - 為什麼爆紅：揭露司法體系對開源先驅與巨型企業在資料抓取行為上的雙重標準，引發大眾對於科技壟斷與公平性的強烈共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report)** · GitHub
+  - 為什麼爆紅：針對熱門模型 DeepSeek V4 提供量化基準測試報告，驗證特定架構對減少能力損耗的效能影響。
+  - 架構亮點：提出 J-Space 機制以優化模型能力實現過程，透過基準測試證明其在 Flash/Pro 版本上的效能優勢。
+  - 安全風險：未見明顯風險
+
+- **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** · GitHub
+  - 為什麼爆紅：提供 AI 代理獨立操作瀏覽器與檔案系統的框架，滿足開發者對自動化「數位同事」的強烈需求。
+  - 架構亮點：採用事件驅動架構，所有操作在執行前均經過決策模型驗證並具備完整的錄製與回溯機制。
+  - 安全風險：授權 AI 完整控制瀏覽器與系統檔案，若權限控管不當，極易遭惡意程式碼注入或敏感資料外洩。
+
 ## 2026-08-20
 
 - **[cinderline/northcinder](https://github.com/cinderline/northcinder)** · GitHub
