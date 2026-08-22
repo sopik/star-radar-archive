@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-22
+
+- **[SigmanticAI/apex-inference-chip](https://github.com/SigmanticAI/apex-inference-chip)** · GitHub
+  - 為什麼爆紅：在 FPGA 上實現 LLM 推論且公開 RTL 實作，對於邊緣運算與自定義硬體加速有極高的技術參考與驗證價值。
+  - 架構亮點：在 FPGA 上以 RTL 實作 Transformer 解碼器層，位元級對齊黃金模型（Golden Model），實現高效能的晶片推論驗證。
+  - 安全風險：未見明顯風險
+
+- **[DenisSergeevitch/desktop-fly](https://github.com/DenisSergeevitch/desktop-fly)** · GitHub
+  - 為什麼爆紅：將嚴肅的神經科學連接體數據（FlyWire）轉化為具備生物真實感的桌面寵物，滿足了用戶對高技術含量與視覺趣味性的雙重追求。
+  - 架構亮點：基於真實的果蠅大腦連接體（Connectome）脈衝仿真模型，以 Swift 開發，實現了具備神經網路驅動行為的 3D 桌面互動組件。
+  - 安全風險：未見明顯風險
+
+- **[browser-use/macos-harness](https://github.com/browser-use/macos-harness)** · GitHub
+  - 為什麼爆紅：隨著電腦操作型 AI 的需求增長，開發者急需一個輕量級、能直接接管 macOS 的控制介面，該專案簡化了 OS 層級的互動接入。
+  - 架構亮點：極簡的 macOS 操作掛鉤（Harness），封裝了與 LLM 互動的底層控制邏輯，讓 AI 能直接執行滑鼠、鍵盤與系統級操作。
+  - 安全風險：賦予 LLM 完全的 macOS 控制權限極高，若提示詞注入（Prompt Injection）攻擊成功，可能導致系統遭惡意程式碼完全控制。
+
+- **[Leutenegger/vanity-eth](https://github.com/Leutenegger/vanity-eth)** · GitHub
+  - 為什麼爆紅：滿足加密貨幣用戶對自定義虛擬地址（Vanity Address）的需求，且透過多進程加速與多協議支援，降低了地址生成的技術門檻。
+  - 架構亮點：採用 CPU 多進程平行運算進行暴力搜索，支援多種位址格式（Bitcoin SegWit/Taproot 與 ETH EIP-55），具備互動式 CLI 介面。
+  - 安全風險：若隨機數產生器（PRNG）強度不足，產生的私鑰可能被預測。離線生成雖然安全，但用戶若處理不當仍有私鑰洩露隱患。
+
+- **[wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router)** · GitHub
+  - 為什麼爆紅：AI Agent 協作場景中，狀態感知的路由與 Agent 間的切換（Handoff）是目前複雜自動化流程的開發瓶頸，此專案提供了標準化解決方案。
+  - 架構亮點：支援 Agent 間的狀態傳遞（State-aware）與任務委派機制，實現分散式 A2A（Agent-to-Agent）通訊與協作流程控管。
+  - 安全風險：跨 Agent 傳遞狀態時若未加密或校驗，可能導致敏感資訊在 Agent 間外洩，或被惡意指令劫持流程。
+
+- **[Kagi added a setting for removing paywalled links from search results](https://kagi.com/changelog#11296)** · HN
+  - 為什麼爆紅：付費牆內容常導致搜尋體驗破碎，Kagi 提供直接過濾選項，精準解決了搜尋引擎使用者對「低價值廣告與干擾內容」的長期痛點。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-08-21
 
 - **[vvxw/deploy-vercel](https://github.com/vvxw/deploy-vercel)** · GitHub
