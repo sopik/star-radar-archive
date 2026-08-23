@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-23
+
+- **[Rust Glancer: Rust LSP using 100x less RAM](https://rust-glancer.github.io/blog/hello-world/)** · HN
+  - 為什麼爆紅：記憶體消耗是 Rust LSP（如 rust-analyzer）常見瓶頸，號稱節省 100 倍記憶體極具技術吸引力。
+  - 架構亮點：推測採用了更輕量的 AST 分析策略或記憶體映射（Memory-mapped）技術，優化了符號索引效率。
+  - 安全風險：極致輕量化若透過捨棄部分語法分析精準度實現，可能導致 IDE 報錯誤判或安全掃描遺漏。
+
+- **[Canada will match US tariffs 'dollar for dollar' as trade talks break down](https://www.bbc.com/news/articles/cvgvyy4x2mvo)** · HN
+  - 為什麼爆紅：美加貿易戰升級具有高度地緣政治敏感性，直接影響全球供應鏈與市場穩定，觸發廣泛關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險，但新聞傳播可能引發金融市場投機或資訊戰風險。
+
+- **[missuo/herdrm](https://github.com/missuo/herdrm)** · GitHub
+  - 為什麼爆紅：透過原生 macOS 介面聚合散落於不同設備的 Coding Agent 與終端機，解決了開發者多工作業的碎片化問題。
+  - 架構亮點：Swift 原生架構，支援多裝置同步與終端機即時串流，適合 macOS 生態系統的深度整合。
+  - 安全風險：集中管理多個 Agent 可能成為單點故障；需注意 SSH 金鑰或 API Token 在多設備同步時的儲存安全性。
+
+- **[Leutenegger/coldcard-airgap](https://github.com/Leutenegger/coldcard-airgap)** · GitHub
+  - 為什麼爆紅：為硬體錢包使用者提供缺失的離線資安輔助工具（如 Seed XOR、BBQr），滿足了加密貨幣玩家對極致自主權的需求。
+  - 架構亮點：專注於離線處理（Air-gapped），支援 PSBT 檢查、熵計算與 BIP39 處理，強調不接觸網路。
+  - 安全風險：離線工具若代碼邏輯有誤（如亂數生成器缺陷），可能導致錢包私鑰遺失或被破解，需極高信任度。
+
+- **[Spielewoy/autoprompt-skill](https://github.com/Spielewoy/autoprompt-skill)** · GitHub
+  - 為什麼爆紅：針對 AI Coding Agent 常見的失敗率提供量化優化（45%），精準擊中開發者對自動化工具穩定性的痛點。
+  - 架構亮點：資料不足
+  - 安全風險：若 Agent 權限過大，自動 Prompt 優化可能導致系統被誘導執行惡意程式碼（Prompt Injection）。
+
+- **[MengTo/threeui](https://github.com/MengTo/threeui)** · GitHub
+  - 為什麼爆紅：視覺設計社群對 Three.js 互動組件有高度需求，此 repo 提供了現成的目錄與源碼，降低了高階 UI 開發門檻。
+  - 架構亮點：以 HTML 為基底的組件庫，整合 Three.js 提供即時互動呈現，結構強調模組化與可重用性。
+  - 安全風險：未見明顯風險，但需注意第三方依賴套件的版本安全性與潛在的 XSS 攻擊點。
+
 ## 2026-08-22
 
 - **[SigmanticAI/apex-inference-chip](https://github.com/SigmanticAI/apex-inference-chip)** · GitHub
