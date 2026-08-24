@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-24
+
+- **[iAmCorey/Wake](https://github.com/iAmCorey/Wake)** · GitHub
+  - 為什麼爆紅：現代開發者需同時處理多個 AI 代理會話，本工具填補了「會話管理與回顧」的垂直需求缺口。
+  - 架構亮點：採用 Rust 語言編寫搭配 GPUI 框架，實現高效能的 UI 渲染與本機編碼會話索引搜索。
+  - 安全風險：若索引數據庫未進行適當加密，包含代碼庫與提示詞在內的敏感專案資訊恐存在外洩風險。
+
+- **[amirh00sain/SpiderPanel](https://github.com/amirh00sain/SpiderPanel)** · GitHub
+  - 為什麼爆紅：資料不足，目前僅知為 Python 開發的面板類專案，推測與爬蟲管理或伺服器控制相關。
+  - 架構亮點：資料不足
+  - 安全風險：若具備後端伺服器控制權限，未經嚴格認證的面板恐導致遠端命令執行（RCE）風險。
+
+- **[cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video)** · GitHub
+  - 為什麼爆紅：將 AI 影片生成流程模組化，降低了製作「數位分身」簡報影片的技術門檻，適用於快速內容生產。
+  - 架構亮點：提供與供應商無關（Provider-neutral）的技能接口，允許串接不同 AI 生成模型進行影片合成。
+  - 安全風險：高度易被用於製作 Deepfake 假新聞或詐騙影片，針對授權圖像的驗證強度是關鍵隱憂。
+
+- **[MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)** · GitHub
+  - 為什麼爆紅：透過擬人化的「小鯨魚娘」軟體互動與即時餘額監控，將枯燥的 API 額度管理轉化為具備遊戲性的前端體驗。
+  - 架構亮點：利用 JavaScript 實現 DOM 操作與動畫渲染，支援拖拽、吸附與狀態翻轉的動態 UI 邏輯。
+  - 安全風險：未見明顯風險，但需注意 API Key 若嵌入在瀏覽器儲存層可能面臨 XSS 攻擊竊取風險。
+
+- **[ShadowAqueduct/watermark-remover](https://github.com/ShadowAqueduct/watermark-remover)** · GitHub
+  - 為什麼爆紅：解決了目前 AI 生成內容（AIGC）濫用隱形浮水印的問題，滿足了內容創作者與隱私偏好者的清洗需求。
+  - 架構亮點：整合多種格式（PNG, PDF, DOCX 等）的 metadata 清除與 statistical rewrite 機制，進行去識別化處理。
+  - 安全風險：可能被用於規避版權保護機制，或隱蔽非法內容的溯源資訊，存在法律合規與濫用版權的風險。
+
+- **[duty1g/x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server)** · GitHub
+  - 為什麼爆紅：將 AI 代理能力與底層除錯器打通，實現「AI 直接分析並控制崩潰程式」的自動化流程，極具實用價值。
+  - 架構亮點：使用 Zig 語言開發，具備零依賴與單二進位執行檔特性；透過 MCP 協議標準化除錯器的指令集接口。
+  - 安全風險：若 MCP 端點無適當存取控制，惡意模型可能被誘騙執行記憶體寫入或敏感數據竊取指令。
+
 ## 2026-08-23
 
 - **[Rust Glancer: Rust LSP using 100x less RAM](https://rust-glancer.github.io/blog/hello-world/)** · HN
