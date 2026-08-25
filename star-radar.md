@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-25
+
+- **[MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/)** · HN
+  - 為什麼爆紅：揭露了微軟應用在用戶不知情下隱寫 GUID 資訊，引發對於隱私追蹤與數位檔案溯源機制的信任危機。
+  - 架構亮點：透過位元平面分析發現系統在儲存影像時，隱寫入了唯一的識別符，證明即使是本地端產生檔案亦具備溯源標記。
+  - 安全風險：隱蔽的數位指紋涉及隱私收集與檔案被追蹤的風險，可能導致用戶在匿名分享時暴露身份資訊。
+
+- **[nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft)** · GitHub
+  - 為什麼爆紅：將 Claude Code 引入 UI 交互設計，透過「捲動即時間軸」的創意自動化驗證流程，極大降低了動態頁面製作門檻。
+  - 架構亮點：利用截圖驗證機制實現閉環控制，將捲動事件作為狀態機觸發器，精確同步滾動位置與渲染時間軸。
+  - 安全風險：自動化截圖涉及隱私風險，且若授權 Claude API 使用不當，可能導致內部預覽頁面內容在未經授權下傳輸。
+
+- **[Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926)** · HN
+  - 為什麼爆紅：打破了 Apple 在移動端處理器單核效能的壟斷神話，小米處理器在多核表現上的飛躍，觸發硬體愛好者的激烈論戰。
+  - 架構亮點：顯示新架構在提升頻率與 IPC 效率上取得平衡，尤其是在多執行緒排程優化方面超越了現有的旗艦級別基準。
+  - 安全風險：若涉及供應鏈韌體層面的改動，可能對處理器的系統安全性與後門漏洞防禦提出新的挑戰。
+
+- **[How Europe is killing makers and micro-entrepreneurs](https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs)** · HN
+  - 為什麼爆紅：精準切中歐洲中小企業與創客群體對繁瑣監管法規的不滿，引發關於創新成本與經濟自主權的廣泛共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[tobi/walgit](https://github.com/tobi/walgit)** · GitHub
+  - 為什麼爆紅：Rust 語言開發，結合「Wal」（預寫式日誌）與 Git 的概念，解決了開發者在處理 Git 事務時的高效能與可靠性痛點。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed)** · GitHub
+  - 為什麼爆紅：大眾對 Grok 的 macOS 原生體驗有高度需求，此專案透過逆向重建滿足了用戶對非官方客戶端功能擴展的渴望。
+  - 架構亮點：基於 TypeScript，採用模組化架構對 Grok Bot 進行逆向拆解並重新封裝，實現了 macOS 原生環境下的交互邏輯。
+  - 安全風險：逆向工程存在授權條款衝突；可能包含未經審核的遠端 API 請求，用戶帳號資訊有被攔截或外洩的風險。
+
 ## 2026-08-24
 
 - **[iAmCorey/Wake](https://github.com/iAmCorey/Wake)** · GitHub
