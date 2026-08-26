@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-26
+
+- **[bryllim/workout-guide](https://github.com/bryllim/workout-guide)** · GitHub
+  - 為什麼爆紅：提供結構化的運動圖庫與跨框架 npm 套件，解決了前端開發者在建構健康類應用時的資源需求。
+  - 架構亮點：架構中立的 npm 套件設計，適合嵌入各類 JavaScript 框架，具備高度的模組化與可攜性。
+  - 安全風險：未見明顯風險
+
+- **[ApodexAI/FrontierAgent](https://github.com/ApodexAI/FrontierAgent)** · GitHub
+  - 為什麼爆紅：強調極簡安裝且無硬依賴（如 Docker），符合開發者追求「即裝即用」AI Agent 工具的需求。
+  - 架構亮點：整合 ReAct 模型與 Agent Team 模式，原生支援 TUI 終端介面，降低部署複雜度。
+  - 安全風險：自動化代理程式若被授予過高系統權限，可能引發非預期的指令執行或機敏資料外洩。
+
+- **[Nitter and XCancel receive cease and desist notices](https://github.com/zedeus/nitter/issues/1442)** · HN
+  - 為什麼爆紅：大型科技公司打壓替代性前端工具，觸發開發者社群對平台封閉性與資訊自由的激烈辯論。
+  - 架構亮點：資料不足
+  - 安全風險：開源工具遭禁可能導致替代前端專案棄置，使用者轉向潛在惡意的非官方抓取工具。
+
+- **[New Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/)** · HN
+  - 為什麼爆紅：結合高效能 M5 系列晶片的 Mac Studio 產品更新，直接吸引專業開發者與創作工作站用戶。
+  - 架構亮點：高密度整合的 M5 Max 與 M5 Ultra SoC，強調單位瓦數的效能（Performance per Watt）。
+  - 安全風險：未見明顯風險
+
+- **[Apple introduces M6 and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/)** · HN
+  - 為什麼爆紅：資料不足
+  - 架構亮點：採用 M6 與 M5 Ultra 晶片，針對 AI 推論與大模型運算進行指令集與記憶體架構優化。
+  - 安全風險：未見明顯風險
+
+- **[Dolly Parton has died](https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead)** · HN
+  - 為什麼爆紅：全球知名指標性巨星逝世，具備極高的新聞權重與社群討論熱度。
+  - 架構亮點：資料不足
+  - 安全風險：此類重大訃聞常被用作釣魚郵件或惡意軟體分發的誘餌，需防範相關詐騙連結。
+
 ## 2026-08-25
 
 - **[MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/)** · HN
