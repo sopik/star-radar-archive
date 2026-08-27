@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-27
+
+- **[themartiano/try-omarchy](https://github.com/themartiano/try-omarchy)** · GitHub
+  - 為什麼爆紅：提供零配置（Zero-setup）體驗，有效降低了技術門檻，對開發者環境部署極具吸引力。
+  - 架構亮點：封裝了特定於 Apple Silicon 的容器或編譯優化流程，實現環境隔離與快速啟動。
+  - 安全風險：未經審查的 Shell 指令腳本可能隱含惡意執行風險，需留意用戶權限與環境隔離完整性。
+
+- **[Tim Curry has died](https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film)** · HN
+  - 為什麼爆紅：資料不足
+  - 架構亮點：資料不足
+  - 安全風險：資料不足
+
+- **[wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield)** · GitHub
+  - 為什麼爆紅：整合多樣化 AI 生成模型於單一介面，解決了現行生成式工具工作流零散的痛點。
+  - 架構亮點：統一 Prompt 介面調用多種後端模型，並建立集中式 Gallery 對接不同模型的參數配置。
+  - 安全風險：多模型 API 聚合需考量憑證洩露風險，以及處理 AI 生成內容（如 Deepfake）的濫用責任。
+
+- **[GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash)** · HN
+  - 為什麼爆紅：Tim Curry 為跨世代影視指標人物，其辭世引發廣大社群的集體懷舊與悼念潮。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Nvidia agrees to acquire Hugging Face for $13B](https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8)** · HN
+  - 為什麼爆紅：Nvidia 併購 Hugging Face 涉及 AI 算力基礎設施與模型開源社群的深度綁定，具行業轉折性意義。
+  - 架構亮點：資料不足
+  - 安全風險：可能加劇 AI 模型生態的壟斷，開源社群對於模型審查與數據隱私政策變更存在擔憂。
+
+- **[AWS Acquires DuckLabs](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws)** · HN
+  - 為什麼爆紅：雲端巨頭 AWS 的併購行動直接影響開發者生態與市場競爭格局，引發技術圈對服務整合方向的關注。
+  - 架構亮點：資料不足
+  - 安全風險：供應鏈安全性風險：併購後可能改變基礎建設供應鏈或數據存取路徑，需審視安全性整合。
+
 ## 2026-08-26
 
 - **[bryllim/workout-guide](https://github.com/bryllim/workout-guide)** · GitHub
