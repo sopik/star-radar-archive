@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-28
+
+- **[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)** · GitHub
+  - 為什麼爆紅：典型的「迷因項目」或個人情感表達，因內容具備高社交傳播屬性，在社群中獲得意外的關注度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** · GitHub
+  - 為什麼爆紅：作為功能強大且開源的本地 PDF 處理工具，提供極高的透明度與隱私保障，直接取代需要付費的雲端服務。
+  - 架構亮點：基於 Java 開發，提供完整的 PDF 文件處理管道，支持各類編輯、轉換與安全性操作。
+  - 安全風險：處理含有惡意腳本或嵌入式惡意程式碼的 PDF 文件時，若底層解析庫存在漏洞，可能觸發遠端執行風險。
+
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** · GitHub
+  - 為什麼爆紅：解決了 AI 與網頁 UI 互動的最後一哩路，讓大語言模型能直接操作瀏覽器完成複雜網路任務，應用場景廣泛。
+  - 架構亮點：整合瀏覽器自動化驅動程式與模型代理接口，具備識別 DOM 結構並轉換為指令的適應能力。
+  - 安全風險：Agent 可能被誘導執行未經授權的網頁操作，包括釣魚攻擊、資料刪除或濫用用戶的 Cookie 等身份權限。
+
+- **[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)** · GitHub
+  - 為什麼爆紅：主打「完全無人維護」的 AI 自主開發模式，挑戰了軟體工程的傳統邊界，引起技術社群對 AI 自主演進的強烈好奇。
+  - 架構亮點：使用 Rust 編寫，強調效能與安全性；整合了自動化 Agent 協作機制與代碼庫自我維護演算法。
+  - 安全風險：完全無人干預的代碼演進可能導致系統陷入不可控的邏輯路徑，或成為自動化漏洞注入的溫床。
+
+- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** · GitHub
+  - 為什麼爆紅：滿足開發者對於「自動化懶人開發」的痛點需求，以幽默的產品定位與極致精簡代碼的哲學引起共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：自動化生成代碼若缺乏審查，可能引入隱蔽的邏輯漏洞或不安全的第三方依賴。
+
+- **[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · GitHub
+  - 為什麼爆紅：由 DeepSeek 官方發布，憑藉強大的品牌背書及「萬物皆插件」的模組化架構設計，吸引開發者探索其模型擴充性。
+  - 架構亮點：採用高度解耦的插件化架構（Plugin-based architecture），允許開發者靈活擴展模型功能而無需修改核心邏輯。
+  - 安全風險：插件系統若缺乏嚴格的隔離沙盒機制，惡意插件可能導致執行環境被劫持或敏感數據外洩。
+
 ## 2026-08-27
 
 - **[themartiano/try-omarchy](https://github.com/themartiano/try-omarchy)** · GitHub
