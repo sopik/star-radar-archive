@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-29
+
+- **[sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST)** · GitHub
+  - 為什麼爆紅：將 AI 從生成式轉向執行式，強調能進行「可執行的研究」，滿足科學與工程領域對自動化驗證的需求。
+  - 架構亮點：資料不足
+  - 安全風險：具備自動執行程式碼的權限，若該系統連接至真實資料庫或基礎建設，可能因模型輸出錯誤導致重大系統毀損。
+
+- **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** · GitHub
+  - 為什麼爆紅：由 NSA 開發的工業級反組譯工具，具備強大靜態分析能力，且為開源免費，是資安研究人員的必備工具。
+  - 架構亮點：基於 Java 開發的模組化架構，包含強大的反編譯器（Decompiler）、指令集處理器及協同分析功能。
+  - 安全風險：作為反編譯工具，常被惡意軟體開發者用於分析漏洞與設計後門，需嚴防工具被用於惡意軟體逆向工程。
+
+- **[abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)** · GitHub
+  - 為什麼爆紅：視覺化原型至生產級程式碼的直接轉換，極大縮短了前端工程師與設計師的溝通與轉譯時間。
+  - 架構亮點：結合視覺識別模型（VLM）與前端框架生成器，將截圖影像解析並映射至 Tailwind/React/Vue 元件。
+  - 安全風險：若用戶上傳包含敏感資料（如內部帳號、後台截圖）的影像，可能在處理過程中暴露業務隱私。
+
+- **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** · GitHub
+  - 為什麼爆紅：放棄常見的向量資料庫（Vector Store），改用確定的 AST 解析建立知識圖譜，解決了 AI 處理大規模程式碼庫的幻覺與上下文模糊問題。
+  - 架構亮點：採用本地決定性 AST 解析技術，將程式碼、文件、SQL 與配置轉換為關聯知識圖譜，而非向量嵌入。
+  - 安全風險：處理專案原始碼時，若未對敏感配置或硬編碼金鑰進行過濾，可能將機敏資訊納入圖譜索引並造成洩漏。
+
+- **[garrytan/gstack](https://github.com/garrytan/gstack)** · GitHub
+  - 為什麼爆紅：結合網紅（Garry Tan）個人品牌效應與特定產業流程的最佳實踐（Opinionated AI Agent），降低決策成本。
+  - 架構亮點：由 23 種功能型工具組成，針對執行長、工程管理、QA 等角色進行高度模組化的自動化設計。
+  - 安全風險：過度授權 AI 代理人執行決策與程式碼部署，若工具邏輯存在漏洞，可能導致意外的生產環境變更。
+
+- **[odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)** · GitHub
+  - 為什麼爆紅：滿足開發者對 AI 隱私的焦慮，提供全本地化 AI 開發環境，無需依賴雲端模型服務。
+  - 架構亮點：資料不足
+  - 安全風險：因自託管特性，若使用者未適當配置存取控制與網路防火牆，可能暴露本地敏感開發資料。
+
 ## 2026-08-28
 
 - **[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)** · GitHub
