@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-30
+
+- **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** · GitHub
+  - 為什麼爆紅：結合 ChatGPT 的推理能力與 Codex 的程式碼生成與執行能力，彌補單一模型在規劃與實作上的不足。
+  - 架構亮點：解耦架構：以 ChatGPT 作為邏輯規劃器（Planner），透過 API 橋接至 Codex 進行程式碼操作與執行。
+  - 安全風險：跨模型協作可能導致 Prompt Injection 攻擊風險，且需同時暴露兩個系統的 API 權限，增加受攻擊面。
+
+- **[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** · GitHub
+  - 為什麼爆紅：對當前 AI 工程技術棧的回歸式教學，滿足了開發者對底層實作原理的渴望。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)** · GitHub
+  - 為什麼爆紅：將龐大的影片生產管線自動化，透過模組化工具群降低了高品質 AI 影片製作的門檻。
+  - 架構亮點：由 12 個生產管線與 700 多個 Agent 技能檔案組成，具備高度組合性的多代理協作（Multi-agent）工作流。
+  - 安全風險：大規模執行自動化腳本可能誤用雲端資源或觸發內容審查機制，需注意自動化生成的版權與合規性。
+
+- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** · GitHub
+  - 為什麼爆紅：直擊 LLM 開發高額 Token 成本的痛點，透過語言簡化優化策略，提供顯著的成本效益。
+  - 架構亮點：作為 Claude Code 的技能擴充，透過預處理輸入指令，強制進行高壓縮的文字編碼以降低 Token 消耗。
+  - 安全風險：過度精簡語言可能導致 LLM 對複雜業務邏輯產生誤解，進而導致生成程式碼的邏輯漏洞。
+
+- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** · GitHub
+  - 為什麼爆紅：解決了 AI 在生成 UI 時缺乏品牌一致性的痛點，將「設計規範」標準化為可被 Agent 直接解析的格式。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** · GitHub
+  - 為什麼爆紅：提供本地端優先的開源替代方案，打破 Claude Design 的封閉生態，並能直接輸出 HTML/PPTX 等實用檔案。
+  - 架構亮點：採用 BYOK（自備 API Key）架構，支援與 20 多種主流 AI Coding Agent（如 Cursor, Claude Code）無縫整合。
+  - 安全風險：因需處理本地資源與外部 API 通訊，若缺乏適當權限沙盒，可能導致本地敏感檔案遭惡意插件誤讀。
+
 ## 2026-08-29
 
 - **[sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST)** · GitHub
