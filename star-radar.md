@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-08-31
+
+- **[MetaMask-AI/metamask-desktop](https://github.com/MetaMask-AI/metamask-desktop)** · GitHub
+  - 為什麼爆紅：MetaMask 從瀏覽器插件跨足桌面端，旨在脫離瀏覽器限制提供更原生的 Web3 互動體驗，解決生態兼容性問題。
+  - 架構亮點：資料不足
+  - 安全風險：桌面端應用擁有比瀏覽器更高的 OS 權限，若遭惡意軟體劫持，私鑰與資產安全風險將劇增。
+
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** · GitHub
+  - 為什麼爆紅：結合 AI 自動化求職流程，直接對接本地 CLI 工具，解決了求職市場資訊過載與篩選痛點。
+  - 架構亮點：模組化處理：資料抓取、結構化評分（A-H 等級）、簡歷自定義，並與主流 AI CLI 工具無縫整合。
+  - 安全風險：需處理敏感個人簡歷與帳號密碼資訊，若未落實端到端加密，極易成為釣魚或數據竊取目標。
+
+- **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** · GitHub
+  - 為什麼爆紅：將複雜程式碼視覺化為互動式知識圖譜，顯著降低了理解大型程式庫與異構程式碼結構的認知負荷。
+  - 架構亮點：支援多種 AI 編碼工具鏈串接，利用圖論結構解析原始碼並提供 LLM 查詢接口。
+  - 安全風險：將完整程式碼庫上傳至圖譜分析引擎若未經本地處理，恐造成企業私有代碼洩漏風險。
+
+- **[karpathy/autoresearch](https://github.com/karpathy/autoresearch)** · GitHub
+  - 為什麼爆紅：由 AI 權威 Andrej Karpathy 發布，旨在降低訓練小型模型的硬體門檻並實現自動化研究流程，具高度技術影響力。
+  - 架構亮點：針對單 GPU 環境優化，將深度學習模型的研究與 nanochat 訓練流程自動化。
+  - 安全風險：自動化訓練腳本若未設防火牆，可能被用於生成惡意內容或在受污染數據集上進行模型中毒。
+
+- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** · GitHub
+  - 為什麼爆紅：隨著 Claude 使用率飆升，開發者急需一套生態系統來擴展其自動化工作流，該 repo 提供即插即用的整合方案。
+  - 架構亮點：資料不足
+  - 安全風險：第三方工具整合可能導致 API 金鑰洩漏或授權過度擴張，遭攻擊者利用執行未經授權的操作。
+
+- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** · GitHub
+  - 為什麼爆紅：開發者極度渴求能讓 AI 代理（Agents）從實驗階段邁向生產環境的標準化工程模式與技能庫。
+  - 架構亮點：資料不足
+  - 安全風險：若代理權限控管不當，注入式攻擊可能透過這些技能直接執行惡意程式碼或訪問敏感資源。
+
 ## 2026-08-30
 
 - **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** · GitHub
