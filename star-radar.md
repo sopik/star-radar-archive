@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-01
+
+- **[Nanako0129/sepia](https://github.com/Nanako0129/sepia)** · GitHub
+  - 為什麼爆紅：將「去 AI 化」(De-AI) 寫作風格調整作為 Agent 技能模組，滿足使用者對 AI 生成內容「去機器味」的需求。
+  - 架構亮點：基於 StoryScope 學術模型，整合各類主流 Agent 框架的插件，專注於文本敘事結構與專業語調的修復與校正。
+  - 安全風險：被惡意用於大規模生成極具欺騙性的擬人化內容，可能被用於社群工程、詐騙或散播虛假訊息。
+
+- **[tt-a1i/archify](https://github.com/tt-a1i/archify)** · GitHub
+  - 為什麼爆紅：解決了 AI Agent 輸出複雜系統架構圖時，格式混亂且缺乏互動性的痛點，適合技術文件生成自動化場景。
+  - 架構亮點：利用前端渲染技術產生自帶動畫與導出功能的 HTML 文件，實現從 Agent 輸出到可視化架構圖的無縫轉譯。
+  - 安全風險：未見明顯風險；主要風險可能在於處理敏感系統架構圖時，若未進行加密儲存恐導致內部設計外洩。
+
+- **[stablyai/orca](https://github.com/stablyai/orca)** · GitHub
+  - 為什麼爆紅：從單一 Agent 開發轉向「多代理叢集」(Fleet of Agents) 管理的需求暴增，填補了代理協調與執行環境的缺口。
+  - 架構亮點：定義為 ADE (Agent Development Environment)，具備跨設備（桌面、移動、VPS）的協調能力，支援大規模並行代理執行。
+  - 安全風險：跨平台執行多代理環境增加了攻擊面，需防範 Agent 間的權限越權或因指令誤導導致的資源濫用。
+
+- **[MemPalace/mempalace](https://github.com/MemPalace/mempalace)** · GitHub
+  - 為什麼爆紅：AI Agent 長期記憶方案目前碎片化，該專案以效能基準測試作為切入點，直接對標企業級產品。
+  - 架構亮點：專注於記憶層級的效能最佳化，可能整合了向量資料庫索引與高效的語意檢索演算法，並提供基準測試報告。
+  - 安全風險：記憶系統若未進行妥善的去識別化處理，長期保存的對話紀錄可能包含敏感資訊，並面臨未經授權存取的風險。
+
+- **[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)** · GitHub
+  - 為什麼爆紅：直接解決了 LLM 處理網頁資料時常見的亂碼、垃圾資訊過多問題，透過優化提取格式提高 AI 處理效率。
+  - 架構亮點：專為 LLM 設計的網頁爬蟲，支援自動化清理 HTML、提取結構化 Markdown，並內建對代理及瀏覽器渲染的優化。
+  - 安全風險：廣泛爬取網頁可能違反目標網站的 Robots.txt 或服務條款，且自動化提取的內容可能包含惡意注入程式碼。
+
+- **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** · GitHub
+  - 為什麼爆紅：作為 Anthropic 推動 Model Context Protocol (MCP) 的生態入口，開發者急需標準化的伺服器實現來連接 AI Agent 與外部資料源。
+  - 架構亮點：集合了多樣化的 MCP 伺服器實現，提供標準化接口以供 AI 模型安全地存取本地檔案、資料庫或 API。
+  - 安全風險：若不謹慎篩選與權限控制，接入不受信任的 MCP 伺服器可能導致 AI 模型被誘導洩漏主機檔案或執行惡意指令。
+
 ## 2026-08-31
 
 - **[MetaMask-AI/metamask-desktop](https://github.com/MetaMask-AI/metamask-desktop)** · GitHub
