@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-02
+
+- **[crmne/fastpotify](https://github.com/crmne/fastpotify)** · GitHub
+  - 為什麼爆紅：以 Rust 重寫 Spotify 客戶端，滿足使用者對於輕量化與高效能音訊播放工具的追求，擺脫了官方 Electron 客戶端的資源臃腫。
+  - 架構亮點：採用 Rust 語言編寫，實現本地播放與 Spotify Connect 功能，顯著降低記憶體佔用與 CPU 負載。
+  - 安全風險：需與 Spotify API 進行身份驗證交互，若處理 Session Token 不當，存在遭中間人攻擊或用戶帳號被劫持的風險。
+
+- **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · GitHub
+  - 為什麼爆紅：主打「Agent-Native」概念，嘗試將傳統軟體介面強制轉換為 AI 可理解的控制流，解決了舊軟體在 AI 自主執行下的兼容性障礙。
+  - 架構亮點：資料不足。
+  - 安全風險：若任意軟體皆可被 Agent 操控，存在極大的權限擴張風險，惡意腳本可能藉此繞過系統防護執行未授權操作。
+
+- **[chenglou/pretext](https://github.com/chenglou/pretext)** · GitHub
+  - 為什麼爆紅：由知名開發者推出，針對文字測量與佈局提供極致的效能表現，解決了現代 UI 渲染中對於複雜文本處理的技術瓶頸。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** · GitHub
+  - 為什麼爆紅：將求職自動化整合進 AI 編碼 CLI，將繁瑣的篩選與投遞工作轉化為本地化的 Agent 工作流，滿足求職市場的自動化需求。
+  - 架構亮點：具備自動化掃描、職位評分機制（A-H 報告）與簡歷客製化，完全運行於本地 AI CLI 環境中。
+  - 安全風險：需存取用戶個人簡歷與求職平台的機敏資訊，若 Agent 邏輯被污染，可能導致個人資料外流或誤投遞惡意鏈接。
+
+- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** · GitHub
+  - 為什麼爆紅：直擊 LLM 使用成本痛點，提供顯著的 Token 壓縮效果，對高頻使用 RAG 或編碼代理的用戶具有極高的金錢節省價值。
+  - 架構亮點：支援庫、Proxy 及 MCP Server 多種形態，能針對日誌、程式碼與 JSON 進行高效壓縮，並維持輸出一致性。
+  - 安全風險：作為 Proxy 介面傳輸數據，若處理過程缺乏適當加密或在轉換階段被注入惡意載荷，存在數據被竄改或隱私外洩的風險。
+
+- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** · GitHub
+  - 為什麼爆紅：作為 Claude Code 與 Cursor 等主流 AI 編碼工具的效能優化層，解決了開發者對 AI 代理執行效率與記憶管理的剛需痛點。
+  - 架構亮點：整合了記憶系統、安全機制與研究導向的開發框架，為不同 AI 代碼環境提供統一的 Agent Harness 優化介面。
+  - 安全風險：深入 AI Agent 的執行底層並處理記憶與安全功能，若遭劫持或配置錯誤，恐導致 Agent 產生權限濫用或洩漏敏感代碼。
+
 ## 2026-09-01
 
 - **[Nanako0129/sepia](https://github.com/Nanako0129/sepia)** · GitHub
