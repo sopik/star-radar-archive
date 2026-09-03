@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-03
+
+- **[GangTailorUpgrade/undress-service](https://github.com/GangTailorUpgrade/undress-service)** · GitHub
+  - 為什麼爆紅：針對私密影像處理需求，因具備強烈的感官刺激與倫理爭議，通常會在非法或成人社群中迅速傳播。
+  - 架構亮點：資料不足
+  - 安全風險：高度濫用風險。涉及製作非合意色情內容（NCII），嚴重侵犯隱私並違反多國法律與 AI 倫理規範。
+
+- **[cbrock84/headcount](https://github.com/cbrock84/headcount)** · GitHub
+  - 為什麼爆紅：將 Claude Code 的代理能力模組化並模仿企業架構組織，提供了一種系統化管理多個 AI 職能單位的框架，便於擴展複雜任務。
+  - 架構亮點：模組化代理設計，包含超過 15 個部門與 125 個獨立安裝的技能模組，採用類似組織樹的架構來派發與執行跨職能任務。
+  - 安全風險：若代理權限控管不當，可能導致 AI 誤操作或未經授權的系統訪問；模組生態系若包含惡意來源則有資安隱憂。
+
+- **[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)** · GitHub
+  - 為什麼爆紅：利用 Claude Code 自動化執行求職過程（改寫履歷、投遞），直接切中技術人員對低效、重複求職程序的痛點與自動化渴望。
+  - 架構亮點：基於 Claude Code 框架開發的 Agent 流程，整合了資訊檢索、自然語言生成以及本地端執行環境的權限控制。
+  - 安全風險：頻繁呼叫 AI 介面可能導致 API 額度耗盡，且投遞過程若未經核對，可能造成大量垃圾申請甚至帳號違規風險。
+
+- **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** · GitHub
+  - 為什麼爆紅：AI 代理（Agent）開發潮下，將 HTML 轉為影片的需求激增。此工具解決了 UI 自動化產出多媒體素材的痛點，符合當前 Agent-first 趨勢。
+  - 架構亮點：將 HTML/CSS 視為渲染原始檔，透過架構將網頁架構直接映射至視訊影格，專為無頭瀏覽器與自動化代理執行環境優化。
+  - 安全風險：可能遭濫用於大規模自動化生成深偽（Deepfake）影片或垃圾資訊內容。
+
+- **[3b1b/manim](https://github.com/3b1b/manim)** · GitHub
+  - 為什麼爆紅：數學網紅 3Blue1Brown 的影片影響力極大，該引擎能精準生成複雜數學動畫，填補了程式碼驅動高品質數學視覺化的市場空白。
+  - 架構亮點：基於 Python 的程式碼編寫動畫引擎，透過指令式語法控制幾何對象的渲染與變形，具備強大的數學符號處理與時間軸控制能力。
+  - 安全風險：未見明顯風險
+
+- **[public-apis/public-apis](https://github.com/public-apis/public-apis)** · GitHub
+  - 為什麼爆紅：作為全球開發者公認的免費 API 聚合清單，是建立專案時尋找資料來源的必備工具書，具備極高的長尾搜尋價值與收藏效應。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-09-02
 
 - **[crmne/fastpotify](https://github.com/crmne/fastpotify)** · GitHub
