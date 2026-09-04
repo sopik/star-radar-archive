@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-04
+
+- **[GPT-6 Astra](https://openai.com/index/gpt-6-astra/)** · HN
+  - 為什麼爆紅：作為 OpenAI 旗艦模型的重大迭代，GPT-6 Astra 承載市場對下一代多模態智慧、推理能力與執行效率提升的巨大預期。
+  - 架構亮點：資料不足
+  - 安全風險：大幅提升的自動化執行與推理能力，可能導致生成假訊息、社會工程攻擊規模化，或在未經授權下自動操控系統資源。
+
+- **[.name Termination](https://neil.fraser.name/news/2026/09/03/)** · HN
+  - 為什麼爆紅：頂級域名（TLD）.name 即將終止服務，牽涉大量個人網頁持有者的數位資產遷移與數位身份備份議題，引發廣泛社群討論。
+  - 架構亮點：資料不足
+  - 安全風險：域名撤銷後可能引發大規模域名搶註與釣魚網站風險，導致原用戶的連結失效並可能遭惡意接管。
+
+- **[anthropics/commerce-agents](https://github.com/anthropics/commerce-agents)** · GitHub
+  - 為什麼爆紅：Anthropic 官方釋出的垂直領域應用藍圖，提供電商、零售等場景的具體實作架構，對企業端開發 AI 購物系統具有極高參考價值。
+  - 架構亮點：包含多領域（電商、電信、娛樂）的架構參考設計，結合 Claude 對複雜商業邏輯與多步驟交易流程的處理能力。
+  - 安全風險：商業代理涉及用戶個資與支付邏輯，若鑑權機制不嚴謹，容易產生 API 權限濫用、交易漏洞或敏感數據洩漏風險。
+
+- **[Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)** · GitHub
+  - 為什麼爆紅：準確切中學術界痛點，提供符合 Nature 期刊標準的科研數據處理與自動化繪圖解決方案，降低撰寫高質量論文的門檻。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** · GitHub
+  - 為什麼爆紅：基於 Nous Research 在開源模型界的技術聲譽，且強調「隨使用者成長」的代理機制，吸引尋求高度自適應 AI 代理的開發者關注。
+  - 架構亮點：資料不足
+  - 安全風險：代理程式具備學習與自主決策能力，若訓練過程欠缺保護，可能發生模型權重中毒或自主執行未經授權的外部網路請求。
+
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** · GitHub
+  - 為什麼爆紅：由知名技術網紅 Matt Pocock 發布，針對開發者代理（AI Agents）的指令集與自動化工作流程，切中當前工程師優化開發效率的需求。
+  - 架構亮點：以 .agents 目錄結構為核心，模組化封裝工程師常用的 Shell 腳本與任務邏輯，便於 AI 工具調用執行。
+  - 安全風險：若自動化腳本包含未經審核的執行權限，可能導致攻擊者透過 prompt injection 執行惡意 Shell 指令或非法存取機敏檔案。
+
 ## 2026-09-03
 
 - **[GangTailorUpgrade/undress-service](https://github.com/GangTailorUpgrade/undress-service)** · GitHub
