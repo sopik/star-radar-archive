@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-05
+
+- **[shadcn-ui/cn](https://github.com/shadcn-ui/cn)** · GitHub
+  - 為什麼爆紅：宣稱效能較現有標準（tailwind-merge, clsx）提升 30 倍，解決了大規模專案中 CSS 合併的效能瓶頸。
+  - 架構亮點：針對 Tailwind CSS 類名合併進行了底層演算法優化，強調效能極致化與 API 相容性。
+  - 安全風險：未見明顯風險
+
+- **[Discovery of a new OpenAI agent message board](https://collusion.wiki/)** · HN
+  - 為什麼爆紅：揭露了 OpenAI 代理人內部或相關生態的私密溝通管道，觸動了技術社群對 AI 行為透明度與潛在合謀風險的好奇心。
+  - 架構亮點：資料不足
+  - 安全風險：可能揭露系統漏洞或敏感協議，且該論壇本身可能成為惡意代理人傳遞控制命令的中繼站。
+
+- **[lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas)** · GitHub
+  - 為什麼爆紅：連結 Material 3 設計系統與「vibe-coding」提示詞工程，大幅降低 UI 設計與程式碼生成的轉譯摩擦成本。
+  - 架構亮點：採用瀏覽器端渲染與視覺化拖拽架構，將 UI 狀態直接映射為 AI 可理解的提示詞格式。
+  - 安全風險：生成的 UI 程式碼若未經過濾，可能在前端注入惡意腳本（XSS）。
+
+- **[emilkowalski/skills](https://github.com/emilkowalski/skills)** · GitHub
+  - 為什麼爆紅：由知名開發者維護，聚焦設計與工程領域的技能樹，滿足軟體產業對跨領域技能結構化的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[anthropics/skills](https://github.com/anthropics/skills)** · GitHub
+  - 為什麼爆紅：由頂尖 AI 模型公司 Anthropic 發佈，開發者試圖藉此理解其代理人技能的標準化實作，以提升自建 AI 應用的對齊度。
+  - 架構亮點：資料不足
+  - 安全風險：公開技能模組可能被用於自動化詐騙或未經授權的遠端操作，需關注其對 Tool-use 權限的沙盒隔離機制。
+
+- **[obra/superpowers](https://github.com/obra/superpowers)** · GitHub
+  - 為什麼爆紅：結合代理人（Agentic）技能框架與軟體開發方法論，直接對接開發者提升自動化生產力的需求，引發社群高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：代理人框架可能涉及權限提升與過度授權風險，若指令解析不嚴格，易遭 Prompt Injection 攻擊。
+
 ## 2026-09-04
 
 - **[GPT-6 Astra](https://openai.com/index/gpt-6-astra/)** · HN
