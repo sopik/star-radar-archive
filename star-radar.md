@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-06
+
+- **[anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem)** · GitHub
+  - 為什麼爆紅：由頂尖 AI 公司 Anthropic 發布，結合數學嚴謹驗證與 Lean 語言，展現 AI 在形式化驗證領域的突破潛力。
+  - 架構亮點：利用 Lean 形式化證明語言，將數學定理轉化為可由電腦驗證的邏輯證明流程。
+  - 安全風險：未見明顯風險
+
+- **[Actively exploited sandbox RCE in all Chromium versions](https://nvd.nist.gov/vuln/detail/cve-2026-85046)** · HN
+  - 為什麼爆紅：涉及 Chromium 核心漏洞，且已被廣泛利用，對全球網頁瀏覽安全構成極大威脅，引起技術社群高度警戒。
+  - 架構亮點：沙盒 (Sandbox) 機制遭突破，導致遠端程式碼執行 (RCE)，顯示瀏覽器隔離層級存在邏輯缺陷。
+  - 安全風險：極高。攻擊者可利用此漏洞控制使用者瀏覽器，進行資料竊取、植入惡意軟體或進行進一步系統入侵。
+
+- **[yczz/oc-english](https://github.com/yczz/oc-english)** · GitHub
+  - 為什麼爆紅：將枯燥的語言學習結合遊戲化的「養成」要素，大幅降低學習門檻並提升使用者黏著度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[2akouwu/reverify](https://github.com/2akouwu/reverify)** · GitHub
+  - 為什麼爆紅：針對 AI 常見的「幻覺」痛點，提出具體的驗證流程，透過確定性工具對抗機率模型的隨機性，引起開發者共鳴。
+  - 架構亮點：整合 MCP (Model Context Protocol) 伺服器與 CLI，將事實查核邏輯解耦至確定性系統中進行驗證。
+  - 安全風險：未見明顯風險
+
+- **[bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)** · GitHub
+  - 為什麼爆紅：提供突破網路限制的工具，其資訊傳播具備強烈的使用剛需與社群傳播效應，長期維持高關注度。
+  - 架構亮點：資料不足
+  - 安全風險：使用翻牆工具本身具備法律與資安風險，若中間人節點不可控，存在流量監控與隱私洩露的隱憂。
+
+- **[anomalyco/opencode](https://github.com/anomalyco/opencode)** · GitHub
+  - 為什麼爆紅：作為開源 AI Coding Agent，直接對標並挑戰當前閉源 AI 編程工具的市場壟斷，滿足開發者對開源生態的高度需求。
+  - 架構亮點：資料不足
+  - 安全風險：自動化代碼生成可能引入未經審核的安全漏洞或惡意軟體依賴，使用者在執行生成的程式碼時面臨潛在風險。
+
 ## 2026-09-05
 
 - **[shadcn-ui/cn](https://github.com/shadcn-ui/cn)** · GitHub
