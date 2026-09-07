@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-07
+
+- **[pierrenade/short-video-generator-AI](https://github.com/pierrenade/short-video-generator-AI)** · GitHub
+  - 為什麼爆紅：捕捉社群媒體對自動化短影音生成的龐大市場需求，提供端到端的影音處理流水線，省去手動剪輯成本。
+  - 架構亮點：整合剪輯偵測、AI 翻譯、字幕生成與語音合成，提供模組化的 Python 處理流水線架構。
+  - 安全風險：若自動化爬取 YouTube 內容未經授權，可能觸發版權侵權風險或違反平台機器人使用政策。
+
+- **[Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub)** · GitHub
+  - 為什麼爆紅：解決封閉式通訊軟體資料提取難題，自動化整理社交歷史與機會追蹤，對職場與銷售領域具高度吸引力。
+  - 架構亮點：採用 Local-first 架構與唯讀 CLI 工具，透過本地處理與 AI 技能模組整合，保護隱私同時提升檢索效率。
+  - 安全風險：涉及微信通訊隱私數據之爬取與處理，違反平台服務條款，且本地端數據若加密不當存在外洩疑慮。
+
+- **[ashemag/human-atlas](https://github.com/ashemag/human-atlas)** · GitHub
+  - 為什麼爆紅：視覺化與醫療教育數據的剛性需求，結合 3D 渲染技術，降低了解剖學資源獲取的門檻。
+  - 架構亮點：基於 TypeScript 開發，整合大量 3D 網格數據（BodyParts3D）並支援系統層次化顯示與互動搜尋。
+  - 安全風險：未見明顯風險。
+
+- **[herdrdev/herdr](https://github.com/herdrdev/herdr)** · GitHub
+  - 為什麼爆紅：針對 AI Agent 運行時（Runtime）進行效能優化，填補目前代理開發缺乏標準化底層環境的市場空缺。
+  - 架構亮點：使用 Rust 編寫，強調記憶體安全性與高併發處理能力，提供專為代理程式設計的隔離環境。
+  - 安全風險：作為運行時底層，若沙盒隔離機制不完整，可能允許惡意代碼從 Agent 環境滲透至宿主主機。
+
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** · GitHub
+  - 為什麼爆紅：搭上 AI Agent 與多代理協作（Multi-player swarms）趨勢，提供開箱即用的架構框架，降低自動化開發門檻。
+  - 架構亮點：整合自適應記憶、RAG 機制及多模型介面（Claude/Codex/Hermes），具備模組化的代理協作邏輯設計。
+  - 安全風險：代理系統若對外部工具存取權限控管不當，可能引發非預期資源消耗或自動化指令濫用。
+
+- **[nvm-sh/nvm](https://github.com/nvm-sh/nvm)** · GitHub
+  - 為什麼爆紅：Node.js 開發者必備工具，用於切換多版本環境，解決相容性問題，具有極高的行業普及度。
+  - 架構亮點：採用 POSIX 相容的 Shell 腳本實現，不依賴額外運行環境，安裝配置簡單且具備高度可移植性。
+  - 安全風險：因需修改 Shell 環境變數（如 PATH），若腳本源碼遭劫持或惡意替換，可能導致系統級指令攔截風險。
+
 ## 2026-09-06
 
 - **[anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem)** · GitHub
