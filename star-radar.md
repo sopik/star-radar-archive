@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-08
+
+- **[EverettFish/holo-card-studio](https://github.com/EverettFish/holo-card-studio)** · GitHub
+  - 為什麼爆紅：將語意描述自動轉換為 Blender 3D 與 Three.js 可視化輸出，實現從概念到網頁展示的自動化鏈條，極大提升原型設計效率。
+  - 架構亮點：結合 Blender Python API 與 Three.js 模板，將 LLM 輸出序列化為 3D 資產參數與渲染腳本。
+  - 安全風險：自動化生成的腳本若未經沙盒處理，執行時可能存在代碼注入風險，建議在隔離環境中運行生成的程式碼。
+
+- **[vinzdg/codenotch](https://github.com/vinzdg/codenotch)** · GitHub
+  - 為什麼爆紅：AI 工具訂閱制成本高昂，該應用提供直觀的即時監控介面，精準擊中開發者對「用量超額」的焦慮感。
+  - 架構亮點：原生 macOS 應用，透過 UI Overlay 或狀態列整合，監控各類 AI 服務 API 的計量數據。
+  - 安全風險：若需接入 API Key 以獲取監控數據，需確保金鑰儲存於 macOS Keychain，避免遭惡意軟體竊取。
+
+- **[Keep Our Servers Running](https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/)** · HN
+  - 為什麼爆紅：Internet Archive 的公益屬性引發社群共鳴，加上募資配對活動（3x）提供強大財務誘因，觸發了開發者與數位保存愛好者的支持。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** · GitHub
+  - 為什麼爆紅：利用 DeepSeek 模型特性結合終端機開發工作流，透過 prefix-cache 優化解決長上下文計算成本，提升 coding agent 執行效率。
+  - 架構亮點：針對 DeepSeek 模型優化 prefix-cache 機制，實現狀態持久化，適合長期運行的終端任務。
+  - 安全風險：若 Agent 權限配置不當，長期運行的進程可能被惡意指令劫持，直接存取系統檔案或執行有害腳本。
+
+- **[blader/humanizer](https://github.com/blader/humanizer)** · GitHub
+  - 為什麼爆紅：企業與學術界對 AI 偵測器的反制需求激增，該工具針對性地解決了 AI 生成內容「過於工整」而易被識別的痛點。
+  - 架構亮點：資料不足
+  - 安全風險：可能被用於學術詐欺、偽造文件或規避審查系統，隱匿 AI 參與生成的事實。
+
+- **[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)** · GitHub
+  - 為什麼爆紅：AI 代理（Agent）開發者急需商業變現與增長能力，此庫將行銷策略轉化為 AI 可執行的指令邏輯，降低了技術人員跨足市場端的門檻。
+  - 架構亮點：資料不足
+  - 安全風險：生成的行銷文案或內容若未經審查，可能被濫用於惡意 SEO 或大規模垃圾訊息散佈。
+
 ## 2026-09-07
 
 - **[pierrenade/short-video-generator-AI](https://github.com/pierrenade/short-video-generator-AI)** · GitHub
