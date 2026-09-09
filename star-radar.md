@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-09
+
+- **[openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler)** · GitHub
+  - 為什麼爆紅：這是 OpenAI 對外展示其 AI 系統在形式化數學驗證領域能力的載體，結合「AI+數學證明」話題，具極高專業知名度。
+  - 架構亮點：使用 Lean 語言進行形式化驗證，確保數學證明過程可由電腦程序執行邏輯一致性檢查，降低傳統人工推導的誤差。
+  - 安全風險：未見明顯風險
+
+- **[On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)** · HN
+  - 為什麼爆紅：OpenAI 介入數學證明領域，結合計算資源與 AI 模型嘗試挑戰傳統數學難題，引發公眾對於 AI 是否能解決複雜科學問題的熱烈辯論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Navier-Stokes – Tristan Buckmaster [pdf]](https://cims.nyu.edu/~tristanb/statement.pdf)** · HN
+  - 為什麼爆紅：Navier-Stokes 方程是數學千禧年大獎問題，任何關於其解法的學術進展都會引發數學界與科學社群的高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Albert-Weasker/niubigeo](https://github.com/Albert-Weasker/niubigeo)** · GitHub
+  - 為什麼爆紅：直接瞄準商業競爭情報與品牌監測需求，透過自動化分析提供決策洞察，滿足企業對快速獲取市場競爭數據的渴望。
+  - 架構亮點：資料不足
+  - 安全風險：可能涉及大規模爬取受保護的公開平台數據，面臨反爬蟲機制封鎖風險及潛在的數據隱私合規問題。
+
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** · GitHub
+  - 為什麼爆紅：針對長期、複雜任務設計，整合記憶、沙盒環境及子代理調度，填補了單一 AI 代理無法執行長時程規劃的技術缺口。
+  - 架構亮點：包含記憶儲存、工具與技能庫、訊息閘道及獨立沙盒環境，架構具備多層次任務分解與長期執行規劃能力。
+  - 安全風險：賦予 AI 代理在沙盒外執行複雜邏輯與工具呼叫的權限，若沙盒逃逸或執行權限配置不當，可能導致主機遭到攻擊。
+
+- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** · GitHub
+  - 為什麼爆紅：解決了 LLM 處理複雜 Office 文件（如 Excel、PPT）格式的痛點，提供高度一致的 Markdown 輸出，降低 RAG 系統的資料清理成本。
+  - 架構亮點：模組化轉換引擎，利用 Python 整合多種文件解析庫，將二進位或封閉格式統一轉為 Markdown，便於文字模型索引。
+  - 安全風險：處理惡意或畸形文件檔時，底層解析庫可能存在溢位或注入攻擊風險，需注意輸入來源的安全性。
+
 ## 2026-09-08
 
 - **[EverettFish/holo-card-studio](https://github.com/EverettFish/holo-card-studio)** · GitHub
