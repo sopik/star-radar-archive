@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-10
+
+- **[donvito/codex-astra-luna-orchestrator](https://github.com/donvito/codex-astra-luna-orchestrator)** · GitHub
+  - 為什麼爆紅：回應了 AI 多代理人（Multi-agent）協作的趨勢，提供架構化的指揮與執行分離模式，便於複雜任務的分解與調度。
+  - 架構亮點：採用指揮官（Astra）與執行代理人（Luna）的分層架構，實作任務卸載與子代理人生命週期管理邏輯。
+  - 安全風險：多層代理協作易產生不可控的遞迴呼叫或 API 濫用，導致 Token 消耗過大或權限擴散。
+
+- **[sdli1995/dlssg_for_sm86](https://github.com/sdli1995/dlssg_for_sm86)** · GitHub
+  - 為什麼爆紅：破解硬體限制，讓 RTX 30 系列顯卡也能使用原本限定 40 系列的 DLSS 3.0 幀生成技術，解決玩家升級硬體的成本需求。
+  - 架構亮點：透過逆向工程劫持 NVIDIA 驅動層 API，強制啟用 SM86 架構不支援的幀生成模組（DLSS Frame Generation）。
+  - 安全風險：可能導致遊戲反作弊系統誤判、驅動程式衝突，或被植入惡意 DLL 劫持檔案。
+
+- **[iPhone Duo](https://www.apple.com/iphone-duo/)** · HN
+  - 為什麼爆紅：觸發科技愛好者對 Apple 硬體產品線延伸的預期心理，利用「iPhone Duo」名稱引發關於摺疊機或雙螢幕裝置的傳聞聯想。
+  - 架構亮點：資料不足。
+  - 安全風險：易成為釣魚網頁素材，利用用戶對新產品的期待進行個資搜集或惡意連結投放。
+
+- **[Claude, change the “Add to Cart” button to blue](https://opusfived.dev/)** · HN
+  - 為什麼爆紅：展示了 AI 代理人直接操作 UI 與 CSS 的實務演進，從文字對話進化到視覺介面即時修改，引發大眾對 UI 開發流程被取代的討論。
+  - 架構亮點：整合 LLM Agent 與前端 CSS 動態注入技術，能解析 UI 結構並實時編譯樣式更新，實現即時的視覺回饋迴圈。
+  - 安全風險：若開放未授權的 UI 修改權限，可能被用於網頁釣魚（Phishing）或篡改支付按鈕等詐騙行為。
+
+- **[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** · GitHub
+  - 為什麼爆紅：滿足開發者對「乾淨視覺化」的需求，厭惡 Mermaid 等自動化圖表的冗餘雜訊，提供高品質、語意清晰的 SVG 替代方案。
+  - 架構亮點：純 HTML 與 SVG 實現，強調零陰影的簡潔設計模式，並針對 AI 視覺辨識與生成工具進行格式優化，提高輸出穩定度。
+  - 安全風險：未見明顯風險。
+
+- **[multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** · GitHub
+  - 為什麼爆紅：利用 Karpathy 在 AI 圈的指標性影響力，透過 CLAUDE.md 系統化修正 LLM 編碼邏輯錯誤，精準解決開發者使用 Claude Code 時的痛點。
+  - 架構亮點：透過 Prompt Engineering 與系統指令優化（System Instructions），針對 LLM 在程式碼生成的常見邏輯陷阱進行特徵化導引。
+  - 安全風險：若該設定檔誘導模型執行惡意程式碼片段，可能導致開發者環境受損；需審視 prompt 注入風險。
+
 ## 2026-09-09
 
 - **[openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler)** · GitHub
