@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-11
+
+- **[Shopify is moving from React Native back to Swift and Kotlin](https://shopify.engineering/back-to-native)** · HN
+  - 為什麼爆紅：大型電商 Shopify 放棄跨平台框架轉回原生開發，引發開發者對「跨平台開發 vs 效能體驗」的長期辯論。
+  - 架構亮點：放棄 React Native 架構，全面重構為 Swift (iOS) 與 Kotlin (Android) 原生開發，旨在提升 UI 渲染效能。
+  - 安全風險：未見明顯風險。
+
+- **[Faizpi/bank-sampah](https://github.com/Faizpi/bank-sampah)** · GitHub
+  - 為什麼爆紅：具備極高的每日增長率，可能因其功能針對特定區域化或資源回收管理需求而快速聚集使用者。
+  - 架構亮點：資料不足。
+  - 安全風險：需關注原始碼中的個資處理與權限驗證邏輯，PHP 專案常見 SQL 注入與驗證漏洞。
+
+- **[yang0/handraw-style](https://github.com/yang0/handraw-style)** · GitHub
+  - 為什麼爆紅：提供具有視覺辨識度的手繪風格工具與雙語提示詞（Prompt），降低設計與內容創作的門檻。
+  - 架構亮點：採用 HTML 為主的輕量化呈現方式，結合提示詞工程實現特定美術風格輸出。
+  - 安全風險：未見明顯風險。
+
+- **[Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0)** · GitHub
+  - 為什麼爆紅：作為 Python 新專案獲得極高星數成長，具備 AI 領域的高度關注度與市場擴散潛力。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** · GitHub
+  - 為什麼爆紅：透過技術手段解決 AI 編碼助手回應過於冗長、重點不明的問題，精準對應開發者的「資訊焦慮」痛點。
+  - 架構亮點：作為一種針對輸出層的 Filter 或提示工程 Skill，優化 LLM 輸出的結構化與簡潔度。
+  - 安全風險：未見明顯風險。
+
+- **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)** · GitHub
+  - 為什麼爆紅：結合 LLM 與金融自動交易，切中開發者對於 AI 代理自動化獲利的技術焦慮與高報酬期待。
+  - 架構亮點：採用多代理（Multi-Agents）協作框架，強調不同角色代理在金融決策流程中的分工。
+  - 安全風險：自動交易涉及實質資產，若缺乏嚴格的風控與 Sandbox 機制，模型幻覺可能導致嚴重財務損失。
+
 ## 2026-09-10
 
 - **[donvito/codex-astra-luna-orchestrator](https://github.com/donvito/codex-astra-luna-orchestrator)** · GitHub
