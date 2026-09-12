@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-12
+
+- **[A misalignment of AI in mathematics](https://mathandai.org/)** · HN
+  - 為什麼爆紅：探討數學領域中 AI 的不對齊問題，觸及學術與 AI 安全社群對「AI 邏輯正確性」與「幻覺」的根本性焦慮。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills)** · GitHub
+  - 為什麼爆紅：針對 AI 代理開發的腳本編寫技能集，滿足開發者提升 AI 對戲劇結構與敘事邏輯掌控能力的需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[achimala/dream-loop](https://github.com/achimala/dream-loop)** · GitHub
+  - 為什麼爆紅：結合 Blender 3D 與 AI 代理流程，實現了生成式 AI 在複雜 3D 場景上的自動化視覺創作，具視覺衝擊力。
+  - 架構亮點：採用分層代理（Sub-agent）架構，透過 Critic 模式進行視覺品質回饋與疊代修正，強化生成輸出控制。
+  - 安全風險：若結合惡意 Prompt 攻擊，可能自動化產生具有高度欺騙性的 3D 模擬影片。
+
+- **[Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer)** · GitHub
+  - 為什麼爆紅：將抽象概念轉化為專業解說影片，結合 Claude Code 等代理流程，實現了全自動化內容生產（生成式 AI + 動態影像）。
+  - 架構亮點：利用 Remotion 框架進行基於程式碼的動態繪圖，自動整合 TTS 語音生成、字幕與進度條功能。
+  - 安全風險：可能被濫用於大量生產深度偽造或誤導性的科普影片，造成惡意內容農場氾濫。
+
+- **[AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)** · GitHub
+  - 為什麼爆紅：開發者常面臨無法評估硬體對模型推論的適配性，此工具提供一行指令即可識別適合本地運行的模型，降低入門門檻。
+  - 架構亮點：基於 Rust 語言編寫，具備高效能運算特徵；能偵測在地硬體配置並與模型參數需求進行自動化匹配。
+  - 安全風險：未見明顯風險
+
+- **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)** · GitHub
+  - 為什麼爆紅：聚合超過 352 個 AI 模型供應商且提供免費額度，並支援 Cursor 等主流開發工具，解決開發者需維護多個 API 金鑰與付費訂閱的痛點。
+  - 架構亮點：採用 quota-aware 自動後備機制；結合 RTK 與 Caveman 壓縮技術，可節省 15-95% Token 消耗；支援 MCP/A2A 協議。
+  - 安全風險：集中式代理架構，若後端 API 金鑰管理不當，恐導致敏感帳戶憑證外洩，且存在中間人數據側錄風險。
+
 ## 2026-09-11
 
 - **[Shopify is moving from React Native back to Swift and Kotlin](https://shopify.engineering/back-to-native)** · HN
