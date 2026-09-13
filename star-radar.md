@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-13
+
+- **[SpaceDudem/text-humanizer](https://github.com/SpaceDudem/text-humanizer)** · GitHub
+  - 為什麼爆紅：直接解決學生與創作者面對 AI 偵測器（Turnitin/GPTZero）的生存焦慮，技術對抗特性極具傳播力。
+  - 架構亮點：基於 NLP 模型處理與風格化轉換邏輯，旨在模擬人類寫作的隨機性與語法特徵。
+  - 安全風險：助長學術造假與內容農場濫用，嚴重干擾 AI 偵測機制的有效性與內容誠信。
+
+- **[sumimakito/Mac-Duo](https://github.com/sumimakito/Mac-Duo)** · GitHub
+  - 為什麼爆紅：將 iPhone 的 UI 特性（Duo effect）移植至 macOS，滿足 Apple 生態系用戶對介面一致性與視覺新奇感的追求。
+  - 架構亮點：利用 Swift 與 macOS 原生 API 進行系統級 UI 擴充與渲染效果模擬。
+  - 安全風險：涉及 macOS 底層 UI 注入，可能因 Apple 系統更新導致穩定性問題或權限衝突。
+
+- **[gazijarin/itsgiving](https://github.com/gazijarin/itsgiving)** · GitHub
+  - 為什麼爆紅：針對現代遠端工作痛點，提供輕量化的「梗圖」溝通手段，具備極高的社群傳播性與娛樂價值。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** · GitHub
+  - 為什麼爆紅：精準切入 AI 輔助開發（如 Cursor/Cline）痛點，透過自動化工具鏈串接與知識庫路由，降低逆向工程與滲透測試的學習門檻。
+  - 架構亮點：AI 驅動路由架構，具備按需自舉（Bootstrapping）機制與可自我演進的知識庫系統。
+  - 安全風險：高度敏感，極易被用於開發恶意軟體或輔助未經授權的駭客行為，存在工具被惡意行為人濫用的風險。
+
+- **[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)** · GitHub
+  - 為什麼爆紅：結合 3D 視覺化與即時空間數據，以「間諜衛星」為切入點，呈現視覺衝擊強的技術演示，滿足開發者對地理空間智慧的好奇心。
+  - 架構亮點：利用 WebGL 或相關 3D 渲染技術在瀏覽器實現高擬真地球建模，整合即時空間數據流。
+  - 安全風險：可能整合敏感公開地理數據，存在被濫用進行目標定位監控的倫理隱憂。
+
+- **[github/spec-kit](https://github.com/github/spec-kit)** · GitHub
+  - 為什麼爆紅：GitHub 官方出品背書，且 Spec-Driven Development（規格驅動開發）是當前解決 LLM 生成程式碼一致性與驗證問題的熱門解方。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-09-12
 
 - **[A misalignment of AI in mathematics](https://mathandai.org/)** · HN
