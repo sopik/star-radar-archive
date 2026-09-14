@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-14
+
+- **[rizqinrr/viserys-agent](https://github.com/rizqinrr/viserys-agent)** · GitHub
+  - 為什麼爆紅：短期內吸引大量關注，可能源於其作為新興 AI Agent 專案在社群媒體的推廣，或因其解決特定場景自動化的潛力而引起開發者興趣。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Why is Google still serving dodgy ads?](https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads)** · HN
+  - 為什麼爆紅：觸及大眾對於 Google 搜尋體驗惡化、廣告審核機制失效以及垃圾廣告氾濫的普遍不滿，引發對數位生態品質下降的共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：文章中提到的 dodgy ads 可能連結至釣魚網站或惡意軟件下載點，對未加防備的點擊者構成資安威脅。
+
+- **[angusdevgo/IDM_Pro_Tool](https://github.com/angusdevgo/IDM_Pro_Tool)** · GitHub
+  - 為什麼爆紅：針對收費軟體 IDM 提供免費激活與維護功能，滿足使用者對於破解軟體工具的剛需，在非官方領域傳播速度極快。
+  - 架構亮點：資料不足
+  - 安全風險：屬破解類工具，可能捆綁惡意軟體、木馬或後門，嚴重危害使用者系統安全與隱私。
+
+- **[Colafornia/short-video-generator-AI](https://github.com/Colafornia/short-video-generator-AI)** · GitHub
+  - 為什麼爆紅：自動化處理「長片轉短影音」的痛點，結合高光偵測、翻譯與旁白，直接解決了短影音創作者的高成本負擔，具有極高的商業實作價值。
+  - 架構亮點：整合影片處理流水線，包括視訊片段分析、文字生成語音（TTS）及自動化字幕生成與語言轉換模組。
+  - 安全風險：可能產生涉及著作權風險的二次創作內容，並存在自動生成內容被濫用於傳播誤導資訊或垃圾訊息的可能。
+
+- **[asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** · GitHub
+  - 為什麼爆紅：滿足技術人員對頂尖模型「黑箱」內部邏輯的好奇心，揭露系統級提示詞能幫助開發者理解模型的行為限制、安全邊界與各家 AI 廠商的調整策略。
+  - 架構亮點：資料不足
+  - 安全風險：洩露各類 AI 模型的系統指令集，可能降低廠商的安全防禦層（如 jailbreak 門檻降低），引發 Prompt 注入與濫用風險。
+
+- **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** · GitHub
+  - 為什麼爆紅：彙整了超過 100 個實用的 AI Agent 與 RAG 應用程式碼，降低開發者學習與構建 AI 產品的門檻，滿足當前技術社群對 AI 落地應用的強烈需求。
+  - 架構亮點：涵蓋模組化 Agent 架構、RAG 資料檢索流程設計，以及多種 AI 代理工作流的實作範本。
+  - 安全風險：若開發者直接部署範例而未對 Prompt 注入進行防護，可能導致 Agent 被惡意控制或資料外洩。
+
 ## 2026-09-13
 
 - **[SpaceDudem/text-humanizer](https://github.com/SpaceDudem/text-humanizer)** · GitHub
