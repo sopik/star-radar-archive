@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-15
+
+- **[yifanzhang-pro/recurrent-looped-tranformer](https://github.com/yifanzhang-pro/recurrent-looped-tranformer)** · GitHub
+  - 為什麼爆紅：針對現有 Transformer 在長序列處理上的效能限制，提出迴圈式改良方案，吸引學術界與效能優化工程師關注。
+  - 架構亮點：引入迴圈機制於 Transformer 結構中，旨在提升模型處理長文本的記憶效率與運算效能。
+  - 安全風險：未見明顯風險
+
+- **[kruzovic7/ai-data-extractor](https://github.com/kruzovic7/ai-data-extractor)** · GitHub
+  - 為什麼爆紅：解決了 AI 工程師在多種編程助理（Cursor、Aider等）間轉換時，難以匯出與管理過往聊天紀錄的痛點。
+  - 架構亮點：支援多源頭數據解析，針對主流 AI 助理的本地 Chat History 格式進行正規化與萃取。
+  - 安全風險：聊天紀錄可能包含敏感原始碼或 API 金鑰，匯出工具若處理不當，可能導致企業內部機密外洩。
+
+- **[Chuloo/mural](https://github.com/Chuloo/mural)** · GitHub
+  - 為什麼爆紅：主打「最終會刪除」的極簡化語言學習體驗，利用現代人對數位減法與即時對話式學習的需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** · GitHub
+  - 為什麼爆紅：結合 AI 代理（Agent）自動化交易的市場熱點，降低散戶參與高階量化交易的技術門檻。
+  - 架構亮點：資料不足
+  - 安全風險：自動化金融交易風險極高，若演算法存在邏輯漏洞或遭惡意操縱，可能導致財務資產嚴重損失。
+
+- **[yuliskov/SmartTube](https://github.com/yuliskov/SmartTube)** · GitHub
+  - 為什麼爆紅：提供無廣告、自訂界面與播放控制的 Android TV 體驗，滿足使用者對官方 YouTube 應用的強烈痛點需求。
+  - 架構亮點：基於 Android 平台的原生 Java 實作，整合了針對媒體串流的最佳化控制邏輯，繞過官方受限的 UI 限制。
+  - 安全風險：涉及規避第三方平台服務條款與廣告機制，存在潛在的帳號封禁風險及依賴第三方 API 的不穩定性。
+
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** · GitHub
+  - 為什麼爆紅：作為機器學習領域的業界標準庫，幾乎所有現代 AI 模型訓練與推論皆依賴此框架，維持極高的開發者黏著度與生態地位。
+  - 架構亮點：高度模組化的 Transformer 架構實作，統一了跨模組（文本、視覺、音訊）的 API 介面，並支援高效能的分散式訓練與模型壓縮技術。
+  - 安全風險：因支援從遠端下載權重，若模型來源未經審核，可能隱含惡意代碼注入或後門攻擊風險。
+
 ## 2026-09-14
 
 - **[rizqinrr/viserys-agent](https://github.com/rizqinrr/viserys-agent)** · GitHub
