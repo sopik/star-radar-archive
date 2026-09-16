@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-16
+
+- **[ai-sucks-butt/ai-sucks-butt](https://github.com/ai-sucks-butt/ai-sucks-butt)** · GitHub
+  - 為什麼爆紅：作為社群迷因（Meme）專案，凝聚了對當前 AI 過度炒作（Hype）不滿的使用者情緒，產生共鳴。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險，主要是網路虛擬標籤與群體意見表達的象徵性行為。
+
+- **[Introducing System One Models and Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)** · HN
+  - 為什麼爆紅：標榜「系統一（System One）」模型架構，試圖解決大模型在即時推理任務上的瓶頸與效能問題。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險，但新穎的 AI 架構若未經廣泛安全驗證，可能存在難以預測的決策偏差或提示詞注入漏洞。
+
+- **[Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations](https://github.com/arnegiacomo/fugleramme)** · HN
+  - 為什麼爆紅：結合硬體工藝（電子紙）與軟體創意，將 AI 識別技術轉化為復古藝術品，擊中硬體愛好者與創客的審美偏好。
+  - 架構亮點：整合音訊採樣分析（鳥鳴辨識）與繪圖生成演算法，將產出推送到低功耗電子紙顯示器，系統架構簡潔且具備低功耗特性。
+  - 安全風險：未見明顯風險，主要為邊緣運算裝置的隱私問題，需確保麥克風僅在特定功能下啟動。
+
+- **[JustVugg/colibri](https://github.com/JustVugg/colibri)** · GitHub
+  - 為什麼爆紅：降低大語言模型硬體門檻，透過磁碟串流技術讓消費級設備也能運行大規模 MoE 模型。
+  - 架構亮點：採用 C 語言編寫的極簡引擎，核心亮點為「專家層（Experts）」按需即時從磁碟讀取，有效突破記憶體容量瓶頸。
+  - 安全風險：未見明顯風險，但大規模模型本地執行可能被用於生成惡意內容，且需確保模型權重來源的完整性與合法性。
+
+- **[localsend/localsend](https://github.com/localsend/localsend)** · GitHub
+  - 為什麼爆紅：解決了不同作業系統（Windows/macOS/Linux/iOS/Android）間跨平台檔案傳輸的痛點，且完全開源無廣告。
+  - 架構亮點：採用區域網路內的 HTTP 傳輸協定，無需伺服器中轉，並使用 Flutter/Dart 達成跨平台 UI 的一致性。
+  - 安全風險：若區域網路不安全（如公共 Wi-Fi），傳輸過程可能遭受攔截或中間人攻擊，需依賴使用者手動確認裝置信任。
+
+- **[ruvnet/RuView](https://github.com/ruvnet/RuView)** · GitHub
+  - 為什麼爆紅：利用現有 WiFi 訊號實現空間感知與生命體徵監測，無需攝影鏡頭，滿足了隱私保護下的監控需求。
+  - 架構亮點：透過 WiFi 通訊協定的訊號干擾與反射（CSI）進行空間建模，並結合 Rust 的記憶體安全與高效特性進行即時運算。
+  - 安全風險：可能遭濫用於未經授權的牆後偵測或人員軌跡追蹤，存在嚴重隱私外洩與穿牆監控的倫理風險。
+
 ## 2026-09-15
 
 - **[yifanzhang-pro/recurrent-looped-tranformer](https://github.com/yifanzhang-pro/recurrent-looped-tranformer)** · GitHub
