@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-17
+
+- **[Training a 4B model to produce 81% faster query plans than Postgres](https://rohanbansal.com/qorl)** · HN
+  - 為什麼爆紅：證實了針對性訓練的小型模型（4B）在特定領域（資料庫查詢最佳化）能超越通用型資料庫演算法的效能，具有指標意義。
+  - 架構亮點：利用 4B 參數輕量模型進行查詢計劃（Query Plan）預測與優化，針對 Postgres 查詢效能進行針對性調優。
+  - 安全風險：模型預測若出現錯誤或邊緣案例，可能導致查詢執行失敗或產生邏輯錯誤的資料存取路徑。
+
+- **[agentverse-os/AgentVerse-OS](https://github.com/agentverse-os/AgentVerse-OS)** · GitHub
+  - 為什麼爆紅：將伺服器轉化為個人化雲端作業系統，透過 Tailscale 內網穿透確保安全性，滿足開發者對 AI 隱私隔離的需求。
+  - 架構亮點：Rust 編寫的核心服務、Svelte 前端、整合 Tailscale 安全存取、容器化工作區管理。
+  - 安全風險：雖透過 Tailscale 限制入口，但若 OS 層級漏洞被利用，攻擊者可接管整個伺服器權限。
+
+- **[eternityspring/reelbench-skills](https://github.com/eternityspring/reelbench-skills)** · GitHub
+  - 為什麼爆紅：AI 影片生成技術迭代極快，提供結構化的學習路徑與工具集，解決開發者與創作者的技術獲取焦慮。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[zjwzcx/Awesome-Astra-Embodied-AI](https://github.com/zjwzcx/Awesome-Astra-Embodied-AI)** · GitHub
+  - 為什麼爆紅：結合熱門的具身智慧（Embodied AI）與前瞻性的 GPT-6 Astra 技術，吸引學界與機器人領域關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)** · GitHub
+  - 為什麼爆紅：作為開源界的 ChatGPT 強力替代品，具備多模型路由（MCP）、AI Agent 與多人權限管理，滿足企業級私有部署需求。
+  - 架構亮點：採用 Node.js/TypeScript 架構，支援 OpenAI、Anthropic 等多模型 API 聚合與 LangChain 工作流整合。
+  - 安全風險：支援多用戶權限與外掛系統，若部署配置不當，可能導致 API 金鑰洩漏或未授權的敏感資料存取。
+
+- **[earendil-works/pi](https://github.com/earendil-works/pi)** · GitHub
+  - 為什麼爆紅：提供整合型 Agent 工具套件，並包含開發者常用的 TUI 與 CLI 介面，降低構建 AI 自動化流程的門檻。
+  - 架構亮點：統一化 LLM API 介面、內建 Agent 循環控制邏輯、支援 CLI 互動與終端使用者介面。
+  - 安全風險：自動化編碼代理若無嚴格沙箱隔離，可能執行惡意指令或誤刪本地檔案。
+
 ## 2026-09-16
 
 - **[ai-sucks-butt/ai-sucks-butt](https://github.com/ai-sucks-butt/ai-sucks-butt)** · GitHub
