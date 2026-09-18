@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-18
+
+- **[Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA](https://global.fujitsu/en-global/pr/news/2026/09/14-02)** · HN
+  - 為什麼爆紅：在 ARM 架構崛起背景下，富士通推出強調高效能與國產血統的「MONAKA」處理器，引發針對 HPC 與資料中心硬體自主化的技術討論。
+  - 架構亮點：採用 ARM 架構，專為高效能計算（HPC）設計，強調低功耗與卓越的計算吞吐量，意圖挑戰主流伺服器晶片市場。
+  - 安全風險：硬體供應鏈透明度與韌體級安全性評估，涉及國家級基礎設施部署，需面對供應鏈與側通道攻擊的安全挑戰。
+
+- **[tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)** · GitHub
+  - 為什麼爆紅：針對 Claude Code 的脈絡壓縮（compaction）效率痛點提供優化方案，透過快速請求決定決策取捨，解決長對話導致的效率衰減問題。
+  - 架構亮點：將工具呼叫與結果評分邏輯集中化，透過單次快速請求決定保留與裁減內容，確保重要資訊不遺失並優化 token 使用。
+  - 安全風險：若壓縮過程中裁減邏輯出現漏洞，可能導致 AI 失去關鍵的程式安全上下文，進而產出含有安全瑕疵的錯誤代碼。
+
+- **[TheoLeeCJ/openjev](https://github.com/TheoLeeCJ/openjev)** · GitHub
+  - 為什麼爆紅：切中硬體發燒友痛點，試圖將原本高門檻的 Jev 模型或系統部署於消費級顯卡（如 RTX 3090），降低高性能 AI 的運行成本。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)** · GitHub
+  - 為什麼爆紅：滿足大眾對網頁自動化工具極致速度的需求，針對 browser-use 流程進行了效能優化，在處理大量網頁交互時顯著減少等待時間。
+  - 架構亮點：資料不足
+  - 安全風險：高度自動化瀏覽器行為可能被用於機器人攻擊、網頁爬取規避或未經授權的自動化交互，存在違反服務條款風險。
+
+- **[supabase/supabase](https://github.com/supabase/supabase)** · GitHub
+  - 為什麼爆紅：作為開源界的 PostgreSQL 首選後端平台，整合了身份驗證、資料庫即服務與即時 API，大幅簡化了全端應用的開發流程。
+  - 架構亮點：基於 PostgreSQL 之上的擴充架構，透過 GoTrue 提供權限控管，並利用 PostgREST 將 DB 直接轉為 REST/GraphQL API。
+  - 安全風險：Row Level Security (RLS) 配置錯誤易導致資料洩漏，此外 API 層的過度開放若未嚴格控管策略，恐引發資料庫暴露風險。
+
+- **[anthropics/claude-code](https://github.com/anthropics/claude-code)** · GitHub
+  - 為什麼爆紅：由 Claude 原廠推出，直接整合於終端機，降低了 AI 輔助開發的門檻與上下文切換成本，滿足開發者對自動化處理 Git 與代碼維護的需求。
+  - 架構亮點：以 Agentic AI 為核心，深度綁定開發環境 CLI，能解析完整代碼庫，具備自主執行任務與調用工具的能力。
+  - 安全風險：授權 AI 修改代碼可能導致敏感資訊外洩或注入惡意代碼，且 Agent 若具備執行權限，可能遭濫用進行非預期的系統操作。
+
 ## 2026-09-17
 
 - **[Training a 4B model to produce 81% faster query plans than Postgres](https://rohanbansal.com/qorl)** · HN
