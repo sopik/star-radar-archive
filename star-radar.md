@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-19
+
+- **[jarrodwatts/jev-trader](https://github.com/jarrodwatts/jev-trader)** · GitHub
+  - 為什麼爆紅：將 AI 決策模型與區塊鏈高頻交易（Monad 區塊）結合，滿足自動化量化交易的市場熱點。
+  - 架構亮點：基於區塊觸發事件的交易執行引擎，將 AI Agent 決策即時同步至 Kuru MON-USDC 市場。
+  - 安全風險：交易類 Agent 風險極高，AI 模型決策失誤可能導致瞬間資產歸零；私鑰管理不當則面臨直接盜竊風險。
+
+- **[mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless)** · GitHub
+  - 為什麼爆紅：將繁瑣的剪映影音編輯流程無頭化（headless），實現自動化剪輯與導出，極大提升影音生產效率。
+  - 架構亮點：逆向封裝剪映專案格式，實現本地隔離環境下的影音編輯與自動化操作串接。
+  - 安全風險：依賴逆向技術，若剪映版本更新調整資料結構，可能導致軟體失效，且未獲官方授權存在合規隱憂。
+
+- **[TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)** · GitHub
+  - 為什麼爆紅：實現 AI 模型本地化部署，讓一般硬體（如 RTX 3090）即可執行語義判斷，切中開源社群對隱私與效能的渴望。
+  - 架構亮點：針對家用硬體優化，實現輕量化且獨立運作的語義模型推理架構。
+  - 安全風險：未見明顯風險，但本地運行大型模型若無良好記憶體控管，可能導致系統資源耗盡。
+
+- **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)** · GitHub
+  - 為什麼爆紅：背靠阿里巴巴大規模實戰驗證，解決傳統 Code Review 的效率瓶頸，精準的規則檢查深具吸引力。
+  - 架構亮點：混合式架構，結合確定性 pipeline 與 LLM Agent，實現行級別（line-level）的精確程式碼評註。
+  - 安全風險：整合外部 LLM API 時若傳輸敏感程式碼片段，存在隱私外洩風險；規則引擎錯誤可能導致誤報或漏報。
+
+- **[cline/cline](https://github.com/cline/cline)** · GitHub
+  - 為什麼爆紅：提供完整的自治式編碼體驗，將 AI Agent 直接嵌入 IDE 或 CLI，大幅提升開發者的開發效率。
+  - 架構亮點：模組化架構設計，同時支援 SDK、IDE 擴充套件及 CLI 三種接入模式，具備高擴充性。
+  - 安全風險：AI 自動執行程式碼具備高度權限，若未嚴格隔離執行環境，可能遭惡意指令注入或意外刪除系統檔案。
+
+- **[n8n-io/n8n](https://github.com/n8n-io/n8n)** · GitHub
+  - 為什麼爆紅：結合視覺化流程編排與 AI 原生功能，滿足企業自動化需求且支援私有化部署，降低導入門檻。
+  - 架構亮點：採用節點式架構，支援 400+ API 整合，結合 TypeScript 允許插入自定義程式碼執行複雜邏輯。
+  - 安全風險：因支援私有化部署，若權限控管不當或 API 金鑰管理鬆散，易成為內部資料外洩的攻擊向量。
+
 ## 2026-09-18
 
 - **[Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA](https://global.fujitsu/en-global/pr/news/2026/09/14-02)** · HN
