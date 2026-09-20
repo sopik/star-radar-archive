@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-20
+
+- **[I built non-autoregressive decision models with RL a year ago](https://laya.convaiinnovations.com/)** · HN
+  - 為什麼爆紅：探討非自迴歸（non-autoregressive）決策模型在強化學習（RL）的應用，提供超越現有 LLM 主流路徑的技術思路。
+  - 架構亮點：採用非自迴歸模型架構，相較傳統自迴歸模型，在決策速度與推理效率上有顯著差異。
+  - 安全風險：若強化學習獎勵函數設計不當，模型可能出現不可預測的決策行為，引發安全疑慮。
+
+- **[AI-generated posters don’t have to be horrible](https://john.hartnup.uk/2026/06/07/ai-event-posters.html)** · HN
+  - 為什麼爆紅：直擊 AI 生成內容「品質低劣」的痛點，提供具體的優化實踐指南，引發關於設計專業與 AI 生成邊界的討論。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)** · GitHub
+  - 為什麼爆紅：名稱與近期 AI 領域討論的決策模型連結，短期內因技術關注度與社群討論效應導致爆紅。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[robbietilton/Compositor](https://github.com/robbietilton/Compositor)** · GitHub
+  - 為什麼爆紅：針對 Mac 用戶市場，以原生 Swift 效能挑戰 Adobe Photoshop 的壟斷地位，吸引尋求輕量化與高效工具的社群。
+  - 架構亮點：使用 Swift 原生開發，預計深度整合 macOS Metal 或 Core Image 以達到高性能圖形運算。
+  - 安全風險：未見明顯風險，主要需確保其匯入/匯出檔案格式的解析安全性，防止惡意圖形檔導致緩衝區溢位。
+
+- **[rustfs/rustfs](https://github.com/rustfs/rustfs)** · GitHub
+  - 為什麼爆紅：利用 Rust 語言的記憶體安全與高效能特性，提供與 S3 相容的儲存方案，且能無縫銜接現有 MinIO/Ceph 環境。
+  - 架構亮點：S3 相容架構，支援資料遷移與多平台共存，強調 Rust 實作帶來的併發效能優勢。
+  - 安全風險：儲存系統若權限配置不當，可能導致大規模資料外洩；需關注 Rust 實作中 unsafe block 的潛在漏洞。
+
+- **[Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)** · GitHub
+  - 為什麼爆紅：解決開發者在 AI 輔助編碼中常見的規格不一致問題，透過標準化定義提升自動化編碼的準確率與開發效率。
+  - 架構亮點：專注於規範驅動開發（SDD），旨在為 AI Agent 提供結構化的溝通與需求規格介面。
+  - 安全風險：若規格定義檔案被惡意注入，可能導致 AI 自動生成的程式碼包含後門或執行危險路徑。
+
 ## 2026-09-19
 
 - **[jarrodwatts/jev-trader](https://github.com/jarrodwatts/jev-trader)** · GitHub
