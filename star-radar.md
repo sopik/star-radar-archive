@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-21
+
+- **[ChatGPT now knows what you do on other websites via ad collector](https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/)** · HN
+  - 為什麼爆紅：揭露了知名 AI 產品透過廣告追蹤器收集跨站行為數據，觸及大眾對於 AI 公司數據收集隱私邊界的敏感神經。
+  - 架構亮點：資料不足
+  - 安全風險：涉及跨站追蹤（Cross-site Tracking），導致用戶側寫資訊被過度收集，存在嚴重的隱私保護與資訊透明度隱憂。
+
+- **[TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev)** · GitHub
+  - 為什麼爆紅：提供輕量化的平行決策模擬訓練框架，降低了實作複雜決策系統的門檻，符合學術與實驗性開發需求。
+  - 架構亮點：支援平行決策、動態候選機制及完整的端到端訓練管線，強調輕量級與執行效率。
+  - 安全風險：未見明顯風險
+
+- **[mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx)** · GitHub
+  - 為什麼爆紅：利用 Apple Silicon 的 MLX 框架達成極致效能，極短決策延遲滿足了對即時性有嚴苛要求的小型決策模型需求。
+  - 架構亮點：原生 MLX 運行時，捨棄 PyTorch 與雲端依賴，針對決策模型實現 7-14ms 的極速推理。
+  - 安全風險：若模型權重未經數位簽章驗證，存在被植入後門以操控決策邏輯的風險。
+
+- **[zai-org/ZCode](https://github.com/zai-org/ZCode)** · GitHub
+  - 為什麼爆紅：受惠於 AI Coding Agent 賽道的爆發，專注於提供可擴充的編碼框架，吸引追求自動化開發流程的工程師。
+  - 架構亮點：模組化設計的 AI 編碼代理工具（Agent Harness），強調可擴充性與對異質開發環境的適應能力。
+  - 安全風險：自動化編碼工具若權限管控不當，可能執行惡意程式碼或意外修改專案環境配置。
+
+- **[docling-project/docling](https://github.com/docling-project/docling)** · GitHub
+  - 為什麼爆紅：解決了 GenAI 開發中最痛苦的文件解析與清洗問題，將複雜的非結構化數據轉化為模型友善格式，切中當前剛需。
+  - 架構亮點：提供 PDF 到多種格式（JSON/Markdown/Text）的轉換管道，針對 AI 訓練與 RAG 場景進行優化。
+  - 安全風險：若用戶提交含有敏感內容的 PDF，在解析流程中若未做去識別化處理，可能造成隱私洩露。
+
+- **[ruanyf/weekly](https://github.com/ruanyf/weekly)** · GitHub
+  - 為什麼爆紅：長期累積的華語技術圈影響力，內容涵蓋廣泛且具備高度選文品味，成為開發者獲取資訊的指標性知識庫。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-09-20
 
 - **[I built non-autoregressive decision models with RL a year ago](https://laya.convaiinnovations.com/)** · HN
