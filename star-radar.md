@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-22
+
+- **[MiMo v2.6](https://mimo.xiaomi.com/mimo-v2-6)** · HN
+  - 為什麼爆紅：小米生態系統的新版本更新，結合硬體聯動與 AI 功能升級，在技術社群引發關於小米軟體佈局的廣泛討論。
+  - 架構亮點：資料不足
+  - 安全風險：資料不足
+
+- **[jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)** · GitHub
+  - 為什麼爆紅：透過螢幕識別實現跨 App 的 AI 輔助，非侵入式（無需 Hook）設計降低了隱私憂慮與被封號的風險。
+  - 架構亮點：採用螢幕 OCR 與視覺感知技術捕捉內容，結合端側 LLM 進行語意分析與回應推薦，與目標 App 解耦。
+  - 安全風險：需取得螢幕讀取權限，若該應用將截圖數據上傳至雲端，可能導致嚴重的用戶隱私資訊洩漏。
+
+- **[Mak5er/AirCard](https://github.com/Mak5er/AirCard)** · GitHub
+  - 為什麼爆紅：利用 iOS 18+ 的系統特性實現免越獄的 Apple Wallet 客製化，滿足用戶對個性化顯示與 UI 調整的需求。
+  - 架構亮點：利用 Apple Wallet 的 PKPass 格式標準與 iOS 公開 API，繞過系統限制實現 UI 客製化，無需修改系統底層。
+  - 安全風險：濫用可能導致 Wallet 應用詐騙，或在非授權平台上生成偽造憑證，存在被 Apple 封鎖接口的風險。
+
+- **[jaredpalmer/kev](https://github.com/jaredpalmer/kev)** · GitHub
+  - 為什麼爆紅：主打基於 Qwen 3.5 的輕量化決策模型，降低了個人微調與部署專屬決策模型的技術門檻，符合當前在地化 AI 的趨勢。
+  - 架構亮點：基於輕量級架構設計，專注於決策推理任務，支援在邊緣設備或個人硬體環境下進行微調與執行。
+  - 安全風險：模型訓練若使用未經清洗的數據可能引入偏見，且本地部署時若缺乏輸出過濾機制，可能引導用戶做出不當決策。
+
+- **[anthropics/financial-services](https://github.com/anthropics/financial-services)** · GitHub
+  - 為什麼爆紅：由 Anthropic 官方發布，針對金融垂直領域的 AI 應用框架，市場對大廠級別的金融合規與自動化解決方案關注度極高。
+  - 架構亮點：資料不足
+  - 安全風險：涉及高度監管的金融數據，若模型產生幻覺或數據處理未隔離，可能導致合規違規或重大財務決策錯誤。
+
+- **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** · GitHub
+  - 為什麼爆紅：數位轉型需求強勁，提供開源、自託管的高效文檔索引與存檔解決方案，解決企業與個人處理大量紙本檔案的痛點。
+  - 架構亮點：基於 Python 開發，整合 OCR（如 Tesseract）與機器學習分類引擎，具備強大的全文搜尋與自動化標籤歸檔功能。
+  - 安全風險：因涉及高敏感私人或商業文件，若權限控管配置不當或暴露於公網，存在嚴重的隱私外洩風險。
+
 ## 2026-09-21
 
 - **[ChatGPT now knows what you do on other websites via ad collector](https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/)** · HN
