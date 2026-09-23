@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-23
+
+- **[mizorewww/laya-coreml](https://github.com/mizorewww/laya-coreml)** · GitHub
+  - 為什麼爆紅：標榜在 M3 Max 上達到 5ms 的極速決策，將 AI 推理效能與硬體（Apple Neural Engine）優化做到極致，展示了邊緣運算的極限。
+  - 架構亮點：針對 Apple Core ML 深度優化，實現決策模型在專用神經引擎上的低延遲執行，並提供可驗證的能源效率基準。
+  - 安全風險：在地化部署雖然隱私較佳，但若未進行模型加密，執行檔與權重權限可能遭惡意進程攔截或盜用。
+
+- **[Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)** · HN
+  - 為什麼爆紅：AI 領域的標竿模型更新，直接影響生產力工具與應用程式效能上限，引發技術社群關於推理成本與模型能力的廣泛討論。
+  - 架構亮點：資料不足。
+  - 安全風險：模型性能增強後，可能降低生成釣魚郵件、惡意程式碼的門檻，進一步擴大自動化社交工程攻擊的影響規模。
+
+- **[yibie/awesome-jev](https://github.com/yibie/awesome-jev)** · GitHub
+  - 為什麼爆紅：作為 Jev 生態系的彙整列表，提供開發者快速切入「系統一模型」開發的資源索引，滿足社群對新興 AI 架構的需求。
+  - 架構亮點：資料不足。
+  - 安全風險：清單中的第三方整合專案來源廣泛，若未經嚴格安全審查，可能引導開發者誤用含有漏洞的 AI 工具鏈。
+
+- **[bespokelabsai/nimble](https://github.com/bespokelabsai/nimble)** · GitHub
+  - 為什麼爆紅：將「決策」過程類型化（Typed Decisions），解決 AI 模型輸出不穩定及難以進行程序化驗證的痛點，具備高開發價值。
+  - 架構亮點：引入對比式數據策展（Contrastive Data Curation）與型別安全決策框架，將非結構化 AI 推論轉化為可測試流程。
+  - 安全風險：未見明顯風險。
+
+- **[xai-org/x-algorithm](https://github.com/xai-org/x-algorithm)** · GitHub
+  - 為什麼爆紅：公開社交媒體龍頭的核心推薦演算法，吸引研究人員與工程師驗證其排序公平性及探討黑箱模型對輿論的影響。
+  - 架構亮點：資料不足。
+  - 安全風險：演算法公開可能導致惡意用戶進行逆向工程，發起演算法操縱攻擊（如灌水推薦）或濫用系統漏洞以獲取曝光。
+
+- **[Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)** · GitHub
+  - 為什麼爆紅：滿足對網路中斷的焦慮感，強調自備硬體即可離線存取大規模知識庫與 AI，符合數據主權與數位存檔趨勢。
+  - 架構亮點：離線優先架構，整合在地化 AI 模型推論引擎與靜態資源傳輸協定，確保無網環境下的知識檢索效率。
+  - 安全風險：因不依賴雲端更新，若缺乏完善的簽章驗證機制，離線知識庫容易被植入惡意內容或篡改數據。
+
 ## 2026-09-22
 
 - **[MiMo v2.6](https://mimo.xiaomi.com/mimo-v2-6)** · HN
