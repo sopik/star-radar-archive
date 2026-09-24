@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-24
+
+- **[Italian parliament votes for return to nuclear energy](https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567)** · HN
+  - 為什麼爆紅：義大利從核能禁令轉向支持，具有極高的地緣政治與全球能源政策敏感度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Lumid-Off/AirCard-Windows](https://github.com/Lumid-Off/AirCard-Windows)** · GitHub
+  - 為什麼爆紅：Rust 語言實現的高效能 Windows 工具，在效能優化需求強烈的系統工具市場具有吸引力。
+  - 架構亮點：使用 Rust 編寫，提供記憶體安全性與高效的系統底層互動能力。
+  - 安全風險：若具備對系統底層的寫入權限，可能被濫用於惡意驅動注入或非法權限提升。
+
+- **[newliver666/apk-reverse](https://github.com/newliver666/apk-reverse)** · GitHub
+  - 為什麼爆紅：降低 Android 逆向工程分析難度，直接擊中資安研究人員與 App 安全分析者的痛點。
+  - 架構亮點：資料不足
+  - 安全風險：極易被用於破解付費 App、植入惡意程式碼或提取受保護的專有演算法。
+
+- **[unreallabsai/unreal-agent](https://github.com/unreallabsai/unreal-agent)** · GitHub
+  - 為什麼爆紅：強調「Async-first」架構，解決了現有 AI Agent 框架在處理高併發任務時的瓶頸。
+  - 架構亮點：原生支援非同步執行，優化了 AI Agent 的任務調度與執行效率。
+  - 安全風險：非同步執行模式可能造成執行順序混亂，進而引發競爭條件（Race Condition）安全漏洞。
+
+- **[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)** · GitHub
+  - 為什麼爆紅：隨 Claude Code 生態興起，開發者對標準化配置、自動化編碼工作流的需求劇增。
+  - 架構亮點：資料不足
+  - 安全風險：若模板包含惡意腳本或硬編碼憑證，可能導致使用者開發環境被植入後門。
+
+- **[usestrix/strix](https://github.com/usestrix/strix)** · GitHub
+  - 為什麼爆紅：AI 滲透測試工具滿足了開發者對自動化安全稽核的需求，降低了發現潛在漏洞的技術門檻。
+  - 架構亮點：資料不足
+  - 安全風險：可能被惡意人士用於自動化掃描並攻擊他人伺服器，或因 AI 誤判導致系統誤報。
+
 ## 2026-09-23
 
 - **[mizorewww/laya-coreml](https://github.com/mizorewww/laya-coreml)** · GitHub
