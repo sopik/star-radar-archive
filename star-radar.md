@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-25
+
+- **[Contrastive-LM/CLM](https://github.com/Contrastive-LM/CLM)** · GitHub
+  - 為什麼爆紅：對比學習（Contrastive Learning）在大型語言模型中的應用仍屬前沿領域，該專案標題直接指向該技術方向，吸引了研究人員與極客的高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[deepopen-com/deepopen](https://github.com/deepopen-com/deepopen)** · GitHub
+  - 為什麼爆紅：傳統自回歸式模型在決策反應速度上有侷限，該專案主打「非自回歸」架構，針對結構化決策場景提供近乎即時的推理表現。
+  - 架構亮點：非自回歸（Non-autoregressive）System 1 決策引擎架構，專為結構化類型決策場景進行針對性優化。
+  - 安全風險：決策模型若未經嚴謹測試與校準，在自動化決策過程中的錯誤推理可能導致系統性業務邏輯錯誤。
+
+- **[F-Droid 2.0](https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html)** · HN
+  - 為什麼爆紅：F-Droid 作為自由軟體生態的指標，2.0 大版本更新涉及使用者體驗、安裝與應用分發機制的重要變革，受開源社群與隱私倡議者高度重視。
+  - 架構亮點：資料不足
+  - 安全風險：雖致力於安全性，但其分發模式允許用戶安裝第三方儲存庫，若來源未受嚴格驗證，仍存在軟體供應鏈風險。
+
+- **[driceroland/Search](https://github.com/driceroland/Search)** · GitHub
+  - 為什麼爆紅：輕量化瀏覽器在 macOS 生態中因效能需求常具備吸引力，特別是針對特定功能極簡化的實現，能吸引追求操作效率的用戶群。
+  - 架構亮點：基於 WebKit 引擎構建，強調針對 macOS 環境進行高度優化，屬於輕量級瀏覽器架構。
+  - 安全風險：第三方瀏覽器若缺乏持續的安全性更新機制與強大的隔離沙盒保護，相比原生瀏覽器更容易暴露於網頁攻擊中。
+
+- **[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** · GitHub
+  - 為什麼爆紅：透過 MCP 標準優化代碼檢索效能，解決 AI 編碼助手讀取大型專案時的 token 溢出與延遲問題，是開發者提升 AI 工具生產力的關鍵基礎設施。
+  - 架構亮點：採用持久化知識圖譜架構，單一靜態二進位執行檔、零依賴，支援 158 種語言且達到子毫秒級查詢效能。
+  - 安全風險：由於索引整個代碼庫並儲存於持久化圖譜中，若存取控制機制不嚴，可能導致敏感原始碼外洩或被惡意注入查詢。
+
+- **[pbakaus/impeccable](https://github.com/pbakaus/impeccable)** · GitHub
+  - 為什麼爆紅：AI 產出的 UI 介面常缺乏專業設計語感，該專案直接切入「AI 設計語言」痛點，能大幅提升 AI 生成物的專業度與視覺一致性，受開發者與設計師高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-09-24
 
 - **[Italian parliament votes for return to nuclear energy](https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567)** · HN
