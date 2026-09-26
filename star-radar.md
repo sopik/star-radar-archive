@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-26
+
+- **[JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo)** · GitHub
+  - 為什麼爆紅：緊扣 AI 安全（P(doom)）議題並以迷因影片形式傳播，引起社群對 AI 發展風險的共鳴與討論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險。
+
+- **[mikehasa/golive-skill](https://github.com/mikehasa/golive-skill)** · GitHub
+  - 為什麼爆紅：讓 AI Agent 能直接操作雲端環境部署產品，實現從代碼到上線的完全自動化，且強調零相依與無遙測的隱私特性。
+  - 架構亮點：基於 Node CLI 的 Agent 技能擴充，整合了偵測、計畫、審核、執行與驗證流程，支援原生串接第三方帳號。
+  - 安全風險：將雲端資源管理權限交付給 Agent 處理，若 Agent 判斷失誤，可能導致雲端架構配置錯誤甚至產生巨額流量費用。
+
+- **[tobi/disktree](https://github.com/tobi/disktree)** · GitHub
+  - 為什麼爆紅：結合 Rust 的高效能與 GPUI 的現代化 UI，解決了硬碟空間清理工具效能低落、視覺化不直覺的長期痛點。
+  - 架構亮點：採用 Rust 語言編寫，並整合 GPUI 框架，實現極致的硬碟掃描效率與流暢的圖形介面渲染。
+  - 安全風險：具有刪除硬碟檔案的權限，若軟體設計邏輯有誤，可能導致使用者誤刪系統核心或關鍵資料檔案。
+
+- **[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)** · GitHub
+  - 為什麼爆紅：提供全本地化運行的語音克隆與轉錄功能，擺脫了雲端服務（如 ElevenLabs）的訂閱費用限制與隱私疑慮，且支援語系極廣。
+  - 架構亮點：資料不足
+  - 安全風險：語音克隆技術極易被濫用於深偽（Deepfake）詐騙、偽造身份語音或製作詐欺性音訊內容。
+
+- **[langchain-ai/deepagents](https://github.com/langchain-ai/deepagents)** · GitHub
+  - 為什麼爆紅：由 LangChain 官方推出，提供「開箱即用」的 Agent 整合方案，大幅降低了建構複雜 AI 工作流的門檻與開發複雜度。
+  - 架構亮點：資料不足
+  - 安全風險：代理行為權限若配置過高，可能導致 AI 在處理自動化任務時，無意間執行具破壞性的系統命令或越權存取。
+
+- **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)** · GitHub
+  - 為什麼爆紅：解決了 AI Agent 在長期任務中記憶遺失的問題，提供主動學習機制，滿足開發者對 Agent 進化與狀態持續性的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：記憶體中若累積敏感用戶對話或個人隱私資料，未妥善加密或清除可能造成嚴重的資料洩漏風險。
+
 ## 2026-09-25
 
 - **[Contrastive-LM/CLM](https://github.com/Contrastive-LM/CLM)** · GitHub
