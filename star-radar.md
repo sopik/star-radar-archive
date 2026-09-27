@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-27
+
+- **[Fifteen years later, the Apple Cards origin story](https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story)** · HN
+  - 為什麼爆紅：Apple 產品背後的開發內幕因其歷史價值，對科技業從業者具高度吸引力，引發社群回顧與辯論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險；純屬技術歷史回顧與產品設計觀點討論。
+
+- **[riba2534/claude-opus-5-5-demo](https://github.com/riba2534/claude-opus-5-5-demo)** · GitHub
+  - 為什麼爆紅：市場對新世代 AI 模型（Claude Opus 5.5）表現極度好奇，此展示專案提供了第一手體驗入口。
+  - 架構亮點：資料不足
+  - 安全風險：可能存在非官方來源的 API 濫用，或透過演示腳本誘導用戶輸入敏感資訊至第三方模型介面。
+
+- **[kryvora-network/kryvora-node](https://github.com/kryvora-network/kryvora-node)** · GitHub
+  - 為什麼爆紅：隨區塊鏈網路熱度上升，開發者需要底層節點客戶端來參與驗證與網絡維護，屬基礎設施層需求。
+  - 架構亮點：採用 Go 實現節點守護進程，設計用於執行驗證邏輯與分布式網路通信的 worker 機制。
+  - 安全風險：節點程式直接參與權益驗證，需防範惡意節點發動 Sybil 攻擊或透過節點漏洞進行拒絕服務（DoS）攻擊。
+
+- **[yetone/magpie](https://github.com/yetone/magpie)** · GitHub
+  - 為什麼爆紅：提供跨模型整合的選單欄介面，簡化了在不同 AI 模型（DeepSeek、Kimi 等）間切換與呼叫的繁瑣程序。
+  - 架構亮點：使用 Go 語言編寫，具備輕量化常駐特性，透過 API 橋接不同模型供應商，實現統一的輸入輸出介面。
+  - 安全風險：集中託管 API Key 可能引發帳號盜用風險，且該工具直接存取模型能力，需防範 Prompt Injection 攻擊。
+
+- **[kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)** · GitHub
+  - 為什麼爆紅：作為 Kubernetes 學習的經典教科書，其「手動部署」的特性有效揭露了隱藏在自動化工具下的複雜度。
+  - 架構亮點：展示了從證書產生、etcd 設定到組件通信的底層實作，不依賴任何自動化腳本。
+  - 安全風險：未見明顯風險；此為教育性質專案，強調手動設定能提升對系統安全邊界（如 TLS 通信）的理解。
+
+- **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** · GitHub
+  - 為什麼爆紅：企業對 AI Agent 協作管理需求激增，該專案提供了統一介面降低跨代理程式管理的技術負擔。
+  - 架構亮點：基於 TypeScript 開發，針對工作流中多代理程式的部署、監控與生命週期管理進行抽象化設計。
+  - 安全風險：集中管理多個 Agent 可能導致單點權限過大，若整合至企業內部需注意代理程式間的存取控制與資料洩漏。
+
 ## 2026-09-26
 
 - **[JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo)** · GitHub
