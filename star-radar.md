@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-28
+
+- **[dzhng/jevgrep](https://github.com/dzhng/jevgrep)** · GitHub
+  - 為什麼爆紅：回應了 AI 輔助開發的趨勢，讓開發者能以自然語言語意化搜索複雜程式碼庫，解決傳統 grep 定位效率低的問題。
+  - 架構亮點：結合 Jev 向量索引與代碼上下文分析，提供針對代理程式 (Agent) 優化的 CLI 搜尋介面，實現語意搜尋。
+  - 安全風險：若代碼索引處理不當，可能將機密原始碼上傳至外部 API 進行向量化，導致數據隱私外洩風險。
+
+- **[When did Google get so weird?](https://sancho.bearblog.dev/google-weird/)** · HN
+  - 為什麼爆紅：觸發開發者對 Google 產品品質、搜尋精準度下降及企業文化轉變的強烈共鳴與批評討論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)** · GitHub
+  - 為什麼爆紅：結合社群熱門的「P(doom)」AI 議題與創意影音製作，透過程式碼渲染呈現的藝術表現形式極具話題性。
+  - 架構亮點：運用 TypeScript 進行圖形渲染邏輯編排，可能結合了 WebGL 或相關網頁圖形庫以即時產生視覺影像。
+  - 安全風險：未見明顯風險
+
+- **[freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)** · GitHub
+  - 為什麼爆紅：滿足大眾對圖像生成提示詞工程（Prompt Engineering）的高需求，提供直接可用的工業級模板，縮短生產力門檻。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[microsoft/vscode](https://github.com/microsoft/vscode)** · GitHub
+  - 為什麼爆紅：憑藉極佳的擴充性與開發體驗，成為多語言開發者首選工具，且背靠龐大社群與 Microsoft 的持續迭代。
+  - 架構亮點：基於 Electron 框架，將 UI 渲染與語言伺服器協議 (LSP) 分離，確保核心編輯器的高效能與外掛的靈活性。
+  - 安全風險：惡意擴充套件可取得開發環境權限，進行供應鏈攻擊或竊取原始碼及 API Key 等敏感機密。
+
+- **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** · GitHub
+  - 為什麼爆紅：作為機器學習領域的基礎設施，擁有龐大的生態系統與長期的開發者依賴，是進行 AI 研究與部署的事實標準之一。
+  - 架構亮點：採用數據流圖計算模型，支援多平台部署（TPU/GPU/CPU），具備強大的自動微分引擎與靜態圖優化編譯器。
+  - 安全風險：模型檔案可能遭惡意注入序列化代碼，且複雜的底層 C++ 實作存在緩衝區溢位等記憶體安全風險。
+
 ## 2026-09-27
 
 - **[Fifteen years later, the Apple Cards origin story](https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story)** · HN
