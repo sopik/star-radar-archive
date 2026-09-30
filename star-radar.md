@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-09-30
+
+- **[GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price](https://openai.com/index/introducing-gpt-6-1-sol/)** · HN
+  - 為什麼爆紅：OpenAI 發布的高性價比模型，以極低的成本提供接近 Astra 的智能水準，對企業與開發者產生強烈的算力成本誘因。
+  - 架構亮點：針對推理成本進行深度優化，透過模型壓縮或架構改良達成高效能與低預算比。
+  - 安全風險：價格下調導致 AI 使用門檻降低，可能加劇自動化垃圾內容產生、大規模釣魚攻擊或自動化欺詐風險。
+
+- **[feitangyuan/onetake](https://github.com/feitangyuan/onetake)** · GitHub
+  - 為什麼爆紅：結合 Claude Agent 實現自動化分鏡與連續運鏡，能大幅降低影片行銷與產品展示的製作成本。
+  - 架構亮點：利用 Claude Agent 作為核心控制器，配合「預言機（oracle）」模型測量鏡頭連續性，達成一鏡到底的生成邏輯。
+  - 安全風險：AI 自動生成內容易被濫用於製作 Deepfake 或誤導性行銷影片，存在內容真實性驗證問題。
+
+- **[shihabal3amri/DiPlay](https://github.com/shihabal3amri/DiPlay)** · GitHub
+  - 為什麼爆紅：解決了 Android 車機原生不支援 CarPlay 的市場需求，支援有線與無線接入，具備高實用性。
+  - 架構亮點：基於 Kotlin 開發，實現了 CarPlay 協議棧在 Android 設備上的模擬與封包轉換。
+  - 安全風險：車載系統涉及駕駛安全，第三方實作若延遲過高或系統崩潰，可能分散駕駛注意力或影響車輛核心功能。
+
+- **[firelex/jeff](https://github.com/firelex/jeff)** · GitHub
+  - 為什麼爆紅：針對 Qwen 3.5 與 Gemma 4 等主流開源模型進行微調，提供零樣本分類能力，切中現行模型部署優化與垂直應用的痛點。
+  - 架構亮點：基於主流開源模型進行參數微調，專注於零樣本（zero-shot）推理的效能提升。
+  - 安全風險：微調模型可能繼承原始模型的偏見，且若訓練資料含敏感數據，模型部署後存在資訊外洩風險。
+
+- **[NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)** · GitHub
+  - 為什麼爆紅：提供硬體層級的 10.5 GHz 相位陣列雷達開源方案，對硬體愛好者與軍工/工業開發領域具有極高稀缺性與吸引力。
+  - 架構亮點：採用相位陣列雷達技術，針對 10.5 GHz 頻段優化的硬體訊號處理架構。
+  - 安全風險：未經授權的雷達發射可能干擾當地通訊頻譜，違反無線電法規，亦有被用於非法監控隱私的風險。
+
+- **[byoungd/up](https://github.com/byoungd/up)** · GitHub
+  - 為什麼爆紅：整理了極其豐富的個人成長、AI學習與英語進修資源，透過長期積累的知識庫效應吸引大量用戶收藏備用。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-09-29
 
 - **[852wa/JIZURA](https://github.com/852wa/JIZURA)** · GitHub
