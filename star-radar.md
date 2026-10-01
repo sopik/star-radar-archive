@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-01
+
+- **[Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)** · HN
+  - 為什麼爆紅：作為 Google Gemini 系列的新一代重大更新，開發者高度關注其在推理效率、上下文長度及模型效能的突破。
+  - 架構亮點：資料不足
+  - 安全風險：模型可能存在提示詞注入攻擊或輸出偏見內容，需考量企業級整合時的資料隱私與合規性風險。
+
+- **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** · GitHub
+  - 為什麼爆紅：提供 AI 代理開發的視覺化監控，藉由「桌面寵物」形式讓開發者隨時掌握 Claude Code 的執行狀態與進度。
+  - 架構亮點：採用 Swift 開發，透過作業系統 UI 層（macOS Notch 或 Windows 螢幕頂部）進行輕量級狀態同步與監測。
+  - 安全風險：未見明顯風險，但需確保其監控代理程序時不會誤觸或外洩開發環境中的機敏變數。
+
+- **[feder-cr/dots](https://github.com/feder-cr/dots)** · GitHub
+  - 為什麼爆紅：標榜具備「不會被封鎖」的自主瀏覽器能力，觸動了使用者對於 AI 爬蟲與代理自動化操作的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：極高濫用風險，極易被用於規避網站反爬蟲機制、惡意刷流量或進行大規模自動化爬蟲攻擊。
+
+- **[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)** · GitHub
+  - 為什麼爆紅：將技術書內容直接轉化為 Claude Code 可使用的「技能庫」，實現個人化 AI 輔助學習與實作流程的自動化。
+  - 架構亮點：資料不足
+  - 安全風險：可能涉及技術書籍版權問題，且若處理包含 API 金鑰或內部架構的技術 PDF，存在將敏感資訊匯入 AI 工具的風險。
+
+- **[t8y2/dbx](https://github.com/t8y2/dbx)** · GitHub
+  - 為什麼爆紅：以 Rust 打造極致輕量（25MB），整合 AI 輔助與 MCP 標準，解決開發者需切換多種資料庫工具的痛點。
+  - 架構亮點：支援 100+ 資料庫類型、提供 Desktop/Docker/CLI 多型態部署，並內建 Model Context Protocol (MCP) 實現 AI 深度整合。
+  - 安全風險：作為資料庫管理工具，若加密儲存金鑰機制薄弱，可能導致多個線上資料庫連線資訊被一併洩漏。
+
+- **[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)** · GitHub
+  - 為什麼爆紅：解決傳統 RAG 對向量資料庫的過度依賴，透過推理能力直接對文件進行索引，降低技術複雜度與建置門檻。
+  - 架構亮點：不使用向量索引的推理導向 RAG（Vectorless, Reasoning-based RAG）架構，強調語意理解而非純粹的向量相似度匹配。
+  - 安全風險：若推理引擎處理權限控管不足，可能導致機敏文件內容在未授權情況下被模型提取與索引。
+
 ## 2026-09-30
 
 - **[GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price](https://openai.com/index/introducing-gpt-6-1-sol/)** · HN
