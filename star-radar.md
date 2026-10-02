@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-02
+
+- **[kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)** · GitHub
+  - 為什麼爆紅：將設計邏輯與 SVG 工藝標準化並匯入 AI 模型，大幅簡化 AI 輔助設計的流程，對非專業設計師極具吸引力。
+  - 架構亮點：建立了一套結構化的 Prompt Engineering 與 SVG 工具庫映射機制，強化 AI 生成 Logo 的技術可行性。
+  - 安全風險：生成的 SVG 內容若引用授權不明的圖庫資源，可能產生版權侵權糾紛。
+
+- **[rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)** · GitHub
+  - 為什麼爆紅：結合 AI Agent 與逆向工程技術，將枯燥的遊戲 Mod 製作流程 AI 化，極大降低了對 PC 遊戲進行修改與二次創作的門檻。
+  - 架構亮點：結合 MCP (Model Context Protocol) 框架與 LLM，整合逆向工程工具鏈與 fal 生成模型進行遊戲資產處理。
+  - 安全風險：可能繞過防作弊系統（Anti-cheat），引發遊戲商封號風險，或被利用於植入惡意代碼至 Mod 檔案中。
+
+- **[BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus)** · GitHub
+  - 為什麼爆紅：作為知名工具 CodexApp 的生態擴充，解決了使用者對介面與功能體驗的進階需求，帶動現有用戶社群的擴展。
+  - 架構亮點：使用 Rust 語言編寫，提供高性能的插件化擴充架構，優化原生應用的體驗。
+  - 安全風險：外掛程式若未經官方安全審核，可能在執行時存取並洩漏使用者的 Codex 會話數據或 API 金鑰。
+
+- **[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)** · GitHub
+  - 為什麼爆紅：將大模型生成的文本轉化為短影音的自動化流程，精準擊中自媒體與內容創作者對高產量、低成本產出的需求。
+  - 架構亮點：整合 LLM 工作流與自動化視頻剪輯引擎，並利用 Python 串聯影像處理與合成模組。
+  - 安全風險：可能用於大量生產深偽內容（Deepfake）或低質量的垃圾訊息，面臨違反平台 AI 內容規範的潛在風險。
+
+- **[eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)** · GitHub
+  - 為什麼爆紅：將碎片化的生活生存指南高度結構化，並強調以期刊論文與官方文件為依據的實證主義，滿足大眾對資訊過濾的需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險。惟建議使用者對特定法律或醫學建議應諮詢專業人士，避免因時效性落差導致風險。
+
+- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** · GitHub
+  - 為什麼爆紅：標榜跨 OS 與跨平台的 AI 自動化操作能力，切中開發者對「AI 代理主動執行任務」的需求，引發極高關注。
+  - 架構亮點：資料不足
+  - 安全風險：因涉及跨平台操作系統的權限控管，若 Agent 權限過大，存在被惡意腳本接管系統及外洩敏感數據的風險。
+
 ## 2026-10-01
 
 - **[Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)** · HN
