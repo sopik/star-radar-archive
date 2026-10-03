@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-03
+
+- **[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d)** · GitHub
+  - 為什麼爆紅：針對 3D 空間設計領域，解決平面圖轉 3D 模型的自動化視覺需求，是空間數據處理類的熱門工具。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)** · GitHub
+  - 為什麼爆紅：作為 Claude Opus 5.5 生成內容的展示與 Prompt 學習中心，滿足開發者與內容創作者對高品質 AI 影音製程的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots)** · GitHub
+  - 為什麼爆紅：強調 AI 代理在多平台上跨應用（文字、通話、Slack）的無縫作業能力，滿足自動化辦公流程的極致需求。
+  - 架構亮點：資料不足
+  - 安全風險：這類代理擁有存取通訊與會議的權限，若遭劫持可能導致機密會議內容洩漏或執行未經授權的操作。
+
+- **[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)** · GitHub
+  - 為什麼爆紅：整合 34 個免費 LLM 提供商，提供統一 API 端點並具備自動故障轉移機制，極大降低開發者的 API 接入成本。
+  - 架構亮點：實現了智慧路由引擎與自動故障轉移（failover）機制，將碎片化的免費接口轉化為標準化 OpenAI API 協議格式。
+  - 安全風險：濫用免費額度可能引發服務端封禁；若密鑰加密機制薄弱，存在密鑰洩漏與被惡意繞過使用的風險。
+
+- **[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)** · GitHub
+  - 為什麼爆紅：標榜 100% 本地運作且預先構建代碼知識圖譜，能顯著降低代理模型（Agent）所需的 Token 消耗與工具調用次數。
+  - 架構亮點：將原始碼轉換為向量化知識圖譜並實現變更自動同步，支援多種 AI 開發環境與代理工具的查詢接口。
+  - 安全風險：若圖譜解析器處理惡意建構的代碼檔案，可能導致路徑遍歷或拒絕服務風險。
+
+- **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** · GitHub
+  - 為什麼爆紅：提供統一標準介面，解決 AI 模型與各種數據源（如資料庫、檔案系統）整合的碎片化難題，降低開發成本。
+  - 架構亮點：採用客戶端-伺服器模型，定義了標準化協議（MCP），允許 LLM 以通用方式掛載與訪問不同的數據源。
+  - 安全風險：若 Server 未做權限隔離，LLM 可能透過協議越權讀取敏感數據或執行異常寫入操作。
+
 ## 2026-10-02
 
 - **[kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill)** · GitHub
