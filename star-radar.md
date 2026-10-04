@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-04
+
+- **[Kolibri: A Sovereign Open-Weight Model](https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/)** · HN
+  - 為什麼爆紅：強調「主權（Sovereign）」概念的開源權重模型，回應了歐洲對於 AI 技術自主與隱私監管的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：開源模型權重可能遭惡意微調以繞過安全圍欄，需建立審計機制確保符合地緣法律規範。
+
+- **[CAPCOM-TD-OSS/REDox](https://github.com/CAPCOM-TD-OSS/REDox)** · GitHub
+  - 為什麼爆紅：由遊戲大廠 Capcom 開源，為 .NET 環境提供高效能結構化資料引擎，具備工業級應用背書。
+  - 架構亮點：基於 Token 的高效結構化資料處理，針對遊戲引擎的高頻數據傳輸與解析需求進行極致效能優化。
+  - 安全風險：未見明顯風險
+
+- **[edenfunf/reelmimic](https://github.com/edenfunf/reelmimic)** · GitHub
+  - 為什麼爆紅：結合視覺風格模仿與 AI 協作編排，允許使用者透過對話式 AI 參與影片創作的規劃與審閱。
+  - 架構亮點：整合 Claude Code 或 Codex 執行編碼與多代理協作（Multi-Agent），實現影片風格分析與生成。
+  - 安全風險：涉及視覺媒體處理，可能存在著作權侵權疑慮，且 AI 生成影片易被濫用於深度偽造。
+
+- **[nanaism/yomiyasu](https://github.com/nanaism/yomiyasu)** · GitHub
+  - 為什麼爆紅：精準切入「AI 產生的日文語氣生硬」這一細分市場，提供自動化校對與自然化優化功能。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[getsentry/sentry](https://github.com/getsentry/sentry)** · GitHub
+  - 為什麼爆紅：作為業界標準的開源監控方案，其強大的錯誤追蹤與效能監控生態系已深植於開發者工作流中。
+  - 架構亮點：採用分散式系統架構處理大規模即時異常事件，支援多語言 SDK 聚合並提供完整的堆疊追蹤分析。
+  - 安全風險：若部署於內部網路，需注意監控數據中可能包含敏感的客戶隱私資料或洩露系統內部錯誤詳情。
+
+- **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)** · GitHub
+  - 為什麼爆紅：解決了 AI Agent 獲取即時網路資訊需支付高額 API 費用的痛點，透過統一 CLI 介面直接爬取各大主流社群平台。
+  - 架構亮點：整合多平台爬蟲（Twitter/Reddit/GitHub等）與 CLI 統一調用介面，針對免 API 費用進行優化。
+  - 安全風險：大量爬取社群平台數據易觸發網站防爬機制（WAF），並可能涉及違反各平台的服務條款（ToS）。
+
 ## 2026-10-03
 
 - **[wy51ai/floorplan-3d](https://github.com/wy51ai/floorplan-3d)** · GitHub
