@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-05
+
+- **[Tell HN: Bob Cringely has died](https://news.ycombinator.com/item?id=49949438)** · HN
+  - 為什麼爆紅：Bob Cringely 作為資深技術評論家與矽谷傳奇記者，其逝世引發了科技界對個人電腦時代黃金歲月的回憶與追悼。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise)** · GitHub
+  - 為什麼爆紅：將 AI 從「代碼代筆者」轉型為「互動式導師」，迎合了開發者在輔助編程過程中渴望學習與理解代碼邏輯的需求。
+  - 架構亮點：以 Claude Code 插件形式運作，透過攔截與分析生成式代碼過程，即時生成解釋性輔助教學內容。
+  - 安全風險：未見明顯風險，但需留意 AI 生成的教學說明可能包含誤導性的程式設計建議或不安全的最佳實踐。
+
+- **[QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html)** · GitHub
+  - 為什麼爆紅：打破 AI 文字對話限制，利用 HTML 的排版能力將複雜的邏輯分析結果可視化，大幅提升長內容的可讀性與組織性。
+  - 架構亮點：實現 AI 輸出結構化資料轉換為單頁 HTML 應用（SPA）的轉換邏輯，允許在對話窗內渲染即時資訊圖表或排版文件。
+  - 安全風險：若 HTML 內容由 AI 直接產生並於本地渲染，可能因跨站腳本攻擊（XSS）導致執行惡意程式碼的風險。
+
+- **[facebookincubator/muse-gadget-sdk](https://github.com/facebookincubator/muse-gadget-sdk)** · GitHub
+  - 為什麼爆紅：Meta 官方孵化項目吸引關注，降低了開發者構建腦機接口（BCI）設備配套應用的門檻，具有開發硬體生態的先發優勢。
+  - 架構亮點：由 C 語言編寫，提供底層設備交互 API，旨在優化硬體感測數據的低延遲處理與即時傳輸。
+  - 安全風險：涉及生理數據採集，若未妥善處理原始 EEG 訊號傳輸加密或隱私遮蔽，存在重大的生物特徵隱私外洩隱患。
+
+- **[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)** · GitHub
+  - 為什麼爆紅：CapCut 在創作工具市場佔有率高，開源替代品滿足了用戶對隱私保護、無付費訂閱限制以及本地化運行的強烈剛需。
+  - 架構亮點：基於 TypeScript 開發，預計封裝了高效能影像處理庫（如 FFmpeg/WebAssembly），提供類似商業剪輯軟體的圖形介面與軌道編輯系統。
+  - 安全風險：影像處理軟體處理本地媒體檔案，若未嚴格控管外部插件權限，可能存在遠端程式碼執行（RCE）的安全漏洞。
+
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** · GitHub
+  - 為什麼爆紅：解決了 AI Agent 長期記憶碎片化的痛點，透過自動壓縮歷史會話注入上下文，顯著提升了跨會話的任務連續性與關聯度。
+  - 架構亮點：採用會話歷史捕捉、AI 摘要壓縮機制，並設計了跨多平台（Claude Code, Gemini, Copilot 等）的通用上下文注入層。
+  - 安全風險：自動儲存並壓縮用戶歷史互動，若本地儲存未加密，極易導致敏感的程式碼庫或個人對話紀錄洩露。
+
 ## 2026-10-04
 
 - **[Kolibri: A Sovereign Open-Weight Model](https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/)** · HN
