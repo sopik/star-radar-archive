@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-06
+
+- **[Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html)** · HN
+  - 為什麼爆紅：涉及 AI 服務商對用戶隱私數據的監控與警務合作，引發了對於 AI 工具隱私邊界及數據審查義務的廣泛社會討論。
+  - 架構亮點：資料不足
+  - 安全風險：隱私權風險：用戶輸入的私人日記內容可能被自動監測機制觸發並轉交執法部門，使用者應警覺 AI 平台的數據處理政策。
+
+- **[chasmlol/SkyCraft](https://github.com/chasmlol/SkyCraft)** · GitHub
+  - 為什麼爆紅：結合《上古卷軸》與《Minecraft》兩大熱門遊戲 IP，透過 Mod 實現機制融合，精準擊中兩款遊戲的重疊玩家群體。
+  - 架構亮點：透過 SKSE (Skyrim Script Extender) 插件與 Fabric Mod 橋接，實現跨遊戲引擎的物理與物品交互機制。
+  - 安全風險：需載入第三方 Mod 與插件，若來源不明可能存在執行惡意腳本的風險；對遊戲檔案的修改亦可能導致穩定性問題。
+
+- **[kargulstudio/sales-crm](https://github.com/kargulstudio/sales-crm)** · GitHub
+  - 為什麼爆紅：滿足企業對輕量級、開源 CRM 解決方案的迫切需求，降低了企業管理客戶數據的門檻與授權成本。
+  - 架構亮點：資料不足
+  - 安全風險：作為客戶關係管理系統，若未妥善處理訪問控制、數據加密及 SQL 注入防禦，將面臨重大數據外洩風險。
+
+- **[storytold/photocraft](https://github.com/storytold/photocraft)** · GitHub
+  - 為什麼爆紅：以 Rust 重寫專業圖形處理軟體 Adobe Photoshop 的構想極具挑戰性，吸引了追求效能與記憶體安全的開源開發者關注。
+  - 架構亮點：完全使用 Rust 編寫，強調記憶體安全性與高效能運算，旨在擺脫對傳統 C++ 遺留代碼的依賴。
+  - 安全風險：若涉及複雜的檔案格式解析（如 PSD），處理惡意構造的檔案時可能出現緩衝區溢位或邏輯漏洞。
+
+- **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** · GitHub
+  - 為什麼爆紅：受惠於 T3 Stack 生態系的熱度，開發者對全端 TypeScript 整合方案的需求強勁，短期內吸引大量關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[caddyserver/caddy](https://github.com/caddyserver/caddy)** · GitHub
+  - 為什麼爆紅：提供原生自動化 HTTPS (Let's Encrypt 整合) 與簡單的設定格式，解決了傳統 Web Server 配置繁瑣的痛點。
+  - 架構亮點：基於 Go 語言編寫，具備高度模組化架構，原生支援 HTTP/3，並透過中間件 (Middleware) 實現功能擴充。
+  - 安全風險：配置不當可能導致敏感資訊外洩；作為邊緣網路服務，若未更新核心組件，存在遭漏洞利用的風險。
+
 ## 2026-10-05
 
 - **[Tell HN: Bob Cringely has died](https://news.ycombinator.com/item?id=49949438)** · HN
