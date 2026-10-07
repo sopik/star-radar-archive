@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-07
+
+- **[deadinside28/bloodborne_pc](https://github.com/deadinside28/bloodborne_pc)** · GitHub
+  - 為什麼爆紅：回應了遊戲玩家長期以來要求《血源詛咒》移植至 PC 平台的巨大需求，具有高度的話題性與收藏價值。
+  - 架構亮點：資料不足
+  - 安全風險：這類非官方移植專案常被惡意程式開發者用於夾帶木馬，且涉及違反遊戲智慧財產權的法律風險。
+
+- **[Mistral Large 4](https://mistral.ai/news/mistral-large-4/\)** · HN
+  - 為什麼爆紅：作為 Mistral 最新旗艦模型，其性能指標與對抗頂尖閉源模型的潛力在社群引起廣泛關注與效能討論。
+  - 架構亮點：資料不足
+  - 安全風險：大型語言模型常見的幻覺（Hallucination）或輸出不當偏見風險。
+
+- **[openai/math](https://github.com/openai/math)** · GitHub
+  - 為什麼爆紅：OpenAI 官方發佈並採用 Lean 語言，展現其對於形式化驗證（Formal Verification）與數學推理精準度的技術轉向。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)** · GitHub
+  - 為什麼爆紅：填補了 AI 生成模型與工業設計 CAD 軟體之間的工具鏈空白，讓 AI 代理人直接生成可製造的 3D 模型。
+  - 架構亮點：建立自然語言到 CAD 指令的映射模型，可能整合了 OpenCASCADE 或類似的幾何建模引擎以確保模型可編輯性。
+  - 安全風險：生成的 CAD 模型若包含錯誤幾何參數，可能導致硬體製造端的機械故障或生產損耗。
+
+- **[anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)** · GitHub
+  - 為什麼爆紅：緊跟 DeepSeek 生態熱度，提供桌面級整合方案，滿足開發者在本地環境高效呼叫 DeepSeek 模型及其外掛的需求。
+  - 架構亮點：全插件化架構設計，不僅擴展功能模組，連桌面本身也由插件構成，提供高度靈活的 UI 與功能擴展介面。
+  - 安全風險：插件生態若缺乏嚴格的代碼審核機制，惡意插件可能竊取本地執行環境的 API 金鑰或環境變數。
+
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** · GitHub
+  - 為什麼爆紅：標榜提供「AI 代理人團隊」解決方案，滿足開發者對自動化業務流程與多代理人協作（Multi-Agent System）的高度需求。
+  - 架構亮點：模組化代理人架構，為不同任務配置專屬個性、專業知識及執行流程，具備模擬真實人類團隊分工的作業模式。
+  - 安全風險：代理人若取得過多系統執行權限（如文件讀寫或網路訪問），可能導致注入攻擊或敏感資料洩漏。
+
 ## 2026-10-06
 
 - **[Anthropic reported diary entry to police, woman faces felony charge](https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html)** · HN
