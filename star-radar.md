@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-08
+
+- **[mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot)** · GitHub
+  - 為什麼爆紅：自動化處理 X (Twitter) Premium 禮物兌換，利用腳本優勢搶佔稀缺資源，符合機器人刷取利益的驅動邏輯。
+  - 架構亮點：基於 Go 語言的高效能 CLI 工具，整合自動化登入、監控推文通知及即時兌換 API 接口。
+  - 安全風險：涉及自動化機器人違規行為，帳戶可能因異常頻率兌換而被鎖定，並有帳號憑證外洩風險。
+
+- **[Margaret Hamilton has died](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007)** · HN
+  - 為什麼爆紅：Margaret Hamilton 作為阿波羅登月計劃軟體工程先驅，其離世引發科技界對早期工程卓越性與軟體歷史的集體緬懷。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/)** · HN
+  - 為什麼爆紅：OpenAI 發佈數學 AI 進展直接影響科研範式，引發數學界與 AI 工程師對證明輔助與推理能力的高度關注。
+  - 架構亮點：強化 AI 在形式化邏輯與嚴謹數學證明中的推理能力，並強調 AI 與數學家的協作框架。
+  - 安全風險：未見明顯風險
+
+- **[alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** · GitHub
+  - 為什麼爆紅：簡化藝術動畫製作流程，透過代碼語法即可生成複雜藝術風格，降低了多媒體創作的專業技術門檻。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)** · GitHub
+  - 為什麼爆紅：打破遊戲平台封閉性，滿足使用者將 PS5 原生執行檔移植至開源平台（Linux/Windows）的需求。
+  - 架構亮點：資料不足
+  - 安全風險：涉及嚴重的著作權侵權與數位版權管理（DRM）破解，且可能因非官方移植導致惡意代碼注入風險。
+
+- **[morluto/rea](https://github.com/morluto/rea)** · GitHub
+  - 為什麼爆紅：自動化逆向工程需求龐大，利用 AI Agent 處理應用程式行為分析與二進位檔案，顯著降低技術門檻。
+  - 架構亮點：結合多個專用 AI Agent 進行解析、反編譯與模式識別，實現端到端的逆向自動化工作流。
+  - 安全風險：極高的惡意軟體分析濫用風險，若被用於自動化探勘私有軟體弱點或輔助編寫 exploit，將造成嚴重威脅。
+
 ## 2026-10-07
 
 - **[deadinside28/bloodborne_pc](https://github.com/deadinside28/bloodborne_pc)** · GitHub
