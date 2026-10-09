@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-09
+
+- **[Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle)** · HN
+  - 為什麼爆紅：在追求超大參數模型的環境下，僅 16.9 MB 的極致輕量化語音轉文字實現，具備極高的邊緣計算與離線應用潛力。
+  - 架構亮點：資料不足（原文主要強調輕量化技術，細節尚未披露架構優化細節）。
+  - 安全風險：未見明顯風險。
+
+- **[mhtsec/ARTEX](https://github.com/mhtsec/ARTEX)** · GitHub
+  - 為什麼爆紅：作為攻防挑戰賽冠軍項目，驗證了自主 AI 在複雜網路滲透測試中的實戰能力，極具安全研究價值。
+  - 架構亮點：採用 Go 語言架構，整合多種滲透測試工具與 AI 自主決策引擎，能自動執行偵察、漏洞利用與後滲透活動。
+  - 安全風險：此工具極易被濫用於非法攻擊。若未經授權使用，可能直接導致企業網絡安全防禦系統被突破。
+
+- **[Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill)** · GitHub
+  - 為什麼爆紅：將「逆向工程、重建、測試、修復」流程自動化，大幅降低軟體開發與二次開發的技術門檻。
+  - 架構亮點：包含十一組針對 Claude 的自動化技能集，自動化程式碼剖析與生成邏輯，強調應用程式功能複製能力。
+  - 安全風險：恐遭用於開發惡意軟體的變體（惡意複製），或未經授權反編譯商業閉源軟體造成智財權爭議。
+
+- **[nullmoth/nvidia-macos-driver](https://github.com/nullmoth/nvidia-macos-driver)** · GitHub
+  - 為什麼爆紅：滿足了 macOS 用戶長期渴求在 Apple 平台上使用高性能 NVIDIA GPU 的硬體支援需求，特別是在 macOS Sequoia 環境下。
+  - 架構亮點：利用 Rust 開發，針對 NVIDIA RTX 卡實作 Metal 驅動層，結合 OpenCore 實現非原廠硬體在 macOS 上的兼容。
+  - 安全風險：底層驅動涉及核心權限，若穩定性不足或含有惡意代碼，極易導致系統崩潰或 root 級別安全風險。
+
+- **[manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)** · GitHub
+  - 為什麼爆紅：直接整合 AI 編碼 Agent 需求，透過 Ghostty 提供極致效能體驗，解決開發者在多工狀態下與 Agent 互動的窗口管理問題。
+  - 架構亮點：基於 Ghostty 終端架構，內建垂直標籤頁與針對 AI 代理的通知系統，具高度程式化設計。
+  - 安全風險：若與 AI Agent 深度整合，可能成為釣魚攻擊的入口，特別是若 Agent 具備執行 shell 命令的權限。
+
+- **[trycua/cua](https://github.com/trycua/cua)** · GitHub
+  - 為什麼爆紅：回應當前 AI Agent 領域對於大規模、跨平台電腦操作（Computer Use）自動化與訓練基準的需求，解決了閉源解決方案缺乏透明度的痛點。
+  - 架構亮點：採用 Rust 編寫，強調跨 OS 設備集群管理，具備針對 AI 訓練、評估與合成數據生成的基準測試架構。
+  - 安全風險：自動化操作系統權限極高，若遭惡意指令注入，可能導致系統檔案遭刪除或敏感資訊外洩。
+
 ## 2026-10-08
 
 - **[mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot)** · GitHub
