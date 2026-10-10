@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-10
+
+- **[Cloudflare acquires Deno](https://deno.com/blog/cloudflare)** · HN
+  - 為什麼爆紅：Edge Computing 領域的重大併購，整合 Cloudflare 的全球網絡與 Deno 的執行環境，重塑無伺服器架構市場。
+  - 架構亮點：整合 Deno 的 V8 隔離環境與 Cloudflare Workers 的全球分佈式架構，強化 JavaScript/TypeScript 的邊緣部署效率。
+  - 安全風險：平台整合可能引發供應鏈攻擊風險，且服務規模化後，任何隔離層失效都可能波及龐大的邊緣節點。
+
+- **[LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance)** · GitHub
+  - 為什麼爆紅：結合 AI 財務顧問與個人資產管理，且標榜「本地端運行」，滿足使用者對於財務隱私的高度需求。
+  - 架構亮點：採用本地化部署架構，確保數據不需傳送至第三方雲端，整合投資組合追蹤與 AI 分析模型。
+  - 安全風險：本地儲存的財務數據若無適當加密，當裝置遭感染或存取受限時，易發生財務隱私外洩。
+
+- **[zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use)** · GitHub
+  - 為什麼爆紅：結合 AI（Codex）與硬體操控技術，解決了 iOS 封閉系統下的自動化痛點，具備極強的技術實作吸引力。
+  - 架構亮點：利用 USB 協定與 iPhone 互動，整合實時螢幕擷取、OCR 反饋與自動化觸發機制，橋接 AI 與實體硬體。
+  - 安全風險：可被濫用於未經授權的自動化操作、釣魚攻擊或繞過裝置鎖定，具備高度隱私與資安威脅。
+
+- **[storytold/wordcraft](https://github.com/storytold/wordcraft)** · GitHub
+  - 為什麼爆紅：以 Rust 重新實現 Microsoft Word，挑戰極高的效能與複雜度，吸引對效能優化與跨平台桌面開發有興趣的開發者。
+  - 架構亮點：採用 Rust 編寫，強調記憶體安全性與高效能渲染引擎，試圖擺脫傳統 Office 軟體的肥大臃腫架構。
+  - 安全風險：處理複雜文件格式時，若解析器存在漏洞，可能導致緩衝區溢位等記憶體安全性問題。
+
+- **[liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)** · GitHub
+  - 為什麼爆紅：該書為面試經典，整理後的筆記結構化且易於閱讀，適合求職者快速準備面試，具高度實用價值。
+  - 架構亮點：整理系統設計常見架構模式，包含負載平衡、資料庫分片、快取策略及一致性雜湊等高階設計原則。
+  - 安全風險：未見明顯風險
+
+- **[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)** · GitHub
+  - 為什麼爆紅：由 Anthropic 官方釋出，直接對接 Claude Cowork 生態系，開發者與知識工作者可藉此擴充 AI 的自動化作業能力。
+  - 架構亮點：資料不足
+  - 安全風險：外掛程式可能存取敏感工作文件，若權限控管不當或載入惡意插件，存在資料外洩或權限濫用風險。
+
 ## 2026-10-09
 
 - **[Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle)** · HN
