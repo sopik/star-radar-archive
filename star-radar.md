@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-11
+
+- **[Telegram Desktop vulnerability allowed any user's file to be stolen](https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/)** · HN
+  - 為什麼爆紅：涉及知名通訊軟體 Telegram 的重大安全漏洞，直接威脅用戶帳號接管與隱私安全，引起社群高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：該漏洞允許惡意攻擊者透過「一鍵操作」竊取檔案或取得帳號控制權，為嚴重級別的遠端執行與資訊披露風險。
+
+- **[noahdunnagan/fsearch](https://github.com/noahdunnagan/fsearch)** · GitHub
+  - 為什麼爆紅：在 macOS 上實現了驚人的檢索效率，對於需要處理海量檔案與內容搜索的專業用戶而言是強大的生產力工具。
+  - 架構亮點：針對全磁碟進行索引與模糊匹配，優化過的搜尋演算法可在處理 800 萬個檔案時維持 1 毫秒內的反應速度。
+  - 安全風險：索引全磁碟檔案需高權限存取，若索引資料庫本身未經加密，可能導致敏感檔案內容遭非授權存取。
+
+- **[storytold/gridcraft](https://github.com/storytold/gridcraft)** · GitHub
+  - 為什麼爆紅：試圖挑戰 Excel 市場，以純 Rust 重寫試算表邏輯，強調高效能與跨平台原生的開發體驗。
+  - 架構亮點：純 Rust 架構，目標在於提供與 Excel 相容的計算引擎，同時具備比傳統 C++/C# 更強的記憶體安全性。
+  - 安全風險：試算表軟體常被利用作為巨集攻擊媒介，若未來支援腳本功能，需建立沙盒環境以防止惡意程式碼執行。
+
+- **[storytold/cadcraft](https://github.com/storytold/cadcraft)** · GitHub
+  - 為什麼爆紅：提供 AutoCAD 的開源替代品，且以純 Rust 編寫，效能與記憶體安全性對傳統 CAD 使用者具高度吸引力。
+  - 架構亮點：純 Rust 實作的潔淨室開發（Clean-room implementation），不依賴封閉原始碼協議，保障架構完全透明。
+  - 安全風險：未見明顯風險。需注意複雜 CAD 檔案處理時的記憶體邊界檢查，以及對外匯出格式的安全性。
+
+- **[Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)** · GitHub
+  - 為什麼爆紅：獲 ECCV 2026 最佳論文獎提名，代表其在串流式 3D 重建技術領域具備前瞻性的學術價值與潛在應用。
+  - 架構亮點：採用 Geometric Context Transformer 架構，針對串流資料流進行高效的 3D 空間建模與特徵處理。
+  - 安全風險：未見明顯風險。需留意處理 3D 環境數據時，若涉及實體隱私場景可能衍生的資料外洩隱憂。
+
+- **[BerriAI/litellm](https://github.com/BerriAI/litellm)** · GitHub
+  - 為什麼爆紅：解決開發者需頻繁對接不同 LLM API 的痛點，透過統一介面與成本追蹤功能，大幅降低多模型切換的維護成本。
+  - 架構亮點：核心邏輯以 Rust 編寫以提升效能，結合 Python SDK 提供開發靈活性，並整合 guardrails、負載平衡及多格式輸出。
+  - 安全風險：作為 API 網關，若密鑰管理不當或 guardrails 設定失效，可能導致 API 金鑰洩漏或未經授權的內容注入風險。
+
 ## 2026-10-10
 
 - **[Cloudflare acquires Deno](https://deno.com/blog/cloudflare)** · HN
