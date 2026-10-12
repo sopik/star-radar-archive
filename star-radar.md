@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-12
+
+- **[Total Annihilation, rebuilt for modern computers](https://nanolathe.gg)** · HN
+  - 為什麼爆紅：經典遊戲的現代重製計畫觸發了廣大遊戲玩家的懷舊情緒，透過現代技術克服硬體架構差異，具有高度的技術傳承意義。
+  - 架構亮點：透過逆向工程將舊版引擎邏輯移轉至現代架構，並針對現代 GPU API 進行優化以支援高解析度渲染。
+  - 安全風險：未見明顯風險
+
+- **[storytold/deckcraft](https://github.com/storytold/deckcraft)** · GitHub
+  - 為什麼爆紅：試圖以 Rust 重寫商業軟體（PowerPoint），吸引了追求高性能、無負載記憶體管理及開源軟體愛好者的廣泛關注。
+  - 架構亮點：採用 Rust 編寫，具備記憶體安全優勢；基於零成本抽象設計，預期提供比傳統 Office 套件更輕量且快速的渲染效能。
+  - 安全風險：尚未經過長時間的複雜檔案格式解析驗證，解析惡意構造的 PPT 檔案可能導致緩衝區溢位或記憶體崩潰漏洞。
+
+- **[t4t5/omdrop-owl](https://github.com/t4t5/omdrop-owl)** · GitHub
+  - 為什麼爆紅：填補了非 Apple 裝置在跨裝置檔案傳輸上的體驗空缺，解決了生態系孤島導致的檔案交換不便。
+  - 架構亮點：資料不足
+  - 安全風險：實現區域網路傳輸時若未實作有效的加密與身份驗證，可能遭受中間人攻擊（MITM）或未經授權的檔案存取風險。
+
+- **[wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)** · GitHub
+  - 為什麼爆紅：AI Agent 與視覺化工具結合，解決了複雜系統生成直觀 SVG 與 3D 效果的高門檻需求，具備極高的實用與演示價值。
+  - 架構亮點：結合 WebGL 渲染管線與自動化向量繪圖邏輯，透過 Agent 邏輯將機器結構映射為可互動的 SVG/3D 模型。
+  - 安全風險：若該工具處理輸入來源不當，可能引發 XSS 攻擊或執行惡意 Shader 腳本，導致渲染器崩潰或瀏覽器受損。
+
+- **[pytorch/pytorch](https://github.com/pytorch/pytorch)** · GitHub
+  - 為什麼爆紅：AI 領域的基礎設施，以 Python 為核心的直覺 API 設計符合研究人員實驗需求，是現代深度學習開發的首選。
+  - 架構亮點：支援動態計算圖（Eager Mode）、強大的 Autograd 自動微分機制，並提供高度優化的 CUDA 算子整合與分散式運算框架。
+  - 安全風險：模型載入（Pickle 格式）存在反序列化漏洞，惡意模型檔可能在執行時造成任意程式碼執行，需檢驗模型來源。
+
+- **[flutter/flutter](https://github.com/flutter/flutter)** · GitHub
+  - 為什麼爆紅：作為 Google 維護的跨平台 UI 框架，解決了開發者需維護多套程式碼庫的痛點，憑藉高效能渲染引擎成為業界標竿。
+  - 架構亮點：使用 Skia/Impeller 圖形引擎進行底層渲染，透過 Dart VM 實現 JIT 與 AOT 編譯，具備熱重載（Hot Reload）開發體驗。
+  - 安全風險：因其跨平台特性，應用內嵌的第三方套件若存在漏洞，將同時影響 iOS 與 Android 平台，需嚴格管理依賴安全性。
+
 ## 2026-10-11
 
 - **[Telegram Desktop vulnerability allowed any user's file to be stolen](https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/)** · HN
