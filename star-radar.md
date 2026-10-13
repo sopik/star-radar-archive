@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-13
+
+- **[Muse Wonder](https://research.meta.ai/blog/muse-wonder)** · HN
+  - 為什麼爆紅：由 Meta Research 發布的最新技術，AI 多模態理解能力的進步引發業界對生成式模型應用邊界的討論。
+  - 架構亮點：資料不足
+  - 安全風險：具備高強度的多模態生成與識別能力，可能被用於製造深偽內容或大規模自動化濫用。
+
+- **[ARahim3/DigUp](https://github.com/ARahim3/DigUp)** · GitHub
+  - 為什麼爆紅：利用本地端 AI 向量搜尋整合多媒體檔案，解決了傳統 macOS 搜尋難以解析內容的痛點。
+  - 架構亮點：內嵌 Google EmbeddingGemma 2 模型，將影像、PDF 與音訊數據轉化為向量進行本地語意匹配。
+  - 安全風險：雖然標榜本地運作，但若存取權限控管不足，可能在處理敏感文件時造成資料外洩。
+
+- **[alejandrobujan/tendedero](https://github.com/alejandrobujan/tendedero)** · GitHub
+  - 為什麼爆紅：結合了 macOS 使用者對截圖管理的強烈需求與極簡主義的 UI 體驗，透過有趣的視覺隱喻快速獲取關注。
+  - 架構亮點：原生 Swift 實作，利用 macOS 的截圖事件監聽與視窗層級控制技術實現懸浮效果。
+  - 安全風險：需取得全螢幕截圖權限，若處理權限不當，可能存在隱私洩露或被惡意軟體利用的風險。
+
+- **[storytold/soundcraft](https://github.com/storytold/soundcraft)** · GitHub
+  - 為什麼爆紅：數位音訊工作站（DAW）領域長期封閉，以 Rust 乾淨重構業界標準軟體具有顯著的效能與授權吸引力。
+  - 架構亮點：利用 Rust 的記憶體安全與高併發特性，針對即時音訊處理的低延遲需求進行了核心架構優化。
+  - 安全風險：若涉及反向工程專利格式或協定，可能面臨嚴重的法律與版權侵權風險。
+
+- **[lyogavin/airllm](https://github.com/lyogavin/airllm)** · GitHub
+  - 為什麼爆紅：解決了大型語言模型執行時硬體門檻過高的痛點，讓一般消費者硬體能運行兆級參數模型。
+  - 架構亮點：採用層級化加載與稀疏計算策略，將模型參數切分並在極有限的 VRAM 中完成推論。
+  - 安全風險：模型在消費級硬體上執行缺乏審計，且可能因輕量化技術導致對抗性攻擊的脆弱性增加。
+
+- **[chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)** · GitHub
+  - 為什麼爆紅：作為人類工程史上的經典，公開原始碼滿足了技術愛好者對登月導航系統的好奇心與歷史情懷。
+  - 架構亮點：使用極為原始的組合語言編寫，展示了受限記憶體環境下的硬即時任務調度機制。
+  - 安全風險：未見明顯風險
+
 ## 2026-10-12
 
 - **[Total Annihilation, rebuilt for modern computers](https://nanolathe.gg)** · HN
