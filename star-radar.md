@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-14
+
+- **[Gemini 4 Argon](https://deepmind.google/models/gemini/)** · HN
+  - 為什麼爆紅：作為 Google Gemini 系列的新一代迭代，其技術能力的顯著躍升引發業界對大型語言模型性能極限的討論與關注。
+  - 架構亮點：資料不足。
+  - 安全風險：模型在輸出內容上的幻覺（Hallucination）風險，以及可能存在的 Prompt Injection 或數據偏見問題。
+
+- **[onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)** · GitHub
+  - 為什麼爆紅：突破了對 iOS 的封閉性限制，僅靠低價 ESP32 硬體即可實現 AI 對實體手機的自動化操作，技術方案具備高度創新性與獵奇感。
+  - 架構亮點：利用 ESP32 模擬 USB HID 輸入，結合 AirPlay 視訊流傳輸，透過 OpenAI 相容模型進行視覺感知與指令回饋。
+  - 安全風險：濫用風險高，可能被用於自動化詐騙、大規模刷量或繞過手機的安全防護機制，且未經授權的輸入模擬具備隱私侵權疑慮。
+
+- **[liseami/CCBaga](https://github.com/liseami/CCBaga)** · GitHub
+  - 為什麼爆紅：名稱暗示與特定硬體或協議（如 CCB）相關，其在短時間內爆發的關注度源於開發者對特定領域自動化工具的追捧。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。建議檢查其依賴庫與系統權限請求，以排除惡意硬體控制或數據側漏的可能性。
+
+- **[storytold/craft-launcher](https://github.com/storytold/craft-launcher)** · GitHub
+  - 為什麼爆紅：作為一個應用啟動器，憑藉其簡潔的生態定位與特定作業系統整合的便捷性，吸引了尋求高效辦公工具的用戶群體。
+  - 架構亮點：使用 Rust 語言編寫，具備高性能、低記憶體佔用的特性，強調啟動速度與系統資源的輕量化調度。
+  - 安全風險：未見明顯風險。需注意是否具備系統級權限，若處理不當可能在執行外部腳本或搜尋時產生攻擊媒介。
+
+- **[Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)** · GitHub
+  - 為什麼爆紅：透過技術手段繞過限制獲取大量免費 Token，大幅降低開發者使用高階 AI 模型（如 Claude）的門檻，具有極高的吸引力。
+  - 架構亮點：整合多種模型載體（Harness），支援終端、IDE、瀏覽器等跨平台運作，並具備語音輸入與原生瀏覽器會話能力。
+  - 安全風險：存在嚴重的合規風險，恐違反供應商的服務條款（ToS），且未經授權的連線可能引發帳號被封鎖或程式碼隱私外洩風險。
+
+- **[open-webui/open-webui](https://github.com/open-webui/open-webui)** · GitHub
+  - 為什麼爆紅：提供與 ChatGPT 極度相似的 UI，能無縫對接 Ollama 等本地模型，滿足了用戶在離線或私有環境下使用高效能 AI 的強烈需求。
+  - 架構亮點：採用前後端分離架構，支援多模型整合、RAG 檢索增強生成、角色設定及完整的登入與權限管理系統。
+  - 安全風險：因部署於本地或私有伺服器，若缺乏適當的網路隔離或身分驗證，可能導致內部 API 金鑰洩漏或未經授權的存取。
+
 ## 2026-10-13
 
 - **[Muse Wonder](https://research.meta.ai/blog/muse-wonder)** · HN
