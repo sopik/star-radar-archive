@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-15
+
+- **[Things to know when you get cancer](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/)** · HN
+  - 為什麼爆紅：以誠實且具實務經驗的角度，整理病患在抗癌過程中的生存指引，資訊具高度實用性與共鳴感，引發廣泛共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[shaongitbd/doory](https://github.com/shaongitbd/doory)** · GitHub
+  - 為什麼爆紅：作為 Canva 的開源替代品，提供創作者降低依賴商業軟體的選項，且具備可自託管的彈性。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill)** · GitHub
+  - 為什麼爆紅：整合 LoRA 與精確的人偶控制技術，降低高品質 NSFW 影像生成的技術門檻，符合特定社群的強烈需求。
+  - 架構亮點：結合 Qwen-Image 2.1 模型、NSFW LoRA 權重及 VNCCS 姿態控制系統，優化 AI 繪圖的精確度。
+  - 安全風險：該工具專注於成人內容生成，存在產生深度偽造（Deepfake）影像、違反內容審核政策及遭濫用於製作非自願色情內容的風險。
+
+- **[jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile)** · GitHub
+  - 為什麼爆紅：將 3A 遊戲《暗黑破壞神 II》移植至行動裝置並支援觸控與原生 60fps，極大滿足懷舊玩家的需求。
+  - 架構亮點：實現了 iOS/macOS 上的相容層，繞過模擬器限制直接調用 Switch 版遊戲資源檔案進行原生運算。
+  - 安全風險：需載入用戶自備的遊戲檔案，若檔案來源非法可能涉及版權侵權；同時修改器安裝過程可能繞過系統安全驗證。
+
+- **[mksglu/context-mode](https://github.com/mksglu/context-mode)** · GitHub
+  - 為什麼爆紅：針對 AI 編程痛點提供解決方案，透過壓縮工具輸出與 MCP 協議橋接，顯著提升長內容上下文的處理效率。
+  - 架構亮點：利用 MCP (Model Context Protocol) 進行跨平台路由，結合沙盒技術對工具輸出進行 98% 的壓縮處理。
+  - 安全風險：持久化記憶機制若未經加密或去識別化，可能導致用戶編碼習慣、代碼片段等隱私資訊在異地持久化存儲時洩漏。
+
+- **[vercel-labs/skills](https://github.com/vercel-labs/skills)** · GitHub
+  - 為什麼爆紅：提供開發者統一的「Agent 技能」標準化接口，降低開發 AI Agent 的整合門檻，解決目前碎片化的工具調用痛點。
+  - 架構亮點：資料不足
+  - 安全風險：若 Agent 權限控管不足，工具執行接口可能遭惡意指令注入，導致系統權限被濫用或敏感資料外洩。
+
 ## 2026-10-14
 
 - **[Gemini 4 Argon](https://deepmind.google/models/gemini/)** · HN
