@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-16
+
+- **[Muse Spark Open](https://research.meta.ai/blog/muse-spark-open)** · HN
+  - 為什麼爆紅：由 Meta 發布的大型研究成果，在生成式 AI 模型的可解釋性、可控性或生成效率上往往帶動學界與業界的技術風向，具備高影響力。
+  - 架構亮點：資料不足
+  - 安全風險：大型模型存在生成偏差或被濫用產生有害內容的風險，若缺乏有效的輸入過濾機制，可能被用於大規模錯誤訊息傳播。
+
+- **[ahwootech/BRUTAL](https://github.com/ahwootech/BRUTAL)** · GitHub
+  - 為什麼爆紅：滿足了 C# 開發者對底層控制權的渴望，提供直接與 Vulkan 等原生 API 互動的橋樑，適合尋求比 Unity 更高自由度的效能優化型遊戲引擎。
+  - 架構亮點：提供與 C# 互操作性高的底層 Vulkan 封裝，降低高階語言對底層硬體存取的開銷，強調低層級庫對渲染與硬體交互的直接控制。
+  - 安全風險：直接存取 native API 與硬體介面可能繞過 .NET 執行環境的安全隔離，存在記憶體洩漏或惡意驅動調用的風險。
+
+- **[opengeos/RustGIS](https://github.com/opengeos/RustGIS)** · GitHub
+  - 為什麼爆紅：GIS 領域長期依賴 C++ 舊庫（如 GDAL），開發者對輕量、高效且記憶體安全的 Rust 原生替代方案有極高的技術需求與換代期待。
+  - 架構亮點：利用 Rust 的高效能特性進行 GIS 空間運算，優化記憶體分配效率，並提供相較傳統框架更現代化的開發介面與並發能力。
+  - 安全風險：空間數據處理複雜，可能存在緩衝區溢位或空間解析演算法漏洞，若整合外部地理座標系統時未做好邊界檢查，可能導致崩潰或邏輯錯誤。
+
+- **[HeyPuter/everything](https://github.com/HeyPuter/everything)** · GitHub
+  - 為什麼爆紅：願景宏大且具備網路效應潛力，試圖透過重新構建基礎軟體來對抗現有大型作業系統與平台的封閉性，引發開源愛好者的高度共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：基礎設施開源若缺乏嚴格的審計，可能導致廣泛使用的底層組件成為潛在的供應鏈攻擊目標。
+
+- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** · GitHub
+  - 為什麼爆紅：AI 代理技術進入專業垂直領域，透過標準化科學技能庫降低了跨學科 AI 應用的開發門檻，滿足了科學界對自動化研究的強烈需求。
+  - 架構亮點：模組化技能庫架構，整合 100+ 科學資料庫並支援多種主流 AI 代理標準（Cursor, Claude Code 等），實現可攜式科學計算工作流。
+  - 安全風險：自動化科學研究可能導致誤導性結論，若技能庫邏輯被惡意竄改，可能產生虛假科學數據或具風險的化學/藥物合成建議。
+
+- **[rust-lang/rust](https://github.com/rust-lang/rust)** · GitHub
+  - 為什麼爆紅：作為系統程式語言的生態核心，不僅是工業界標準，其龐大的開發者社群持續推動效能與記憶體安全議題，是開發者技術評估的必看指標。
+  - 架構亮點：採用基於 LLVM 的編譯器架構，核心強調所有權（Ownership）模型與零成本抽象，透過編譯期檢查確保記憶體安全與並發正確性。
+  - 安全風險：未見明顯風險
+
 ## 2026-10-15
 
 - **[Things to know when you get cancer](https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/)** · HN
