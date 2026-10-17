@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-17
+
+- **[feder-cr/git-ai](https://github.com/feder-cr/git-ai)** · GitHub
+  - 為什麼爆紅：定義了專為 AI Agent 最佳化的版本控制流程，解決了現有 Git 在處理自動化程式生成與大規模變更時的協作痛點。
+  - 架構亮點：設計考慮了 AI 處理文件的特性，優化了差異檢測、上下文傳遞機制及自動化的衝突解決路徑。
+  - 安全風險：AI 代理若擁有 Git 權限，可能因邏輯錯誤導致災難性的版本庫變更或無意間洩露敏感 API 金鑰至儲存庫。
+
+- **[Tesla Roadster](https://www.tesla.com/roadster)** · HN
+  - 為什麼爆紅：Tesla Roadster 作為電動車效能巔峰的象徵，其技術規格更新或上市消息長期佔據科技媒體流量頂端。
+  - 架構亮點：搭載高能量密度電池系統、多電機動力架構及先進的車載計算平台，旨在實現極限的加速與續航性能。
+  - 安全風險：電動車軟體更新可能存在遠端攻擊面，若控制系統遭劫持，物理安全風險極高。
+
+- **[deeplethe/solid-glass](https://github.com/deeplethe/solid-glass)** · GitHub
+  - 為什麼爆紅：針對 AI 應用場景設計，填補了目前 UI/UX 在對應大語言模型非確定性輸出的視覺需求空缺。
+  - 架構亮點：強調物理性與觸感表現，透過類玻璃擬態設計（Glassmorphism）與高度互動化的元件庫來模擬數位實體體驗。
+  - 安全風險：未見明顯風險
+
+- **[chenglou/handwired](https://github.com/chenglou/handwired)** · GitHub
+  - 為什麼爆紅：將傳統 JavaScript 程式碼轉換為神經網路的創意概念，具備極強的技術噱頭與實驗性質，引發開發者社群對於 AI 編譯技術的好奇。
+  - 架構亮點：嘗試將計算圖映射至神經網路權重，透過將程式執行邏輯轉化為可訓練模型，挑戰傳統直譯器運作方式。
+  - 安全風險：此類工具產出的模型可能存在不可解釋性與不穩定行為，在關鍵任務中使用可能導致非預期的邏輯錯誤或漏洞。
+
+- **[LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV)** · GitHub
+  - 為什麼爆紅：簡化了影視站架設流程，透過 Docker 實現一鍵部署，滿足了個人媒體中心愛好者的剛性需求。
+  - 架構亮點：採用容器化部署架構，降低了跨平台配置難度，並透過高效的影音流處理技術提升運行效率。
+  - 安全風險：影視站架設常涉及版權法規風險，且公開部署若無安全防護，極易成為惡意流量攻擊與未授權內容散播的溫床。
+
+- **[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** · GitHub
+  - 為什麼爆紅：作為 Anthropic 官方推出的外掛目錄，直接解決了開發者尋找高品質 Claude Code 擴充工具的需求，具備極高的平台背書效應。
+  - 架構亮點：資料不足
+  - 安全風險：外掛生態系可能引入惡意程式碼，若缺乏嚴格的代碼審核機制，插件可能導致敏感數據洩漏或授權範圍過大。
+
 ## 2026-10-16
 
 - **[Muse Spark Open](https://research.meta.ai/blog/muse-spark-open)** · HN
