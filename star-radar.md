@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-18
+
+- **[DeepSeek-v4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)** · HN
+  - 為什麼爆紅：DeepSeek 系列模型在低延遲與高推理效能間取得平衡，引發開發者對高效能模型的關注。
+  - 架構亮點：資料不足，目前僅知為 Flash 系列模型，側重於參數優化與推理速度提升。
+  - 安全風險：AI 模型輸出可能存在幻覺，或被用於生成誤導性內容，需審慎評估安全性。
+
+- **[zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar)** · GitHub
+  - 為什麼爆紅：AI 領域術語迭代過快，該工具能比傳統 SEO 工具更早捕捉新模型與產品名稱。
+  - 架構亮點：基於 Python 的自動化爬蟲與多源資料聚合器，針對 X、Hugging Face 等進行實時監控。
+  - 安全風險：頻繁爬取各社交平台可能導致 IP 被封禁，且資料源若未過濾可能包含雜訊。
+
+- **[Caho1/open-claude-ui](https://github.com/Caho1/open-claude-ui)** · GitHub
+  - 為什麼爆紅：透過深度逆向工程實現對頂尖 AI 產品 UI 的高精度像素級還原，極具觀賞與技術借鑑價值。
+  - 架構亮點：採用 React 元件化開發，包含 8 項複雜的物理交互算法與逆向分析數據。
+  - 安全風險：未見明顯風險，但其 UI 邏輯可能被用於製作高仿真釣魚網站。
+
+- **[Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc)** · GitHub
+  - 為什麼爆紅：將索尼獨佔遊戲強行移植至 Windows 原生運行，極具技術挑戰性與稀缺價值。
+  - 架構亮點：利用 C++ 進行底層圖形 API 轉譯與記憶體映射，實現跨平台運行模擬。
+  - 安全風險：涉及版權繞過與軟體逆向工程，可能面臨嚴重的法律侵權與平台下架風險。
+
+- **[cursor/plugins](https://github.com/cursor/plugins)** · GitHub
+  - 為什麼爆紅：Cursor 作為 AI 程式編輯器龍頭，官方開放插件架構吸引開發者構建生態系。
+  - 架構亮點：基於 TypeScript 的插件規範與介面定義，整合 AI 上下文感知能力。
+  - 安全風險：第三方插件若未嚴格審核，可能導致代碼隱私外洩或執行惡意攻擊指令。
+
+- **[hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)** · GitHub
+  - 為什麼爆紅：解決了主流網盤限制非會員下載速度或必須安裝客戶端的痛點，提供直鏈解析功能。
+  - 架構亮點：基於 JavaScript 的腳本化架構，透過逆向網盤 API 獲取下載位址。
+  - 安全風險：可能違反網盤服務條款，且解析工具存在被植入惡意腳本或收集用戶 Cookie 的風險。
+
 ## 2026-10-17
 
 - **[feder-cr/git-ai](https://github.com/feder-cr/git-ai)** · GitHub
