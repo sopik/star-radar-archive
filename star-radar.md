@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-19
+
+- **[ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames)** · GitHub
+  - 為什麼爆紅：滿足 macOS 用戶對原生遊戲效能的需求，填補了 Apple Silicon 生態中原生遊戲資源稀缺的市場缺口。
+  - 架構亮點：資料不足
+  - 安全風險：若涉及破解版或未經授權的移植程式，存在惡意軟體注入或違反軟體授權條款的風險。
+
+- **[Gathin23/tv-vibehack](https://github.com/Gathin23/tv-vibehack)** · GitHub
+  - 為什麼爆紅：解決了 Android TV 廣告過多與效能低落的普遍痛點，並結合 AI 開發趨勢，門檻低且具立竿見影的去廣告效果。
+  - 架構亮點：透過 ADB 協議與系統交互，移除 Bloatware 並替換桌面啟動器，架構簡練。
+  - 安全風險：透過 ADB 修改系統層級應用可能導致設備不穩定，甚至導致保固失效或無法接收 OTA 更新。
+
+- **[android/skills](https://github.com/android/skills)** · GitHub
+  - 為什麼爆紅：來自 Google Android 官方 repo，且「skills」命名暗示其與當前火熱的 Agentic AI 能力集密切相關。
+  - 架構亮點：資料不足
+  - 安全風險：資料不足
+
+- **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)** · GitHub
+  - 為什麼爆紅：解決了不同 AI Coding Agent 之間無法傳遞情境與狀態的痛點，實現跨工具的記憶共享與工作流銜接。
+  - 架構亮點：以 Rust 編寫，強調記憶持久化與跨 Vendor 的狀態標準化接口，提升 Agent 協作效率。
+  - 安全風險：記憶池可能包含機敏代碼片段，若儲存層未加密或權限控管不當，存在數據外洩風險。
+
+- **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)** · GitHub
+  - 為什麼爆紅：開發者對 AI 生成內容（AI slop）氾濫感到厭倦，此專案提供了一種「反 AI 設計」的規格與實作，回應了品質焦慮。
+  - 架構亮點：針對主流代碼輔助工具（Claude Code, Cursor）設計的 UI/UX 約束與視覺濾鏡。
+  - 安全風險：未見明顯風險
+
+- **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)** · GitHub
+  - 為什麼爆紅：企業級安全審計需求高，且該工具提供機器可讀的驗證結果，能大幅降低人工審查門檻。
+  - 架構亮點：具備多階段審計流程設計，並結合獨立驗證機制，專為 AI Agent 執行安全測試開發。
+  - 安全風險：若 Agent 的審計邏輯被注入惡意路徑，可能引發誤導性報告或錯誤的安全配置建議。
+
 ## 2026-10-18
 
 - **[DeepSeek-v4.1-Flash-1017](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)** · HN
