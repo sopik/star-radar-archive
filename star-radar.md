@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-20
+
+- **[Wine ported to OpenBSD](https://marc.info/?l=openbsd-ports&m=179236125692175)** · HN · HN 新聞
+  - 為什麼爆紅：OpenBSD 以極致安全性與 BSD 許可證聞名，Wine 的移植擴展了其在非 Linux 環境下運行 Windows 程式的應用場景。
+  - 架構亮點：將 Wine 的 Win32 API 轉換層移植至 OpenBSD 環境，需克服核心層 API 對接與 BSD 記憶體管理差異。
+  - 安全風險：在 OpenBSD 高安全特性的系統中運行 Windows 軟體，可能引入 Windows 原生的惡意程式漏洞與攻擊面。
+
+- **[xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)** · GitHub · 其他
+  - 為什麼爆紅：精準對標中國中小學教育教材，透過知識圖譜進行結構化教學診斷，精確打中學科教育市場對個性化學習工具的需求。
+  - 架構亮點：建構具備 531 個節點與 2271 題庫的關聯知識圖譜，結合診斷演算法實現學習路徑推薦，具有明確的教育領域邏輯。
+  - 安全風險：未見明顯風險
+
+- **[Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)** · GitHub · AI Agent
+  - 為什麼爆紅：滿足開發者對多模態 AI 代理（Agent）的新需求，賦予 AI 監聽與辨識聲音的能力，進一步擴展自動化程式設計的情境。
+  - 架構亮點：專注於 CPU 運作的輕量化音訊處理與分析引擎，設計上強調與 AI Agent 的互動串接，無需依賴 GPU 資源。
+  - 安全風險：持續監聽環境音訊涉及隱私疑慮，且若權限控管不當，可能被惡意程式攔截或濫用裝置麥克風數據。
+
+- **[Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)** · GitHub · 其他
+  - 為什麼爆紅：解決 Android TV 系統內建廣告與臃腫軟體（Bloatware）的痛點，透過 Wi-Fi 即可移除不必要程式，極具實用性與破壞性。
+  - 架構亮點：利用 ADB (Android Debug Bridge) over Wi-Fi 協議，遠端與 Android 系統通訊並調用 shell 指令進行套件管理與停用。
+  - 安全風險：誤刪系統核心服務可能導致電視無法開機或功能異常，且需在裝置開啟除錯模式，若網路環境不安全有被惡意連線風險。
+
+- **[mlabonne/llm-course](https://github.com/mlabonne/llm-course)** · GitHub · 其他
+  - 為什麼爆紅：系統性彙整 LLM 開發知識，涵蓋從基礎模型到微調、RLHF 等進階實作，符合開發者向 AI 領域轉型的迫切需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)** · GitHub · 其他
+  - 為什麼爆紅：提供視覺化節點介面，將複雜的 Stable Diffusion 推理流程模組化，降低技術門檻且效能優異，成為生成式 AI 工作流的核心工具。
+  - 架構亮點：採用基於圖（Graph）的節點式編排架構，支援異步執行與顯存優化，是目前最模組化且具高度擴展性的本地推理後端。
+  - 安全風險：因支援從外部載入自定義節點與腳本，若來源不明可能執行惡意 Python 代碼，建議審核擴充套件來源。
+
 ## 2026-10-19
 
 - **[ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames)** · GitHub · 其他
