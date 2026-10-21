@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-21
+
+- **[simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)** · GitHub · 其他
+  - 為什麼爆紅：解決了 Google TV 原生介面充斥廣告的問題，且標榜由 AI 輔助開發，吸引追求乾淨介面與技術趨勢的用戶。
+  - 架構亮點：基於 Java 開發，針對 Android TV/Google TV 架構進行輕量化介面處理，具備快速還原機制。
+  - 安全風險：繞過系統預設啟動器可能違反平台服務條款，亦存在系統相容性導致設備鎖定或無法啟動之風險。
+
+- **[DeepInfer: High-performance inference framework for DeepSeek models](https://github.com/deepseek-ai/DeepInfer)** · HN · HN 新聞
+  - 為什麼爆紅：因 DeepSeek 模型市場佔有率提升，官方推出的高效推理框架能直接解決部署時的效能瓶頸，引發社群熱議。
+  - 架構亮點：高效能計算架構，優化了大規模模型部署下的記憶體使用與推理延遲，支援 DeepSeek 專屬最佳化。
+  - 安全風險：未見明顯風險
+
+- **[withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)** · GitHub · 其他
+  - 為什麼爆紅：在開源領域提供系統化的分類架構，有助於開發者與研究人員對複雜系統或生態進行標準化命名與組織。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer)** · GitHub · 其他
+  - 為什麼爆紅：由 DeepSeek 原廠開發，針對自家模型進行底層優化，能顯著提升推理效率與擴展性，獲得開發者廣泛關注。
+  - 架構亮點：專為 DeepSeek 系列模型設計的高效能推理引擎，針對模型權重與架構進行了深度的計算優化與平行處理。
+  - 安全風險：未見明顯風險
+
+- **[shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)** · GitHub · 其他
+  - 為什麼爆紅：專注於金融市場領域的基礎模型，填補了通用 LLM 在專業金融數據理解與分析上的空白。
+  - 架構亮點：專為金融語境優化的基礎模型架構，預計針對高頻交易數據或金融報表結構進行了特定訓練。
+  - 安全風險：若模型輸出具誤導性金融建議，可能引發監管問題；模型若遭逆向工程，可能暴露敏感市場訓練數據。
+
+- **[Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)** · GitHub · 其他
+  - 為什麼爆紅：提供無需註冊、免 API Key 且無限量的頂尖模型（如 DeepSeek V4.1、Kimi K3）存取，直接滿足用戶對免費 AI 資源的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：可能涉及非法破解或竊取第三方模型服務商的 API 請求，存在帳號被封鎖風險，亦有隱私外洩隱憂。
+
 ## 2026-10-20
 
 - **[Wine ported to OpenBSD](https://marc.info/?l=openbsd-ports&m=179236125692175)** · HN · HN 新聞
