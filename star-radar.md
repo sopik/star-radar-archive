@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-22
+
+- **[OpenMOSS/MOSS-Image](https://github.com/OpenMOSS/MOSS-Image)** · GitHub · 其他
+  - 為什麼爆紅：具備強大的文字渲染與佈局生成能力，且僅有 5B 參數，極低硬體需求即可進行高效微調。
+  - 架構亮點：採用 DiT (Diffusion Transformer) 架構，針對高質量文字生成與版面控制進行了特殊優化。
+  - 安全風險：模型可能被濫用於生成深度偽造（Deepfake）、假冒證件或惡意欺騙性的廣告圖文。
+
+- **[JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts)** · GitHub · 其他
+  - 為什麼爆紅：這是一套針對「逆向工程」的提示詞集，降低了理解與拆解複雜軟體原始碼的技術門檻，對開發者具高度吸引力。
+  - 架構亮點：資料不足
+  - 安全風險：這類工具可能被惡意利用於分析程式漏洞、繞過軟體保護措施或進行惡意逆向工程（軟體盜版）。
+
+- **[pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv)** · GitHub · 其他
+  - 為什麼爆紅：針對中國市場電視軟體廣告氾濫、操作體驗差的痛點，提供簡潔、仿 tvOS 的替代方案，切中用戶情緒。
+  - 架構亮點：基於 Android 系統架構，實現了對系統桌面的攔截與替換，優化了啟動順序與權限控制。
+  - 安全風險：涉及替換核心桌面應用，可能觸發廠商韌體機制，且未經授權的修改可能影響系統穩定性或被偵測為非法操作。
+
+- **[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)** · GitHub · AI Agent
+  - 為什麼爆紅：針對 AI Agent 行為不可控的痛點，提供快速稽核方案，解決了企業導入 Agent 時的信任與合規疑慮。
+  - 架構亮點：資料不足
+  - 安全風險：稽核邏輯若被 Agent 繞過或誘導（Prompt Injection），可能導致誤判代理人的安全性。
+
+- **[ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search)** · GitHub · Skills / Claude
+  - 為什麼爆紅：結合自動化求職與 Claude Code，精準打中求職者想要「一鍵客製化」履歷與自動應徵的強烈需求。
+  - 架構亮點：基於 Claude Code 框架，利用本機 AI 進行職缺分析、履歷編寫與面試準備，實現本地端的自動化流程。
+  - 安全風險：風險包含個人隱私外洩（履歷上傳至 API）、自動化應徵產生的詐騙過濾難度，以及帳號被求職平台封鎖。
+
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** · GitHub · 其他
+  - 為什麼爆紅：解決了大型語言模型推理時的顯存碎片化問題，顯著提升吞吐量並降低延遲，成為部署開源模型的標配引擎。
+  - 架構亮點：核心技術為 PagedAttention，透過類似作業系統虛擬記憶體管理的方式，動態管理 KV 快取以消除顯存浪費。
+  - 安全風險：未見明顯風險，主要需注意在處理敏感輸入時的資料隔離與系統負載壓力測試。
+
 ## 2026-10-21
 
 - **[simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)** · GitHub · 其他
