@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-23
+
+- **[eMudhra to exit global SSL/TLS certificate business](https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business)** · HN · HN 新聞
+  - 為什麼爆紅：SSL/TLS 憑證市場變動影響全球網站信任鏈與資安合規，引起業界對供應鏈安全與市佔集中的廣泛關注。
+  - 架構亮點：資料不足
+  - 安全風險：憑證簽發機構退出市場可能導致客戶遷移混亂，若憑證更換不當可能造成服務中斷或加密通信失效風險。
+
+- **[Quad9 (DNS Resolver) to Exit France](https://quad9.net/news/blog/au-revoir-france/)** · HN · HN 新聞
+  - 為什麼爆紅：觸及 DNS 審查與網路主權的敏感議題，影響公眾對於公共基礎設施安全及中立性的討論。
+  - 架構亮點：資料不足
+  - 安全風險：Quad9 的撤離可能迫使法國用戶轉向監管更嚴格的 DNS 供應商，導致網路隱私保護等級下降。
+
+- **[alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion)** · GitHub · AI Agent
+  - 為什麼爆紅：結合 AI Agent 自動化影片製作與「指針式」即時修改功能，大幅降低商用影片拍攝與後製的門檻與成本。
+  - 架構亮點：資料不足
+  - 安全風險：可能被用於大規模生產 Deepfake 內容或欺騙性行銷素材，存在濫用 AI 生成技術進行詐騙的潛在風險。
+
+- **[ikow/php2shell-poc](https://github.com/ikow/php2shell-poc)** · GitHub · 資安
+  - 為什麼爆紅：提供針對 CVE-2026-109618/109619 的完整 RCE 鏈漏洞證明，對於資安研究員與滲透測試者極具參考價值。
+  - 架構亮點：利用 PHP session.upload_progress 特性結合預認證攻擊鏈，提供針對性檢測規則，展示了漏洞利用的完整邏輯。
+  - 安全風險：該專案包含高風險的攻擊向量代碼，若被惡意使用者利用，將導致大量未修補的 PHP 伺服器遭受遠端代碼執行攻擊。
+
+- **[tek-sys-hub/Rubix-lang](https://github.com/tek-sys-hub/Rubix-lang)** · GitHub · 其他
+  - 為什麼爆紅：以純 x86-64 Assembly 開發系統級語言具有極高的技術挑戰性與稀缺性，吸引底層架構愛好者關注。
+  - 架構亮點：資料不足
+  - 安全風險：直接操作底層記憶體與暫存器，極易產生記憶體毀損或緩衝區溢位漏洞，且缺乏現代語言的安全抽象層。
+
+- **[twentyhq/twenty](https://github.com/twentyhq/twenty)** · GitHub · AI Agent
+  - 為什麼爆紅：CRM 領域長期被 Salesforce 壟斷，開發者渴望開源、高可自定義且原生整合 AI 的現代化替代方案。
+  - 架構亮點：基於 TypeScript 的模組化架構，強調對數據結構的彈性擴充，並針對 AI 代理自動化工作流進行深度優化。
+  - 安全風險：因涉及大量商業客戶數據，若缺乏完善的權限控制與稽核機制，自託管版本可能面臨資料外洩風險。
+
 ## 2026-10-22
 
 - **[OpenMOSS/MOSS-Image](https://github.com/OpenMOSS/MOSS-Image)** · GitHub · 其他
