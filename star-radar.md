@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-24
+
+- **[Local Wikipedia: Wikipedia, but only for things a half hour walk from you](https://edjefferson.com/localwiki/)** · HN · HN 新聞
+  - 為什麼爆紅：將大規模地理資訊進行鄰里級的在地化篩選，切中人們對「身邊知識」的好奇心與地理脈絡重構的心理需求。
+  - 架構亮點：資料不足
+  - 安全風險：若在地化地理資料過於精確，可能導致使用者隱私洩漏（如特定住址周邊細節），存在地理空間數據的濫用風險。
+
+- **[Ansub/tv-detox](https://github.com/Ansub/tv-detox)** · GitHub · 其他
+  - 為什麼爆紅：資料不足
+  - 架構亮點：採用 Java 開發，利用 ADB 執行指令清理無用套件，並整合 AI 指引協助使用者自動化識別與卸載冗餘程序。
+  - 安全風險：自動化清理若未經嚴格白名單過濾，可能誤刪系統核心組件導致裝置功能失效或出現無限重啟。
+
+- **[humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv)** · GitHub · 其他
+  - 為什麼爆紅：Fire TV 用戶對過多廣告與臃腫內建系統感到厭煩，此工具提供無需 Root 的輕量化解決方案，符合使用者對隱私與效能的剛需。
+  - 架構亮點：透過 ADB (Android Debug Bridge) 介面進行遠端應用管理，以開源 Launcher 取代原廠 UI，達到阻擋追蹤與移除臃腫軟體效果。
+  - 安全風險：濫用 ADB 權限可能導致系統不穩；若移除核心系統組件可能導致裝置變磚，且安全性取決於所安裝的替代 Launcher。
+
+- **[EthanArbuckle/fairplay-decrypt](https://github.com/EthanArbuckle/fairplay-decrypt)** · GitHub · 其他
+  - 為什麼爆紅：實現了蘋果 FairPlay DRM 機制的離線解密，觸及逆向工程與數位內容存取領域的敏感議題，引發高度關注。
+  - 架構亮點：採用獨立金鑰推導技術，不需依賴蘋果伺服器在線驗證，達成完全離線的 IPA 解密。
+  - 安全風險：涉及規避數位版權保護機制（DRM），有嚴重的法律侵權風險，且此類工具可能被用於散佈遭竄改的惡意 App。
+
+- **[luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)** · GitHub · Skills / Claude
+  - 為什麼爆紅：開發者對 Claude Code 等 AI 編程代理工具需求激增，該專案提供實戰性強的範本與視覺化教學，縮短學習曲線。
+  - 架構亮點：資料不足
+  - 安全風險：未經審核的 Prompt 範本可能導致 AI 產出帶有漏洞的程式碼，或在代理執行階段誤刪敏感檔案。
+
+- **[fastapi/fastapi](https://github.com/fastapi/fastapi)** · GitHub · 其他
+  - 為什麼爆紅：Python 生態系中非同步處理與型別提示的標準方案，大幅降低 API 開發與維運門檻，具備高度穩定性與成熟社群支援。
+  - 架構亮點：基於 Starlette 與 Pydantic，利用 Python 3.6+ 的 type hints 進行自動資料驗證與 OpenAPI 文件生成，效能逼近 NodeJS 與 Go。
+  - 安全風險：若未正確配置 Pydantic 模型或依賴注入，易引發輸入驗證繞過；自動生成的文件頁面若未設定權限恐洩漏 API 端點資訊。
+
 ## 2026-10-23
 
 - **[eMudhra to exit global SSL/TLS certificate business](https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business)** · HN · HN 新聞
