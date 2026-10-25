@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-25
+
+- **[9bie/php2shell-bypass-aslr-exp](https://github.com/9bie/php2shell-bypass-aslr-exp)** · GitHub · 資安
+  - 為什麼爆紅：針對 PHP 的安全漏洞進行攻防研究，因其能繞過 ASLR 防護機制，引起資安研究人員高度關注。
+  - 架構亮點：利用 PHP 記憶體管理漏洞，精確計算位移以繞過記憶體隨機化保護，實現遠端執行代碼。
+  - 安全風險：高度危險。此為明確的攻擊工具，可被用於惡意攻擊未更新的 PHP 伺服器，屬高風險資安威脅。
+
+- **[wesbos/3d-model-anything](https://github.com/wesbos/3d-model-anything)** · GitHub · 其他
+  - 為什麼爆紅：結合 LiDAR 硬體與 Three.js 網頁渲染，降低 3D 空間建模與展示的門檻，符合 XR 應用趨勢。
+  - 架構亮點：整合 iPhone LiDAR 掃描數據，透過自動化流水線將原始資料轉化為 Web 可用的 Three.js 格式。
+  - 安全風險：未見明顯風險
+
+- **[xevrion/hatchzip](https://github.com/xevrion/hatchzip)** · GitHub · 其他
+  - 為什麼爆紅：解決了大型壓縮檔解壓縮時對硬碟空間需求過大的痛點，實用性極高且效能表現優秀。
+  - 架構亮點：利用 Rust 高效記憶體管理，採原地解壓縮技術（in-place），即時縮減原始封存檔容量。
+  - 安全風險：解壓縮過程中的檔案替換或惡意檔案構造可能引發路徑穿越攻擊，需確認處理邏輯安全性。
+
+- **[vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils)** · GitHub · 其他
+  - 為什麼爆紅：提供 macOS 選單列實用工具，解決了特定系統介面整合的技術痛點，吸引尋求生產力增強的用戶。
+  - 架構亮點：資料不足
+  - 安全風險：作為系統層級輔助工具，需注意讀取螢幕或鍵盤輸入等隱私數據的權限濫用風險。
+
+- **[php/php-src](https://github.com/php/php-src)** · GitHub · 其他
+  - 為什麼爆紅：Web 開發的基石之一，儘管有新興語言競爭，其穩定性與龐大的 legacy 系統維護需求仍維持高熱度。
+  - 架構亮點：底層由 C 語言編寫，採用 Zend Engine 進行字節碼編譯與執行，支援豐富的擴充模組。
+  - 安全風險：容易遭受注入攻擊（SQLi、XSS），且處理不當的配置易導致伺服器遠端執行風險。
+
+- **[nodejs/node](https://github.com/nodejs/node)** · GitHub · 其他
+  - 為什麼爆紅：作為全球最普及的 JavaScript 執行環境，其龐大的開發者基數與持續的生態更新使其長期維持高關注度。
+  - 架構亮點：基於 V8 引擎與 libuv 非同步 I/O 模型，實現高效的事件驅動架構。
+  - 安全風險：因其廣泛應用於後端，常見依賴套件漏洞（供應鏈攻擊）與遠端代碼執行（RCE）風險。
+
 ## 2026-10-24
 
 - **[Local Wikipedia: Wikipedia, but only for things a half hour walk from you](https://edjefferson.com/localwiki/)** · HN · HN 新聞
