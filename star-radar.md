@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-26
+
+- **[oosexgang/hackios-xnu-kernel](https://github.com/oosexgang/hackios-xnu-kernel)** · GitHub · 其他
+  - 為什麼爆紅：XNU 核心研究通常涉及蘋果系統的底層修改或越獄潛力，對安全研究員與系統駭客具有極高的吸引力。
+  - 架構亮點：資料不足
+  - 安全風險：涉及蘋果系統底層核心，該項目可能包含漏洞利用程式碼，若濫用可能導致系統安全性崩潰。
+
+- **[Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill)** · GitHub · Skills / Claude
+  - 為什麼爆紅：將 Claude 模型應用於金融交易模擬與分析，切中投資者渴望利用 AI 進行自動化市場掃描與決策的需求。
+  - 架構亮點：整合 Python 框架串接 Claude API，建立自動化圖表掃描、新聞情緒分析與交易策略回測的流水線。
+  - 安全風險：AI 自動化交易決策可能因模型幻覺導致巨大的金融虧損；API 傳輸財務敏感資訊存在隱私風險。
+
+- **[JustAResearcher/gpu-unlock-ada](https://github.com/JustAResearcher/gpu-unlock-ada)** · GitHub · 其他
+  - 為什麼爆紅：打破原廠硬體鎖定限制，允許用戶以低成本解鎖高階顯示卡性能，直接觸及挖礦與高性能計算愛好者的需求。
+  - 架構亮點：針對 NVIDIA Ada Lovelace 架構，透過韌體層面的逆向工程與修改，繞過 GPU 張量計算的限制。
+  - 安全風險：修改韌體極可能導致硬體損毀、失去保固，且此類第三方韌體易植入後門或挖礦木馬。
+
+- **[baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)** · GitHub · 其他
+  - 為什麼爆紅：強調「長視距解析」與 One-shot 特性，解決了目前 OCR 模型在長文檔或複雜頁面解析能力不足的技術痛點。
+  - 架構亮點：採用 One-shot 長視距解析架構，優化了對長篇幅、多頁面文檔的識別效率與準確度。
+  - 安全風險：未見明顯風險
+
+- **[jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest)** · GitHub · 其他
+  - 為什麼爆紅：聚合了多個付費閱讀平台的下載資源，滿足了用戶免費獲取各類知識內容的需求，具有高傳播性的盜版資源特性。
+  - 架構亮點：資料不足
+  - 安全風險：涉及侵犯版權的內容分發，存在觸犯著作權法的風險；下載包可能夾帶惡意軟體或追蹤連結。
+
+- **[google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)** · GitHub · AI Agent
+  - 為什麼爆紅：開發者對將 LLM 直接整合至工作流（Terminal）有高度需求，此工具能直接調用 Gemini 接口，降低了 AI 輔助開發的門檻。
+  - 架構亮點：使用 TypeScript 開發，專注於 CLI 互動介面與 API 封裝，實現輕量化且高效的 AI 代理對話邏輯。
+  - 安全風險：若 API Key 未妥善存放或處理不當，可能導致帳單異常增加或遭惡意第三方竊取使用額度。
+
 ## 2026-10-25
 
 - **[9bie/php2shell-bypass-aslr-exp](https://github.com/9bie/php2shell-bypass-aslr-exp)** · GitHub · 資安
