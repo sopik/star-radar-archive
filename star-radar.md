@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-27
+
+- **[Anthropic S-1](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm)** · HN · HN 新聞
+  - 為什麼爆紅：Anthropic 作為 OpenAI 的核心競對，其 S-1 上市申請文件揭露了真實財務數據、技術投入與商業模型，引發市場高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：涉及大規模 AI 基礎設施，文件揭露的安全性漏洞、供應鏈依賴及資料隱私政策將是市場與監管部門檢視的核心點。
+
+- **[t3dotgg/tstack](https://github.com/t3dotgg/tstack)** · GitHub · Skills / Claude
+  - 為什麼爆紅：由知名開發者 T3 釋出的開發工具庫，對追求效率的 AI 編碼生態圈具有指標性意義，易引發跟風與社群模仿。
+  - 架構亮點：針對 Claude Code 與 Codex 優化的 Agent 技能庫，封裝了日常開發中高度重覆的指令操作與自動化流程。
+  - 安全風險：若使用的 Agent 權限配置過高，且腳本包含執行外部程式碼的邏輯，可能因路徑注入或惡意指令導致本機環境受損。
+
+- **[designfuchen/word-atlas](https://github.com/designfuchen/word-atlas)** · GitHub · 其他
+  - 為什麼爆紅：結合高品質視覺化教材與科學化的 FSRS 複習演算法，滿足了語言學習者對於高效記憶工具與開源資料集的需求。
+  - 架構亮點：採用 TypeScript 開發，整合 FSRS（自由間隔重複調度系統）演算法進行記憶優化，並提供結構化的開源詞彙資料集。
+  - 安全風險：未見明顯風險。
+
+- **[rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner)** · GitHub · 其他
+  - 為什麼爆紅：直擊用戶對國產 Android 系統廣告氾濫的痛點，強調「無需 Root」且具備 AI 自動化執行能力，門檻極低且痛點明確。
+  - 架構亮點：利用 Android 輔助功能或標準化 ADB 指令進行系統級清理，整合 AI 智能體進行自動化的配置與腳本執行。
+  - 安全風險：該工具需要獲取系統輔助功能權限，若來源不明可能存在隱私洩漏、截取螢幕資訊或執行惡意系統指令的風險。
+
+- **[AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)** · GitHub · AI Agent
+  - 為什麼爆紅：結合 AI 代理（Agent）自動化複雜的 SEO 工作流，大幅提升內容優化與技術 SEO 的效率，符合當前 AI 工作自動化趨勢。
+  - 架構亮點：模組化設計，涵蓋 26 種子技能與 19 個專用代理，支援 WebMCP、Lighthouse 代理瀏覽與 llms.txt 等前沿 AI 工具協議。
+  - 安全風險：過度依賴 AI 生成的策略可能導致搜尋引擎判定為垃圾內容（Spam），若串接 API 金鑰不慎恐導致費用異常支出。
+
+- **[coollabsio/coolify](https://github.com/coollabsio/coolify)** · GitHub · 資安
+  - 為什麼爆紅：提供免費且開源的 PaaS 替代方案，解決開發者長期以來對 Heroku 與 Vercel 高額託管成本及鎖定效應的痛點。
+  - 架構亮點：基於 Docker 的自託管架構，整合自動化部署流程與 360+ 種一鍵部署模板，具備靈活的伺服器資源管理能力。
+  - 安全風險：因屬於自託管基礎設施，若用戶未妥善配置伺服器防火牆或更新系統，將導致潛在的遠端攻擊面擴大。
+
 ## 2026-10-26
 
 - **[oosexgang/hackios-xnu-kernel](https://github.com/oosexgang/hackios-xnu-kernel)** · GitHub · 其他
