@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-28
+
+- **[Ghostty 1.4](https://ghostty.org/docs/install/release-notes/1-4-0)** · HN · HN 新聞
+  - 為什麼爆紅：Ghostty 作為效能指標性終端機，1.4 版本更新帶來的穩定性改進與功能補全，深受高階用戶關注。
+  - 架構亮點：深度優化 GPU 加速渲染，採用 Zig 語言編寫，強調跨平台相容性與輕量級配置。
+  - 安全風險：未見明顯風險。
+
+- **[morganlinton/BeautifulRust](https://github.com/morganlinton/BeautifulRust)** · GitHub · AI Agent
+  - 為什麼爆紅：精準切入開發者 Agent 生態，透過專屬 Clippy 設定與 Rust 慣用語訓練，解決了 AI 生成代碼常見的語法與效能缺陷。
+  - 架構亮點：專為 IDE Agent (Cursor/Copilot) 設計，包含測試過的 Clippy 配置與語言規範，旨在提升 AI 生成 Rust 代碼的品質。
+  - 安全風險：未見明顯風險，但需確保引用的外部 Rust 依賴庫來源可靠，避免供應鏈攻擊。
+
+- **[DLSS-5-Swaper-New/.github](https://github.com/DLSS-5-Swaper-New/.github)** · GitHub · 其他
+  - 為什麼爆紅：利用遊戲玩家對於「DLSS 技術提升效能」的熱衷，偽裝成 DLL 切換工具以吸引尋求捷徑的遊戲玩家下載。
+  - 架構亮點：資料不足。
+  - 安全風險：極高。此類「DLSS 替換工具」常被用作木馬程式載體，透過修改系統執行檔注入惡意程式，具備高風險隱患。
+
+- **[unclebob/ub-mode](https://github.com/unclebob/ub-mode)** · GitHub · 其他
+  - 為什麼爆紅：Robert C. Martin (Uncle Bob) 的個人品牌效應，開發者社群對其程式碼風格與架構哲學有高度追隨與討論意願。
+  - 架構亮點：資料不足。
+  - 安全風險：未見明顯風險。
+
+- **[alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)** · GitHub · Skills / Claude
+  - 為什麼爆紅：將「文字生成設計」的工作流標準化，提供可編輯的 PPTX 與網頁原型輸出，極大降低了非設計專業者的交付門檻。
+  - 架構亮點：採用 HTML-native 設計範式，針對 Claude Code 等 AI 編碼工具優化，支援 84 種風格庫並具備設計體檢分析功能。
+  - 安全風險：AI 產出物可能包含惡意 HTML/JavaScript，若直接部署於公開環境，可能存在跨站腳本（XSS）攻擊風險。
+
+- **[gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)** · GitHub · AI Agent
+  - 為什麼爆紅：解決了自媒體運營者在多平台發佈、排程的痛點，結合 AI Agent 自動化能力，直接命中開源開發者與營運人員的剛需。
+  - 架構亮點：基於 TypeScript 開發，採用 Agent 架構處理跨平台 API 交互與排程邏輯，整合社交平台自動化工作流。
+  - 安全風險：需串接多平台帳號 Token，若 Agent 配置不當或 API 金鑰洩漏，恐導致社群帳號被惡意劫持或濫發垃圾訊息。
+
 ## 2026-10-27
 
 - **[Anthropic S-1](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm)** · HN · HN 新聞
