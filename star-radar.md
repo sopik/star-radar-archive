@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-29
+
+- **[enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing)** · GitHub · 其他
+  - 為什麼爆紅：Apple 設計美學在 UI 界具備極高影響力，此專案將複雜的視覺風格封裝為易用工具，極大降低了設計師實現「維度感」UI 的難度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh)** · GitHub · 其他
+  - 為什麼爆紅：解決了中文用戶在使用 AI 繪圖工具時，因語言隔閡難以搜尋精準姿態參考的痛點，結合零依賴靜態頁面優勢，傳播門檻極低。
+  - 架構亮點：採用 HTML 靜態網頁架構，強調「零依賴」部署，具備極高的載入速度與環境兼容性，適合離線瀏覽與本地端建置。
+  - 安全風險：未見明顯風險
+
+- **[interplains/Zero-Breach-Toolkit](https://github.com/interplains/Zero-Breach-Toolkit)** · GitHub · 其他
+  - 為什麼爆紅：當前針對商業間諜軟體的檢測門檻過高，本專案提供跨平台的離線免費方案，精準回應了高安全需求用戶對隱私保護的迫切需求。
+  - 架構亮點：支援 Windows、macOS、Linux 及行動裝置離線檢查，設計上強調減少對外部網路依賴以防止檢測資訊外洩。
+  - 安全風險：若檢測邏輯過時或偽陽性高，可能導致用戶產生錯誤的安全感；亦有被偽裝成工具的惡意軟體仿冒之風險。
+
+- **[elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)** · GitHub · Skills / Claude
+  - 為什麼爆紅：AI 設計領域缺乏標準化技能樹，此專案填補了設計師在轉型 AI 工作流過程中的知識架構空白，滿足了行業技能轉移的焦慮。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[xai-org/grok-build](https://github.com/xai-org/grok-build)** · GitHub · AI Agent
+  - 為什麼爆紅：源自知名 AI 公司 xAI，結合 coding agent 與 TUI (終端機介面) 操作，符合開發者對高效、極客風格開發工具的強烈偏好。
+  - 架構亮點：以 Rust 編寫，強調模組化擴展性，提供全螢幕、滑鼠可互動的終端機環境，優化了開發流程的視覺與互動體驗。
+  - 安全風險：作為 coding agent，具備讀寫程式碼與執行權限，若遭惡意 prompt 注入，可能導致系統檔案被篡改或執行惡意指令。
+
+- **[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)** · GitHub · 其他
+  - 為什麼爆紅：結合「終身學習」概念與個人化 AI 輔導，解決了教育領域對適應性教學系統的長期需求，精確對接了市場對自主學習輔助工具的渴望。
+  - 架構亮點：資料不足
+  - 安全風險：涉及個人學習行為資料搜集，若缺乏嚴格的去識別化處理，可能存在隱私洩露及學生數據被長期剖析的資安風險。
+
 ## 2026-10-28
 
 - **[Ghostty 1.4](https://ghostty.org/docs/install/release-notes/1-4-0)** · HN · HN 新聞
