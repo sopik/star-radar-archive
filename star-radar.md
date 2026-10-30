@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-30
+
+- **[DenisSergeevitch/ex-ussr-kinship-research](https://github.com/DenisSergeevitch/ex-ussr-kinship-research)** · GitHub · AI Agent
+  - 為什麼爆紅：將 AI 代理技術應用於複雜的冷門史料挖掘，結合蘇聯時期解密檔案，對族譜研究及歷史愛好者具有高度實用價值。
+  - 架構亮點：基於 AI Agent 的知識庫檢索架構，專門針對教會、軍事及迫害記錄等非結構化歷史數據進行解析與翻譯。
+  - 安全風險：資料庫可能包含敏感的個人隱私或政治迫害數據，若被惡意利用可能導致資訊洩漏或身份冒用。
+
+- **[We're releasing the weights of Mistral Large 4](https://mistral.ai/news/mistral-large-4-oss/)** · HN · HN 新聞
+  - 為什麼爆紅：主流 AI 大廠開源大型模型權重，對開發者社群而言是推動在地化部署、微調研究與打破閉源壟斷的重大進展。
+  - 架構亮點：高性能大型語言模型（LLM）架構，針對大規模參數進行權重釋出，利於社區進行低資源損耗的微調研究。
+  - 安全風險：權重開源後，攻擊者可透過本地運行模型，移除原廠的安全對齊（Alignment），生成危險內容。
+
+- **[andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo)** · GitHub · Skills / Claude
+  - 為什麼爆紅：結合照片生成「數位真人」與「自動化影片製作」，提供高完成度的商用素材包，降低了內容創作的技術與時間門檻。
+  - 架構亮點：整合 Renoise MCP 生成、提供多種影音編輯風格，並具備可接入 AI Agent（Claude Code 等）的工作流程插件。
+  - 安全風險：該技術極易被用於製作 Deepfake 詐騙影片或傳播偽造的身份影像資訊。
+
+- **[Patrick Stewart has died](https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html)** · HN · HN 新聞
+  - 為什麼爆紅：公眾人物過世屬於高關注度的重大突發新聞，透過社群平台傳播極快，滿足大眾對名人動態的追蹤需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks)** · GitHub · 資安
+  - 為什麼爆紅：集中彙整針對 AI 模型的破解指令（Jailbreaks），滿足使用者想繞過內容審查、測試模型極限或進行逆向工程的好奇心與需求。
+  - 架構亮點：資料不足
+  - 安全風險：可能用於規避 AI 安全防護機制，引發生成有害、偏見或非法內容的潛在風險。
+
+- **[xiaolai/the-craft-of-selfteaching](https://github.com/xiaolai/the-craft-of-selfteaching)** · GitHub · 其他
+  - 為什麼爆紅：李笑來的高知名度帶動，內容強調「自學能力」作為生存核心競爭力，引發渴望提升職場或知識技能群體的強烈共鳴與轉發。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-10-29
 
 - **[enesozturk/dimensional-drawing](https://github.com/enesozturk/dimensional-drawing)** · GitHub · 其他
