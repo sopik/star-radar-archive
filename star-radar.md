@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-10-31
+
+- **[Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/)** · HN · HN 新聞
+  - 為什麼爆紅：報導知名擴充功能遭駭植入後門，引發開發者對 IDE 插件供應鏈安全性與代碼執行隱私的強烈擔憂。
+  - 架構亮點：資料不足
+  - 安全風險：供應鏈攻擊極具威脅，擴充功能一旦被篡改，可直接讀取開發者機密檔案、原始碼及 API 金鑰，造成全面性的資料外洩。
+
+- **[wangzan101/Mika](https://github.com/wangzan101/Mika)** · GitHub · AI Agent
+  - 為什麼爆紅：主打端側 AI Agent 自動操作 Android App 與網頁，將 AI 助理提升為具備執行力的自動化操作員，高度切中生產力應用需求。
+  - 架構亮點：基於 Kotlin 開發，深度集成 Android 無障礙服務（Accessibility Service）以實現跨 App UI 交互與自動化控制。
+  - 安全風險：需授予高權限的無障礙服務權限，若遭惡意利用，AI Agent 可竊取密碼、私密訊息或擅自進行金融操作。
+
+- **[valentderah/totk-pc-recomp](https://github.com/valentderah/totk-pc-recomp)** · GitHub · 其他
+  - 為什麼爆紅：將《薩爾達傳說》透過靜態重編譯直接運行於原生 Windows，效能遠超模擬器，吸引大量玩家與逆向工程愛好者。
+  - 架構亮點：使用靜態重編譯技術（Static Recompilation）將非原生指令轉換為 x86-64 機器碼，並配合 Vulkan 渲染。
+  - 安全風險：涉及專有軟體逆向工程，可能面臨法務風險；且未經審核的執行檔來源可能隱藏惡意軟體。
+
+- **[ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)** · GitHub · 其他
+  - 為什麼爆紅：標榜 DeepSeek 模型手機端部署且具備遠端遙控電腦功能，滿足輕量化運算與跨裝置協作的需求。
+  - 架構亮點：採用 Dart 開發，結合行動端推理引擎與遠端控制協定，實現低延遲的模型調用與指令傳輸機制。
+  - 安全風險：遠端遙控功能若缺乏強加密認證，極易成為駭客取得電腦遠端控制權的突破口。
+
+- **[milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)** · GitHub · 其他
+  - 為什麼爆紅：提供開源版的 Grok Bot 替代方案，並整合虛擬機功能，賦予 AI 機器人自主操作與驗證程式環境的能力。
+  - 架構亮點：內建沙盒虛擬機，允許機器人在此環境中隔離執行程式碼，解決了外部執行環境的安全性與一致性問題。
+  - 安全風險：若沙盒逃逸漏洞被利用，機器人可能存取主機系統權限；此外 bot 可能遭濫用於自動化垃圾訊息或爬蟲攻擊。
+
+- **[Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)** · GitHub · Skills / Claude
+  - 為什麼爆紅：將 Claude Code 轉化為多代理遊戲開發工作室，透過階層化任務分配解決 AI 寫複雜軟體的協作瓶頸，切中開發者自動化痛點。
+  - 架構亮點：包含 49 個 AI 代理及 72 種工作流技能，模擬真實軟體公司階層架構進行任務調度與協作。
+  - 安全風險：自動化代理若具備全權檔案系統存取權限，可能執行惡意程式碼或遭注入攻擊而產生不可預期的系統破壞。
+
 ## 2026-10-30
 
 - **[DenisSergeevitch/ex-ussr-kinship-research](https://github.com/DenisSergeevitch/ex-ussr-kinship-research)** · GitHub · AI Agent
