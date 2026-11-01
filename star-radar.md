@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-01
+
+- **[HackerTube: YouTube built from videos recommended by HN](https://karpathy.bearblog.dev/hacker-tube/)** · HN · HN 新聞
+  - 為什麼爆紅：利用高品質的社群推薦（HN）作為內容篩選機制，過濾了 YouTube 的低效演算法，提供精準的技術學習清單。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險，主要作為內容聚合器存在，依賴於外部平台的安全穩定性。
+
+- **[paipiange/nvzhuang](https://github.com/paipiange/nvzhuang)** · GitHub · 其他
+  - 為什麼爆紅：結合了 AI 圖像生成的熱門領域與虛擬試穿應用場景，提供現成的開源方案，降低了複雜應用的門檻。
+  - 架構亮點：支援多模型介接（OpenAI, Gemini, 豆包），具備靈活的 Base URL 與 API Key 配置，整合檢索與試穿功能。
+  - 安全風險：AI 換裝技術易被濫用於深度偽造（Deepfake）或未經授權的人物影像處理，需嚴格監管輸入輸出內容。
+
+- **[deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype)** · GitHub · AI Agent
+  - 為什麼爆紅：DeepSeek 背書加上自動化智能體（Agent）是當前技術熱點，開發者熱衷於探索更高效的 Agent 協作模式。
+  - 架構亮點：專注於自主代理系統（Autonomous Agent System）的架構演進，旨在提升代理的規劃與執行能力。
+  - 安全風險：自主代理系統若缺乏邊界控制，可能導致意外的 API 呼叫、資訊外洩或失控的自我迭代執行。
+
+- **[heydamir/unslop](https://github.com/heydamir/unslop)** · GitHub · 其他
+  - 為什麼爆紅：切中當前 AI 產出 UI 設計粗糙的痛點，透過 Claude 技能直接將「AI 味」濃厚的網頁重構為現代化介面。
+  - 架構亮點：資料不足
+  - 安全風險：處理網頁 UI 轉換時可能涉及隱私敏感資訊，且若未受控可能被用於惡意釣魚頁面的快速重構。
+
+- **[Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)** · GitHub · 其他
+  - 為什麼爆紅：將傳統玄學進行系統性數位化，透過開源結構讓演算法透明化，吸引了對命理技術分析有興趣的開發者社群。
+  - 架構亮點：基於 TypeScript 的排盤引擎，整合了倪海厦體系的排盤演算法、四化系統與古籍知識庫，結構模組化。
+  - 安全風險：未見明顯風險，主要是文化與算命邏輯的數位實作，需注意避免將其誤導為精確科學。
+
+- **[lightpanda-io/browser](https://github.com/lightpanda-io/browser)** · GitHub · 其他
+  - 為什麼爆紅：解決 AI 爬蟲對資源消耗極大的痛點，透過更輕量的架構替代傳統重型的 Selenium/Playwright，降低開發成本。
+  - 架構亮點：以 Zig 語言開發，針對 AI 與自動化任務優化的無頭瀏覽器，專注於高效能渲染與資源極小化。
+  - 安全風險：自動化工具可能被用於大規模數據爬取或繞過反爬防禦機制，導致網站服務過載或資源濫用。
+
 ## 2026-10-31
 
 - **[Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/)** · HN · HN 新聞
