@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-02
+
+- **[Show HN: HackerBooks – HackerTube, but for books mentioned on HN](https://hackerbooks.org)** · HN · HN 新聞
+  - 為什麼爆紅：透過數據分析篩選 Hacker News 討論中的熱門書籍，為資訊焦慮者提供具備社交驗證的閱讀指引。
+  - 架構亮點：基於社群參與度與關鍵字標註的推薦聚合架構，自動化爬取並分類書籍資訊。
+  - 安全風險：未見明顯風險
+
+- **[haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan)** · GitHub · 其他
+  - 為什麼爆紅：解決開發者理解複雜 codebase 的痛點，透過視覺化互動地圖將抽象架構轉化為易懂資訊，契合 AI 輔助程式設計潮流。
+  - 架構亮點：結合 Claude/Codex 模型進行靜態代碼分析，自動化生成互動式的 codebase 依賴關係地圖。
+  - 安全風險：代碼分析過程需處理敏感原始碼，若涉及雲端分析可能存在資料外洩風險。
+
+- **[Djihads80/Eglantine](https://github.com/Djihads80/Eglantine)** · GitHub · 其他
+  - 為什麼爆紅：針對未正式發售的硬體平台進行模擬開發，滿足了逆向工程與模擬器社群的高度好奇心與技術挑戰欲。
+  - 架構亮點：使用 C++ 開發，針對未公開的 Switch 2 架構進行底層硬體模擬與指令集翻譯。
+  - 安全風險：涉及遊戲平台模擬，可能面臨智慧財產權侵權與軟體破解相關的法律風險。
+
+- **[patch-gg/pixelfx](https://github.com/patch-gg/pixelfx)** · GitHub · Skills / Claude
+  - 為什麼爆紅：提供了模組化的小型像素藝術特效代碼庫，並結合 AI 輔助開發（Claude Code），大幅降低了視覺特效的製作門檻。
+  - 架構亮點：模組化的像素渲染腳本架構，設計易於擴充，並支援透過 LLM 生成自定義特效代碼。
+  - 安全風險：執行未經審核的外部生成代碼可能存在注入攻擊或惡意腳本執行風險。
+
+- **[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)** · GitHub · AI Agent
+  - 為什麼爆紅：結合多代理系統（Multi-Agent）與教育場景，提供沈浸式學習體驗，切中 AI Agent 在教育科技應用的熱門趨勢。
+  - 架構亮點：採用多代理協作框架，強調互動式教室架構，具備自動化學習路徑生成的設計。
+  - 安全風險：多代理互動可能導致不受控的錯誤資訊擴散或指令注入風險。
+
+- **[bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)** · GitHub · 其他
+  - 為什麼爆紅：作為 DevOps 領域最完整的知識庫之一，涵蓋面廣且持續更新，是面試準備與系統化學習 DevOps 技術棧的必備資源。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-11-01
 
 - **[HackerTube: YouTube built from videos recommended by HN](https://karpathy.bearblog.dev/hacker-tube/)** · HN · HN 新聞
