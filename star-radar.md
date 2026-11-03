@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-03
+
+- **[lexifina/global-law](https://github.com/lexifina/global-law)** · GitHub · 其他
+  - 為什麼爆紅：將各國法律數位化並以 Git 版本控制管理，體現了「代碼即法律」的理想，觸及法律科技與開放資料領域的關注焦點。
+  - 架構亮點：利用 Git 子模組（submodule）架構管理多國法律結構，將單一法律生效視為一次 commit，實現法律修訂的可追溯與分支比較。
+  - 安全風險：資料庫內容若未經官方驗證，可能導致使用者誤用錯誤的法律版本，影響法律專業決策的正確性。
+
+- **[BryceYuuu/RUN](https://github.com/BryceYuuu/RUN)** · GitHub · 其他
+  - 為什麼爆紅：回應了特定群體對海外移居資訊的高需求，以系統化、結構化的「手冊」形式整合了碎片化的移民政策與路線，極具實用性。
+  - 架構亮點：資料不足（主要為基於 Markdown 的文檔結構與資訊整理，技術堆疊對系統執行而言並非重點）。
+  - 安全風險：提供的資訊可能存在過期或法律風險，若依賴非法途徑或誤用政策資訊，可能面臨嚴重的法律後果。
+
+- **[Astra can read and write weights to improve Qwen](https://rikiyat.github.io/blog/weight-space-programming/)** · HN · HN 新聞
+  - 為什麼爆紅：提出了「權重空間編程（Weight-space programming）」的新範式，允許直接修改模型權重來優化性能，引發對模型治理的深度討論。
+  - 架構亮點：資料不足（主要涉及對模型參數空間的直接存取與微分運算操作，繞過了傳統的提示詞工程或微調過程）。
+  - 安全風險：直接修改模型權重可能導致模型產生幻覺、偏見或繞過安全護欄，使權重注入攻擊成為潛在的新型態威脅。
+
+- **[storytold/craft-anything](https://github.com/storytold/craft-anything)** · GitHub · 其他
+  - 為什麼爆紅：滿足開發者對逆向工程與底層系統理解的渴望，透過 Rust 語言的高效與安全性，降低了深層剖析軟體內部的技術門檻。
+  - 架構亮點：利用 Rust 的記憶體安全特性實現軟體分析工具，針對二進位檔案進行解析與行為監測，具備高擴充性的插件機制。
+  - 安全風險：該工具具備分析與破解軟體的潛力，可能被用於開發惡意軟體分析器或規避軟體保護機制，有違反軟體授權之虞。
+
+- **[hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)** · GitHub · 其他
+  - 為什麼爆紅：將 Wayland 的現代化架構與極致的視覺自定義（動畫、圓角、透明效果）結合，精準擊中 Linux 重度用戶對效能與美學的雙重追求。
+  - 架構亮點：基於 Wayland 協定，採用 C++ 開發，強調硬體加速渲染與動態平鋪式窗口管理，模組化架構支撐高度自定義特性。
+  - 安全風險：作為底層 compositor，錯誤配置可能導致窗口渲染問題；由於具備極高的系統權限，若依賴第三方插件可能引發安全隱憂。
+
+- **[patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** · GitHub · AI Agent
+  - 為什麼爆紅：AI 開發者對 LLM、RAG 與 Agent 實務架構有極高學習需求，該倉庫彙整了產業所需的關鍵技術路徑，提供一站式解決方案。
+  - 架構亮點：涵蓋 LLM 推論與微調、RAG 檢索增強生成流程、AI Agent 決策鏈設計，以 Jupyter Notebook 格式提供可執行的示範代碼。
+  - 安全風險：未見明顯風險，但使用第三方 API 或運行不明模型代碼時，需注意提示詞注入或敏感數據洩漏風險。
+
 ## 2026-11-02
 
 - **[Show HN: HackerBooks – HackerTube, but for books mentioned on HN](https://hackerbooks.org)** · HN · HN 新聞
