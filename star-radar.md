@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-04
+
+- **[Postman silently auto-installs AI plugins and attempts to share all API data](https://github.com/postmanlabs/postman-app-support/issues/14370)** · HN · HN 新聞
+  - 為什麼爆紅：涉及開發者最常用的工具，且涉及「隱私數據未經許可被上傳至 AI」，觸發了社群對企業隱私政策的強烈不信任感。
+  - 架構亮點：資料不足
+  - 安全風險：軟體供應鏈安全風險，API 金鑰或內部資料可能被強行整合的 AI 插件同步至第三方伺服器。
+
+- **[caru-ini/stack-diagram](https://github.com/caru-ini/stack-diagram)** · GitHub · 媒體／創作
+  - 為什麼爆紅：自動將抽象的技術堆疊描述轉化為專業架構圖，能節省開發者在技術文件編寫與簡報上的時間。
+  - 架構亮點：整合大型語言模型（LLM）識別關鍵字，並自動調用標準技術棧圖示庫進行圖表繪製。
+  - 安全風險：輸入描述若包含專案專屬的機密架構細節，可能經由雲端模型處理導致資訊外露。
+
+- **[elvarofficial/teardown](https://github.com/elvarofficial/teardown)** · GitHub · Skills / Claude
+  - 為什麼爆紅：結合 AI 代理（Claude Code）與 3D 視覺模擬，降低了軟硬體架構拆解與視覺化的進入門檻。
+  - 架構亮點：透過 Claude Code 模型接口解析環境或軟體邏輯，並將其映射至 3D 渲染模擬空間。
+  - 安全風險：若自動化處理過程中未經用戶同意讀取環境變數或敏感配置，可能導致資料外洩。
+
+- **[Verlintas/NOIR](https://github.com/Verlintas/NOIR)** · GitHub · 其他
+  - 為什麼爆紅：Android 用戶對隱私洩露極度敏感，提供可視化數據流向與「可回滾」的隱私修正功能，直接解決了用戶痛點。
+  - 架構亮點：利用 Android Debug Bridge (ADB) 進行動態權限分析與端點流量追蹤，支援對應用配置進行可逆向修復。
+  - 安全風險：ADB 權限若未嚴格管控，工具本身可能成為惡意攻擊者控制手機的跳板。
+
+- **[karpathy/nanochat](https://github.com/karpathy/nanochat)** · GitHub · Skills / Claude
+  - 為什麼爆紅：憑藉 Andrej Karpathy 的個人品牌號召力，以及提供「低成本實現 ChatGPT 級功能」的極致性價比吸引關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)** · GitHub · 其他
+  - 為什麼爆紅：Web scraping 市場需求極大，開發者持續尋求能繞過現代防爬機制（如 Cloudflare 等）且效能優秀的整合型框架。
+  - 架構亮點：資料不足
+  - 安全風險：可能被用於大規模惡意爬取敏感資料、繞過網站反爬防禦及實施分散式阻斷服務（DDoS）攻擊。
+
 ## 2026-11-03
 
 - **[lexifina/global-law](https://github.com/lexifina/global-law)** · GitHub · 其他
