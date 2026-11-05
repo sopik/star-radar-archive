@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-05
+
+- **[AI is forcing us to pay off 40 years of technical debt](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability)** · HN · HN 新聞
+  - 為什麼爆紅：論述 AI 如何揭露並迫使企業面對累積 40 年的技術債（如 PHP 歷史漏洞），引發對軟體維護策略的反思與共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：強調 AI 加速挖掘 legacy 系統中的漏洞，凸顯既有架構若不及時重構，將面臨極高的被攻擊風險。
+
+- **[mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts)** · GitHub · 媒體／創作
+  - 為什麼爆紅：整合 Claude AI 創造力與 Three.js/Remotion 網頁渲染技術，降低生成高品質病毒式動畫短片的技術門檻。
+  - 架構亮點：結合 Three.js 進行 3D 渲染，並透過 Remotion 進行影片編碼與自動化短片合成。
+  - 安全風險：未見明顯風險
+
+- **[govijr/terminal-mac](https://github.com/govijr/terminal-mac)** · GitHub · 開發工具
+  - 為什麼爆紅：以極高的技術噱頭吸引眼球，在終端機內模擬 macOS 完整體驗，滿足開發者對跨終端環境整合的技術好奇心。
+  - 架構亮點：利用 Swift 語言在終端機層級渲染並模擬 macOS 桌面介面與核心操作邏輯。
+  - 安全風險：若涉及系統底層 API 調用，可能存在權限提昇或終端機模擬器沙箱被突破的風險。
+
+- **[KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop)** · GitHub · AI Agent
+  - 為什麼爆紅：實現 Agent 自動化閉環執行，將「執行-回報-決策」流程簡化，大幅降低開發者在執行任務時的介入成本與心理負擔。
+  - 架構亮點：支援後台持續運行的自動化執行架構，並具備互動式決策中斷點機制（Human-in-the-loop）。
+  - 安全風險：若 Agent 權限配置不當，自動循環執行可能導致資源耗盡或在未經授權下執行敏感指令。
+
+- **[floci-io/floci](https://github.com/floci-io/floci)** · GitHub · 基礎設施
+  - 為什麼爆紅：提供 AWS Local Emulator 的輕量化替代方案，針對依賴雲端模擬開發但受限於原廠工具資源消耗的開發者痛點。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[p-e-w/heretic](https://github.com/p-e-w/heretic)** · GitHub · 其他
+  - 為什麼爆紅：提供無需重新訓練（training-free）的手段來移除模型審查及討好傾向，滿足使用者獲取不受限 LLM 回應的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：可能繞過模型原廠的安全圍欄，產出有害、極端或違法內容，降低 AI 系統的倫理安全性。
+
 ## 2026-11-04
 
 - **[Postman silently auto-installs AI plugins and attempts to share all API data](https://github.com/postmanlabs/postman-app-support/issues/14370)** · HN · HN 新聞
