@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-06
+
+- **[wquguru/cicada](https://github.com/wquguru/cicada)** · GitHub · 媒體／創作
+  - 為什麼爆紅：整合跨平台即時字幕、同傳與紀要功能且免費開源，切中遠距工作與跨語言溝通的剛性需求。
+  - 架構亮點：採用跨平台框架，整合多個 AI 模型 API 進行語音識別、翻譯與摘要，強調低延遲的即時處理架構。
+  - 安全風險：錄音數據若經由雲端 AI API 處理，存在會議隱私洩漏及傳輸過程中數據被攔截的潛在疑慮。
+
+- **[sshole](https://sshhole.com)** · HN · HN 新聞
+  - 為什麼爆紅：名稱具備惡搞性質且解決了開發者在 SSH 連線管理與臨時環境存取上的痛點，簡潔的工具往往能在技術社群快速傳播。
+  - 架構亮點：資料不足
+  - 安全風險：若涉及 SSH 連線中轉或暴露，可能成為中間人攻擊的節點，或導致主機 SSH 權限非預期外洩。
+
+- **[worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto](https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto)** · GitHub · 其他
+  - 為什麼爆紅：標榜「零成本」與「自動化」獲取付費 AI 服務，利用資源配額漏洞或自動申請機制，精準命中用戶貪便宜心理。
+  - 架構亮點：資料不足
+  - 安全風險：高度依賴繞過服務提供商的配額機制，帳號恐被關聯封禁，且腳本內可能隱含後門或釣魚機制。
+
+- **[zortos293/Lichii](https://github.com/zortos293/Lichii)** · GitHub · 其他
+  - 為什麼爆紅：Switch 2 硬體尚未普及但模擬器話題性高，開源硬體模擬專案常因技術挑戰與硬體愛好者社群關注而迅速竄紅。
+  - 架構亮點：採用 C++ 開發，針對未公開的 Switch 2 架構進行底層模擬實驗，展現了對新硬體規格的逆向工程嘗試。
+  - 安全風險：涉及遊戲版權規避，且模擬器執行檔若來自非官方構建，存在植入惡意程式碼的潛在風險。
+
+- **[vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)** · GitHub · AI Agent
+  - 為什麼爆紅：呼應 AI Agent 自動化操作系統的趨勢，開發者對能直接接管桌面介面、實現自主操作的 CLI 工具需求強烈。
+  - 架構亮點：使用 Rust 編寫，強調效能與系統底層整合，針對 AI 模型對桌面行為的操控進行了優化與封裝。
+  - 安全風險：AI 代理具備直接操作桌面權限，若遭惡意利用或模型誤判，恐導致敏感資料外洩或系統設定被意外篡改。
+
+- **[MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)** · GitHub · 其他
+  - 為什麼爆紅：DevOps 領域知識極度碎片化，該專案提供了具備結構性、跨越數年的完整學習路徑，降低了從業者入門與進階的心理門檻。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
 ## 2026-11-05
 
 - **[AI is forcing us to pay off 40 years of technical debt](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability)** · HN · HN 新聞
