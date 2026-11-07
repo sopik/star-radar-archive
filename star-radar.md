@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-07
+
+- **[Tesla to wind down Cybertruck production](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)** · HN · HN 新聞
+  - 為什麼爆紅：Cybertruck 作為具有高爭議與高話題性的消費電子級汽車產品，生產終止消息直接衝擊市場預期與投資信心。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[JenkinWoo/sheeridVerify](https://github.com/JenkinWoo/sheeridVerify)** · GitHub · 其他
+  - 為什麼爆紅：具備高日增長速度，解決了特定身份驗證（SheerID）的整合痛點，屬於開發者生態中的剛需工具。
+  - 架構亮點：資料不足
+  - 安全風險：涉及身份認證數據，若實作流程不當可能導致敏感身份資訊洩露或繞過身份驗證檢查。
+
+- **[s1dashu/quiet-md](https://github.com/s1dashu/quiet-md)** · GitHub · 其他
+  - 為什麼爆紅：結合了 Rust 的效能優勢與對飛書（Feishu/Lark）生態的兼容性，精準切中辦公軟體使用者對筆記工具效能的需求。
+  - 架構亮點：使用 Rust 與 GPUI 框架建構的原生應用，支援 Local-first 本地優先架構，並實作與 DocxXML 的格式相容。
+  - 安全風險：未見明顯風險
+
+- **[Minireel/HGhub](https://github.com/Minireel/HGhub)** · GitHub · 其他
+  - 為什麼爆紅：作為熱門第三方服務（YellowFruit）的客戶端，滿足了使用者對自定義介面與跨平台功能的需求。
+  - 架構亮點：資料不足
+  - 安全風險：第三方客戶端需謹慎處理用戶登入憑證，存在 API 密鑰洩露或遭受中間人攻擊的風險。
+
+- **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)** · GitHub · AI Agent
+  - 為什麼爆紅：針對 AI Agent 開發者提供關鍵的瀏覽器控制介面，解決了自動化任務中網頁交互的技術痛點。
+  - 架構亮點：採用 Rust 編寫，強調效能與安全性，專注於提供 AI Agent 可直接呼叫的標準化瀏覽器控制接口。
+  - 安全風險：若 Agent 被惡意操控，可自動執行瀏覽器動作竊取 Cookie、執行跨站攻擊或非法抓取敏感資料。
+
+- **[microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)** · GitHub · 媒體／創作
+  - 為什麼爆紅：微軟背書的開源 Frontier 等級語音 AI，填補了高效能語音生成與互動模型的生態空缺，吸引開發者用於構建語音助理。
+  - 架構亮點：資料不足
+  - 安全風險：可能被用於生成高擬真語音進行社交工程詐騙（Deepfake Voice），需注意語音授權與驗證機制。
+
 ## 2026-11-06
 
 - **[wquguru/cicada](https://github.com/wquguru/cicada)** · GitHub · 媒體／創作
