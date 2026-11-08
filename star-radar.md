@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-08
+
+- **[Need for Speed Underground 2 online in the browser](https://nfsu2.xyz/)** · HN · HN 新聞
+  - 為什麼爆紅：將經典競速遊戲透過 Web 技術直接運行於瀏覽器，觸發懷舊情懷，並展示了現代瀏覽器處理複雜遊戲引擎的能力。
+  - 架構亮點：推測利用 WebAssembly (WASM) 與 WebGL/WebGPU 技術實現高性能的圖形渲染與遊戲邏輯移植。
+  - 安全風險：涉及未授權的遊戲資源分發，存在嚴重的智慧財產權侵權風險，且網頁載入不明二進位檔案可能導致執行環境安全疑慮。
+
+- **[mmdoctor/google-pro-helper](https://github.com/mmdoctor/google-pro-helper)** · GitHub · 資安
+  - 為什麼爆紅：可能是針對特定 Google 產品服務的非官方輔助或自動化工具，常因滿足自動化需求或破解限制而在開發者圈迅速傳播。
+  - 架構亮點：資料不足。
+  - 安全風險：可能涉及反向工程 Google API 或模擬使用者行為，存在帳號被封鎖風險，且需警惕不明授權帶來的憑證洩露危機。
+
+- **[livliv-dev/player](https://github.com/livliv-dev/player)** · GitHub · 其他
+  - 為什麼爆紅：資料不足
+  - 架構亮點：資料不足
+  - 安全風險：資料不足
+
+- **[NotRexed/Hookshot](https://github.com/NotRexed/Hookshot)** · GitHub · 其他
+  - 為什麼爆紅：針對任天堂未正式發布的 Switch 2 重製版遊戲進行原生重新編譯，觸及模擬器社群與遊戲逆向工程的高度興趣，具高度爭議與技術話題性。
+  - 架構亮點：利用 C++ 進行原生重編譯 (Native Recompilation)，試圖將特定硬體平台的指令集轉換為通用可執行檔。
+  - 安全風險：面臨嚴重的版權法務風險，且逆向工程工具本身可能被視為繞過數位版權保護 (DRM) 的機制。
+
+- **[angular/angular](https://github.com/angular/angular)** · GitHub · 其他
+  - 為什麼爆紅：作為 Google 維護的重量級框架，適用於企業級大型應用。持續推出現代化特性（如 Signals、Hydration）以改善效能與開發體驗。
+  - 架構亮點：採用全方位架構，內建依賴注入 (DI)、模組化系統、RxJS 響應式編程及強型別 TypeScript 支援。
+  - 安全風險：雖然內建 DOM Sanitizer 可防禦大部分 XSS，但複雜的動態模板若設定不當，仍存在注入風險。
+
+- **[react/react](https://github.com/react/react)** · GitHub · 其他
+  - 為什麼爆紅：作為全球市佔率最高的 UI 函式庫，擁有龐大開發者生態，持續的版本更新與社群維護使其始終保持高度關注與討論。
+  - 架構亮點：核心採用宣告式組件架構、Virtual DOM 演算法，並支援 Fiber 架構以實現可中斷的渲染任務，提升複雜 UI 的回應能力。
+  - 安全風險：若未正確處理使用者輸入，仍可能遭受 XSS 攻擊。建議搭配完善的防護措施與安全合規的第三方依賴管理。
+
 ## 2026-11-07
 
 - **[Tesla to wind down Cybertruck production](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)** · HN · HN 新聞
