@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-09
+
+- **[Goodbye Claude, hello Pi](https://caleb.software/posts/claude-to-pi.html)** · HN · HN 新聞
+  - 為什麼爆紅：反映開發者在 AI 工具選型上的轉向。Pi 較 Claude 提供更具人性化或針對特定工作流（如對話互動）的體驗優勢，引起群眾共鳴。
+  - 架構亮點：資料不足。
+  - 安全風險：用戶在轉換 AI 服務時，可能導致個人資料與對話歷史散佈在多個雲端供應商，增加隱私外洩與數據整合的管理成本。
+
+- **[Sandflow-ai/sand3d](https://github.com/Sandflow-ai/sand3d)** · GitHub · 其他
+  - 為什麼爆紅：針對 AI 時代優化的 3D 模型框架，專注於解決 LLM 在處理空間幾何資料時的格式相容性與邏輯表達需求。
+  - 架構亮點：將 3D 模型語法化，使 3D 結構能被 LLM 理解並進行自動生成與修改，實現了從文字描述到 3D 物件的直接對應。
+  - 安全風險：若與生產環境連接，可能因 AI 生成的模型檔案夾帶惡意腳本或畸形構造，導致渲染器崩潰或執行未授權代碼。
+
+- **[tangerineturtle1/NX2navi](https://github.com/tangerineturtle1/NX2navi)** · GitHub · 其他
+  - 為什麼爆紅：近期成長極快，可能涉及特定硬體逆向工程或系統層級的底層優化，引發開發者社群對硬體控制權或性能調校的高度好奇。
+  - 架構亮點：資料不足。
+  - 安全風險：涉及底層系統操作或逆向工程，可能存在記憶體安全漏洞，若應用於未經授權的硬體修改，存在系統損毀或法律邊界模糊之風險。
+
+- **[sarpstar/cinecode](https://github.com/sarpstar/cinecode)** · GitHub · AI Agent
+  - 為什麼爆紅：結合 AI Agent 與自動化編碼，能將文字指令直接轉化為影像與音訊，這種「程式碼即電影」的自動化生成流程極具視覺衝擊力。
+  - 架構亮點：資料不足。
+  - 安全風險：可能被濫用製作 Deepfake 影片、虛假資訊或侵犯版權的內容；自動生成的媒體資產缺乏審查機制，存在產出有害內容的潛在風險。
+
+- **[tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)** · GitHub · 其他
+  - 為什麼爆紅：解決了傳統 CSS 命名冗長與樣式污染問題，透過 utility-first 方法實現高度模組化且具一致性的 UI 開發體驗，極大提升生產力。
+  - 架構亮點：採用 JIT（Just-in-Time）編譯引擎，僅為 HTML 中實際使用的類別生成樣式，能有效壓縮最終 CSS 體積並保持性能極致化。
+  - 安全風險：未見明顯風險。惟在處理用戶自定義輸入的樣式內容時，若未做好適當的 sanitization，可能存在注入攻擊隱患。
+
+- **[sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)** · GitHub · 其他
+  - 為什麼爆紅：提供極高的 OSINT（開源情報）實用價值，能一鍵自動查詢特定用戶名在數百個社交平台的註冊狀態，大幅簡化資訊蒐集流程。
+  - 架構亮點：採用多執行緒（Multi-threading）並行處理機制，能同時針對大量目標網站發送請求，並透過模組化結構管理各網站的查詢邏輯。
+  - 安全風險：可能被用於惡意追蹤、人肉搜索或網絡欺凌；大規模查詢行為若未適度節流，亦可能觸發目標網站的防禦機制或導致自身 IP 被封鎖。
+
 ## 2026-11-08
 
 - **[Need for Speed Underground 2 online in the browser](https://nfsu2.xyz/)** · HN · HN 新聞
