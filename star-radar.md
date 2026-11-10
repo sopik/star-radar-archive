@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-10
+
+- **[DIYgod/pinky](https://github.com/DIYgod/pinky)** · GitHub · AI Agent
+  - 為什麼爆紅：提出「人在迴路中（Human-in-the-loop）」的 AI 手機操控概念，解決純自動化導致的操作失誤與安全疑慮。
+  - 架構亮點：基於 Go 語言的高併發特性，整合 Agent 代理機制與設備互動層，強調人機協作模式。
+  - 安全風險：授予 AI 操控手機權限存在風險，若執行惡意操作或越權訪問敏感 App，可能引發資安災難。
+
+- **[jhaizhou-ops/S2Arm](https://github.com/jhaizhou-ops/S2Arm)** · GitHub · 其他
+  - 為什麼爆紅：突破平台限制，實現 Switch 遊戲在蘋果生態的硬體原生執行，大幅提升遊戲體驗與跨裝置可玩性。
+  - 架構亮點：重寫 Switch 原始程式碼編譯至 ARM64 架構，並將圖形渲染層直接映射至 Metal API 以達成高效率轉換。
+  - 安全風險：涉及遊戲版權破解、Key 檔盜用及繞過 DRM 保護，存在嚴重的智慧財產權法律風險。
+
+- **[huamidev/GestaltX](https://github.com/huamidev/GestaltX)** · GitHub · 開發工具
+  - 為什麼爆紅：提供 iOS 系統底層參數編輯功能（如地區碼修改），繞過系統限制，對愛好者具有極高吸引力。
+  - 架構亮點：針對 iOS MobileGestalt 機制進行逆向與封裝，實現設備配置預設檔管理與系統級別的參數調整。
+  - 安全風險：觸及系統底層，可能導致設備軟體損毀（Brick）、保固失效，或被作為設備指紋偽造的工具。
+
+- **[hypit-ai/hypit](https://github.com/hypit-ai/hypit)** · GitHub · 媒體／創作
+  - 為什麼爆紅：極大化短影音創作者的變現效率，透過單一指令批量產出高度客製化的 Viral 內容，直擊流量焦慮。
+  - 架構亮點：整合臉部替換、語音模型生成、B-roll 自動剪輯的端到端（End-to-End）多模態自動化工作流。
+  - 安全風險：易被濫用於深度偽造（Deepfake）進行詐騙、假新聞散布或侵犯公眾人物肖像權。
+
+- **[garrytan/gbrain](https://github.com/garrytan/gbrain)** · GitHub · AI Agent
+  - 為什麼爆紅：由知名投資人 Garry Tan 推動，具有強大的社群號召力，且切中目前企業對客製化 AI Agent 腦核的開發需求。
+  - 架構亮點：資料不足
+  - 安全風險：這類 Agent 腦核架構若與企業數據對接，可能存在 Prompt Injection 或私有知識庫洩漏的風險。
+
+- **[ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)** · GitHub · 其他
+  - 為什麼爆紅：滿足散戶對金融自動化分析與獲利指標的剛需，結合 LLM 處理複雜新聞，降低投資門檻與資訊落差。
+  - 架構亮點：模組化設計，結合多源數據抓取、LLM 決策引擎與自動化排程推送，支援低成本的自動化部署。
+  - 安全風險：金融數據處理涉及隱私，若未正確加密 API Key 或儲存配置，可能導致帳號敏感權限外洩。
+
 ## 2026-11-09
 
 - **[Goodbye Claude, hello Pi](https://caleb.software/posts/claude-to-pi.html)** · HN · HN 新聞
