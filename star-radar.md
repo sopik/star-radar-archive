@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-11
+
+- **[Smart home devices should work without the internet](https://docodethatmatters.com/home-automation-overnight-success/)** · HN · HN 新聞
+  - 為什麼爆紅：精準擊中現代使用者對智慧家庭設備隱私受控、依賴雲端伺服器導致服務中斷的反彈情緒。
+  - 架構亮點：主張在地化運算（Local-first），透過本地通訊協定取代雲端依賴，強化系統韌性。
+  - 安全風險：本地化部署若缺乏嚴格的區域網路加密與驗證機制，可能面臨內網入侵風險。
+
+- **[voyager-so/vork](https://github.com/voyager-so/vork)** · GitHub · AI Agent
+  - 為什麼爆紅：將 3D 與 VFX 渲染引擎與 Agent 結合，填補了視覺內容自主生成的技術空白，屬前瞻性研究範疇。
+  - 架構亮點：基於 Rust 構建的 Headless 引擎，專為無頭環境下的視覺運算優化，支援自動化處理視覺資訊。
+  - 安全風險：若具備高度自主生成視覺的能力，可能被用於大規模自動化生成虛假影像內容。
+
+- **[jamesondh/chimera-vocal-synth](https://github.com/jamesondh/chimera-vocal-synth)** · GitHub · 媒體／創作
+  - 為什麼爆紅：Rust 編寫的高效能語音合成專案，滿足了開源社群對高品質、低延遲語音生成工具的強勁需求。
+  - 架構亮點：利用 Rust 的記憶體安全與高效運算能力，實現複雜的即時語音合成處理流程。
+  - 安全風險：語音合成技術可能被用於製作 Deepfake 音訊，存在偽造身分的濫用風險。
+
+- **[IainKay/ram-altman](https://github.com/IainKay/ram-altman)** · GitHub · 其他
+  - 為什麼爆紅：結合社群迷因（Meme）文化，將硬體監控轉化為諷刺科技巨頭的黑色幽默行為藝術。
+  - 架構亮點：資料不足
+  - 安全風險：可能因頻繁發送 API 請求對外部服務造成流量干擾或被判定為惡意行為。
+
+- **[anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)** · GitHub · 其他
+  - 為什麼爆紅：Anthropic 官方背書的開發實踐庫，大幅降低 Claude API 的整合門檻，成為開發者構建 AI 應用的標準參考。
+  - 架構亮點：收錄多種部署導向的 Python 專案架構，展現了最佳的 API 串接模式與處理邏輯分離架構。
+  - 安全風險：若開發者未正確管理 API Key 或未在後端進行過濾，可能導致濫用風險。
+
+- **[meta/astryx](https://github.com/meta/astryx)** · GitHub · AI Agent
+  - 為什麼爆紅：由 Meta 官方推出，直接切入當前開發者最需的「代理人（Agent）原生」設計系統，解決 AI 應用介面開發痛點。
+  - 架構亮點：採 TypeScript 編寫，強調高度客製化與針對 Agent 互動優化的組件結構，原生支援 AI 代理的視覺反饋。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-10
 
 - **[DIYgod/pinky](https://github.com/DIYgod/pinky)** · GitHub · AI Agent
@@ -2637,23 +2669,3 @@
   - 為什麼爆紅：為 DeepSeek Harness 生態建立集中式插件市場，解決插件尋找與安裝的破碎化問題，降低用戶使用門檻。
   - 架構亮點：視覺化插件管理系統，具備瀏覽、搜尋與一鍵安裝功能，介接於插件生態系統之上。
   - 安全風險：市場模式若未嚴格審核插件內容，易導致惡意插件透過一鍵安裝機制植入系統，存在供應鏈攻擊風險。
-
-- **[s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)** · GitHub · Skills / Claude
-  - 為什麼爆紅：針對 AI Agents 提供視覺生成技能，解決生成式 AI 製作 logo 風格不統一的問題，標榜 neo-skeuomorphic 擬真視覺。
-  - 架構亮點：將 Logo 設計封裝為可呼叫的 Agent Skill，提供參數化生成能力，專注於 IP 吉祥物設計。
-  - 安全風險：未見明顯風險，主要是視覺生成模型可能產生的版權或品牌侵權爭議。
-
-- **[yetone/cumora](https://github.com/yetone/cumora)** · GitHub · AI Agent
-  - 為什麼爆紅：定義 AI Agents 為一等公民的協作空間，解決多 Agent 團隊協作與跨平台溝通的痛點，整合 Claude/Codex 腦部模型。
-  - 架構亮點：跨平台架構，支援雲端與自攜模型（BYOM）混合部署，強化 Agent 間的互動協議層。
-  - 安全風險：若開放 Agent 進行團隊作業，存在權限提升與跨 Agent 惡意指令注入風險，需審慎管理 API 金鑰存取。
-
-- **[xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard)** · GitHub · AI Agent
-  - 為什麼爆紅：作為 DeepSeek Harness 的兩階段啟動與工具配置工具，提供標準化環境設置，適合需要快速對接 DeepSeek 生態的用戶。
-  - 架構亮點：區分「最小化對齊啟動（Minimal-aligned bootstrap）」與「全功能標準工具集」兩階段，優化初始部署負載。
-  - 安全風險：未見明顯風險，但需確保啟動腳本來源可信，避免在引導過程中被植入不當環境配置。
-
-- **[yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite)** · GitHub · AI Agent
-  - 為什麼爆紅：提供 DeepSeek Harness 的路由與注入預設配置，降低複雜推理模型的部署與調度門檻，滿足開發者對優化推理效能的剛需。
-  - 架構亮點：採用執行時期注入器（runtime injector）與任務感知推理路由模組（task-aware reasoning-mode router），具備特定性能測試指標。
-  - 安全風險：注入器若具備高權限執行能力，可能成為惡意腳本的攻擊向量，且 PowerShell 執行環境的權限管控需額外注意。
