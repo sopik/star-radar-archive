@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-12
+
+- **[Tim Peters has died](https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028)** · HN · HN 新聞
+  - 為什麼爆紅：Tim Peters 是 Python 之禪的作者，對編程社群影響深遠，其逝世引發全球開發者的哀悼與回顧技術貢獻的浪潮。
+  - 架構亮點：不適用
+  - 安全風險：未見明顯風險
+
+- **[hembramneeraj3-create/aida-64-extreme](https://github.com/hembramneeraj3-create/aida-64-extreme)** · GitHub · 其他
+  - 為什麼爆紅：利用知名系統監控軟體名稱作為幌子，吸引試圖免費下載付費商業軟體的用戶群體，為典型的非法軟體分發路徑。
+  - 架構亮點：資料不足
+  - 安全風險：極高的安全風險，極可能包含木馬程式或遠端控制後門（RAT），偽裝成安裝包以竊取系統硬體資訊與個人資料。
+
+- **[mahmoudtawfik1998/secure-pdf-document-processor](https://github.com/mahmoudtawfik1998/secure-pdf-document-processor)** · GitHub · 資安
+  - 為什麼爆紅：以破解或盜版軟體名稱命名，常見於非法軟體分發渠道，因用戶尋求免費獲取高價商業軟體而獲得高關注度。
+  - 架構亮點：資料不足
+  - 安全風險：高機率內含惡意程式、勒索軟體或後門程式，用於感染用戶裝置並竊取敏感憑證或進行挖礦。
+
+- **[Kianuni/Erosion-CN](https://github.com/Kianuni/Erosion-CN)** · GitHub · 其他
+  - 為什麼爆紅：針對 iOS 系統配置與 MobileGestalt 進行底層研究，其「防白蘋果」特性滿足越獄與硬體調優社群的剛性需求。
+  - 架構亮點：利用 Swift 與底層 API 對系統設定檔進行修改與防護，並封裝了針對 MobileGestalt 的偵測與規避邏輯。
+  - 安全風險：修改系統層級設定極易引發裝置不穩定，若遭惡意利用可能成為繞過蘋果系統安全限制的攻擊向量。
+
+- **[we-promise/sure](https://github.com/we-promise/sure)** · GitHub · 其他
+  - 為什麼爆紅：符合開源金融科技趨勢，解決個人財務管理需求，且具備較高的日增星數，顯示出強烈的社群參與意願與實用導向。
+  - 架構亮點：採用 Ruby 開發，通常具備輕量級 Web 框架與資料庫互動層，強調代碼的可讀性與快速迭代。
+  - 安全風險：涉及個人財務資料，若加密處理不當或權限控制缺失，存在極高的隱私洩漏與資金紀錄遭竊風險。
+
+- **[google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)** · GitHub · 其他
+  - 為什麼爆紅：作為機器人學與強化學習領域的標準物理引擎，其開源後生態積累深厚，是各大頂尖學術論文與模擬實驗的基礎建設。
+  - 架構亮點：專注於剛體動力學的快速運算，支援複雜的接觸模擬與感測器建模，並提供高效的 C++ 核心與多語言接口。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-11
 
 - **[Smart home devices should work without the internet](https://docodethatmatters.com/home-automation-overnight-success/)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：揭發大型電商透過 WebAudio 進行非法指紋追蹤，且副作用直接干擾硬體設備（藍牙多點），引起隱私與技術愛好者關注。
   - 架構亮點：利用 WebAudio API 生成高頻音訊或分析頻率響應，藉此產生跨 Session 的裝置唯一識別碼（Fingerprint）。
   - 安全風險：濫用 WebAudio 進行跨網站追蹤，侵害使用者隱私權，並對藍牙連結穩定性造成硬體層級的干擾。
-
-- **[Leutenegger/watermarks-remover](https://github.com/Leutenegger/watermarks-remover)** · GitHub · 資安
-  - 為什麼爆紅：直接解決創作者對 AI 溯源標記（C2PA 等）的反制需求，符合對隱私防護與去標記技術的地下化興趣。
-  - 架構亮點：結合 Unicode  Sanitization、統計級改寫與中繼資料剝離，針對多種檔案格式實作自動化溯源去除。
-  - 安全風險：此工具可被濫用於清除偽造內容的來源標記，協助大規模散佈錯誤資訊或規避著作權查核機制。
-
-- **[Aaron Swartz was prosecuted for scraping, while Meta does it without consequence](https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/)** · HN · HN 新聞
-  - 為什麼爆紅：揭露司法體系對開源先驅與巨型企業在資料抓取行為上的雙重標準，引發大眾對於科技壟斷與公平性的強烈共鳴。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report)** · GitHub · 其他
-  - 為什麼爆紅：針對熱門模型 DeepSeek V4 提供量化基準測試報告，驗證特定架構對減少能力損耗的效能影響。
-  - 架構亮點：提出 J-Space 機制以優化模型能力實現過程，透過基準測試證明其在 Flash/Pro 版本上的效能優勢。
-  - 安全風險：未見明顯風險
-
-- **[CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)** · GitHub · AI Agent
-  - 為什麼爆紅：提供 AI 代理獨立操作瀏覽器與檔案系統的框架，滿足開發者對自動化「數位同事」的強烈需求。
-  - 架構亮點：採用事件驅動架構，所有操作在執行前均經過決策模型驗證並具備完整的錄製與回溯機制。
-  - 安全風險：授權 AI 完整控制瀏覽器與系統檔案，若權限控管不當，極易遭惡意程式碼注入或敏感資料外洩。
-
-## 2026-08-20
-
-- **[cinderline/northcinder](https://github.com/cinderline/northcinder)** · GitHub · AI Agent
-  - 為什麼爆紅：強調去廣告、買家導向的購物代理，利用確定性排名與審計軌跡，回應消費者對 AI 購物代理信任感不足的需求。
-  - 架構亮點：整合 MCP (Model Context Protocol) 標準，具備確定的購物評分邏輯、電子簽名採購指令及本地審計軌跡。
-  - 安全風險：涉及金融採購指令與簽名機制，若加密架構遭破解或本地紀錄被竄改，可能導致財務損失或未經授權採購。
-
-- **[dsh-market/dsh-market](https://github.com/dsh-market/dsh-market)** · GitHub · AI Agent
-  - 為什麼爆紅：為 DeepSeek Harness 生態建立集中式插件市場，解決插件尋找與安裝的破碎化問題，降低用戶使用門檻。
-  - 架構亮點：視覺化插件管理系統，具備瀏覽、搜尋與一鍵安裝功能，介接於插件生態系統之上。
-  - 安全風險：市場模式若未嚴格審核插件內容，易導致惡意插件透過一鍵安裝機制植入系統，存在供應鏈攻擊風險。
