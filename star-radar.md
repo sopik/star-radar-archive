@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-13
+
+- **[apex-compute/ANR](https://github.com/apex-compute/ANR)** · GitHub · 其他
+  - 為什麼爆紅：神經渲染技術是當前視覺運算與圖學的前沿，效能優化與高品質生成結果對遊戲與影像產業具高吸引力。
+  - 架構亮點：使用 C++ 實作高效能算子，專注於即時神經渲染引擎架構，對圖形運算管道進行深度優化。
+  - 安全風險：未見明顯風險
+
+- **[agentes-chat/agentes-chat](https://github.com/agentes-chat/agentes-chat)** · GitHub · AI Agent
+  - 為什麼爆紅：融合了自託管 Slack 協作與 AI Agent 自動化流程，滿足企業對於隱私控管與 AI 協作的工作流需求。
+  - 架構亮點：採用 Docker Compose + Postgres 架構，支援多 LLM 後端（Claude/GPT/Grok）及 MCP 工具集整合。
+  - 安全風險：Agent 具備操作瀏覽器與電腦權限，若遭惡意指令注入或越獄攻擊，可能導致私有數據外洩或惡意執行。
+
+- **[HybridRobotics/supermimic](https://github.com/HybridRobotics/supermimic)** · GitHub · 其他
+  - 為什麼爆紅：資料不足
+  - 架構亮點：基於可微模擬器（Differentiable World Model），能實現即時的身體運動規畫與跟隨。
+  - 安全風險：若應用於實體設備，控制模型誤差可能導致硬體損壞或操作者受傷。
+
+- **[Jensen Huang resigns](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f)** · HN · HN 新聞
+  - 為什麼爆紅：高層異動涉及 AI 產業龍頭 NVIDIA 的關鍵領導人，對市場策略與地緣政治佈局有重大影響，具高度新聞敏感度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[openai/codex-security](https://github.com/openai/codex-security)** · GitHub · 開發工具
+  - 為什麼爆紅：由 OpenAI 官方發布，整合 Codex 強大程式碼理解力於自動化安全修補，符合目前 DevSecOps 自動化趨勢。
+  - 架構亮點：提供 CLI 與 TypeScript SDK，結合 LLM 推論能力實現漏洞掃描、驗證與自動修復。
+  - 安全風險：可能因 LLM 幻覺導致生成的修補程式碼存在邏輯錯誤或引入新的安全漏洞。
+
+- **[TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)** · GitHub · 其他
+  - 為什麼爆紅：作為程式設計學習的經典開源資源庫，涵蓋面廣且程式碼風格一致，長期作為演算法面試與教學的標準參考資料。
+  - 架構亮點：模組化設計，針對各類經典演算法（排序、搜尋、數據結構）提供單一職責的實作範例。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-12
 
 - **[Tim Peters has died](https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：將嚴肅的神經科學連接體數據（FlyWire）轉化為具備生物真實感的桌面寵物，滿足了用戶對高技術含量與視覺趣味性的雙重追求。
   - 架構亮點：基於真實的果蠅大腦連接體（Connectome）脈衝仿真模型，以 Swift 開發，實現了具備神經網路驅動行為的 3D 桌面互動組件。
   - 安全風險：未見明顯風險
-
-- **[browser-use/macos-harness](https://github.com/browser-use/macos-harness)** · GitHub · AI Agent
-  - 為什麼爆紅：隨著電腦操作型 AI 的需求增長，開發者急需一個輕量級、能直接接管 macOS 的控制介面，該專案簡化了 OS 層級的互動接入。
-  - 架構亮點：極簡的 macOS 操作掛鉤（Harness），封裝了與 LLM 互動的底層控制邏輯，讓 AI 能直接執行滑鼠、鍵盤與系統級操作。
-  - 安全風險：賦予 LLM 完全的 macOS 控制權限極高，若提示詞注入（Prompt Injection）攻擊成功，可能導致系統遭惡意程式碼完全控制。
-
-- **[Leutenegger/vanity-eth](https://github.com/Leutenegger/vanity-eth)** · GitHub · 開發工具
-  - 為什麼爆紅：滿足加密貨幣用戶對自定義虛擬地址（Vanity Address）的需求，且透過多進程加速與多協議支援，降低了地址生成的技術門檻。
-  - 架構亮點：採用 CPU 多進程平行運算進行暴力搜索，支援多種位址格式（Bitcoin SegWit/Taproot 與 ETH EIP-55），具備互動式 CLI 介面。
-  - 安全風險：若隨機數產生器（PRNG）強度不足，產生的私鑰可能被預測。離線生成雖然安全，但用戶若處理不當仍有私鑰洩露隱患。
-
-- **[wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router)** · GitHub · AI Agent
-  - 為什麼爆紅：AI Agent 協作場景中，狀態感知的路由與 Agent 間的切換（Handoff）是目前複雜自動化流程的開發瓶頸，此專案提供了標準化解決方案。
-  - 架構亮點：支援 Agent 間的狀態傳遞（State-aware）與任務委派機制，實現分散式 A2A（Agent-to-Agent）通訊與協作流程控管。
-  - 安全風險：跨 Agent 傳遞狀態時若未加密或校驗，可能導致敏感資訊在 Agent 間外洩，或被惡意指令劫持流程。
-
-- **[Kagi added a setting for removing paywalled links from search results](https://kagi.com/changelog#11296)** · HN · HN 新聞
-  - 為什麼爆紅：付費牆內容常導致搜尋體驗破碎，Kagi 提供直接過濾選項，精準解決了搜尋引擎使用者對「低價值廣告與干擾內容」的長期痛點。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-## 2026-08-21
-
-- **[vvxw/deploy-vercel](https://github.com/vvxw/deploy-vercel)** · GitHub · 資安
-  - 為什麼爆紅：名稱極具誤導性，利用開發者慣性點擊，透過簡化指令快速吸引大量關注與潛在的 npm 套件安全隱患。
-  - 架構亮點：資料不足
-  - 安全風險：高度疑慮。該 repo 命名具攻擊性，透過簡短指令誘騙執行，極可能包含惡意 npm 腳本或帳號劫持代碼。
-
-- **[AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html)** · HN · HN 新聞
-  - 為什麼爆紅：揭發大型電商透過 WebAudio 進行非法指紋追蹤，且副作用直接干擾硬體設備（藍牙多點），引起隱私與技術愛好者關注。
-  - 架構亮點：利用 WebAudio API 生成高頻音訊或分析頻率響應，藉此產生跨 Session 的裝置唯一識別碼（Fingerprint）。
-  - 安全風險：濫用 WebAudio 進行跨網站追蹤，侵害使用者隱私權，並對藍牙連結穩定性造成硬體層級的干擾。
