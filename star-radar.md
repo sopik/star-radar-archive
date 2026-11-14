@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-14
+
+- **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)** · GitHub · 其他
+  - 為什麼爆紅：因 DeepSeek 模型近期討論度極高，此 Demo 作為官方前端範本，吸引開發者研究如何整合其 API 介面。
+  - 架構亮點：基於 TypeScript 的典型前後端分離架構，示範了串接 LLM API 的狀態管理、串流輸出（Streaming）處理與互動流程。
+  - 安全風險：若直接將 API Key 硬編碼於前端程式碼中，恐造成服務被惡意竊用導致額外費用支出，建議透過後端轉發。
+
+- **[HolyArrs/HolyArrs](https://github.com/HolyArrs/HolyArrs)** · GitHub · 其他
+  - 為什麼爆紅：整合多媒體資源的一站式自我託管方案，解決了分散式應用（如 Sonarr, Radarr 等）維護與介面不統一的痛點。
+  - 架構亮點：使用 Go 語言開發，強調高效能與跨平台部署，透過統一 API 介面串接多種媒體服務，實現集中化管理。
+  - 安全風險：自我託管服務若暴露於公網且缺少強健的身份驗證，易成為惡意掃描目標，需注意外部存取權限控管。
+
+- **[FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt)** · GitHub · 其他
+  - 為什麼爆紅：強調隱私優先的離線筆記處理，切中使用者對雲端 AI 隱私洩漏的擔憂，且為付費產品提供了免費替代方案。
+  - 架構亮點：採用跨平台框架與本地向量模型處理，實現全程離線運行，確保所有會議內容數據均留在本機磁碟。
+  - 安全風險：錄音數據與模型快取儲存於本地，若未進行加密儲存，一旦電腦被入侵，所有隱私資訊將完全外洩。
+
+- **[FAA issues national ground stop – lifted 4.5 hours later](https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247)** · HN · HN 新聞
+  - 為什麼爆紅：美國航空管制系統的全面停飛涉及公眾利益與關鍵基礎設施的穩定性，引發大眾對系統可靠性的高度關注。
+  - 架構亮點：資料不足
+  - 安全風險：關鍵基礎設施停擺若因軟體瑕疵或系統架構老化引起，暴露了高負載狀態下系統韌性不足的潛在危險。
+
+- **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** · GitHub · AI Agent
+  - 為什麼爆紅：直接在終端機運作的 AI 程式開發代理，符合開發者對於輕量化與深度整合工具流（CLI Workflow）的需求。
+  - 架構亮點：以 TypeScript 構建，緊密整合終端機交互介面，具備自動執行程式碼與處理開發任務的邏輯推論引擎。
+  - 安全風險：若授權 AI 代理讀寫系統檔案或執行 Shell 指令，存在任意程式碼執行（RCE）風險，需嚴格限制存取權限。
+
+- **[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)** · GitHub · 其他
+  - 為什麼爆紅：極致的硬體優化讓大型語言模型能在家用電腦、手機等非 GPU 高階硬體上流暢運作，降低了 AI 部署門檻。
+  - 架構亮點：採用 C/C++ 實作，極簡化相依套件，支援量化（Quantization）技術，大幅降低記憶體佔用並提升推論速度。
+  - 安全風險：因模型於本機執行，若輸入權限控管不當或模型載入惡意權重檔，可能造成本機執行環境被注入攻擊。
+
 ## 2026-11-13
 
 - **[apex-compute/ANR](https://github.com/apex-compute/ANR)** · GitHub · 其他
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：美加貿易戰升級具有高度地緣政治敏感性，直接影響全球供應鏈與市場穩定，觸發廣泛關注。
   - 架構亮點：資料不足
   - 安全風險：未見明顯風險，但新聞傳播可能引發金融市場投機或資訊戰風險。
-
-- **[missuo/herdrm](https://github.com/missuo/herdrm)** · GitHub · AI Agent
-  - 為什麼爆紅：透過原生 macOS 介面聚合散落於不同設備的 Coding Agent 與終端機，解決了開發者多工作業的碎片化問題。
-  - 架構亮點：Swift 原生架構，支援多裝置同步與終端機即時串流，適合 macOS 生態系統的深度整合。
-  - 安全風險：集中管理多個 Agent 可能成為單點故障；需注意 SSH 金鑰或 API Token 在多設備同步時的儲存安全性。
-
-- **[Leutenegger/coldcard-airgap](https://github.com/Leutenegger/coldcard-airgap)** · GitHub · 資安
-  - 為什麼爆紅：為硬體錢包使用者提供缺失的離線資安輔助工具（如 Seed XOR、BBQr），滿足了加密貨幣玩家對極致自主權的需求。
-  - 架構亮點：專注於離線處理（Air-gapped），支援 PSBT 檢查、熵計算與 BIP39 處理，強調不接觸網路。
-  - 安全風險：離線工具若代碼邏輯有誤（如亂數生成器缺陷），可能導致錢包私鑰遺失或被破解，需極高信任度。
-
-- **[Spielewoy/autoprompt-skill](https://github.com/Spielewoy/autoprompt-skill)** · GitHub · Skills / Claude
-  - 為什麼爆紅：針對 AI Coding Agent 常見的失敗率提供量化優化（45%），精準擊中開發者對自動化工具穩定性的痛點。
-  - 架構亮點：資料不足
-  - 安全風險：若 Agent 權限過大，自動 Prompt 優化可能導致系統被誘導執行惡意程式碼（Prompt Injection）。
-
-- **[MengTo/threeui](https://github.com/MengTo/threeui)** · GitHub · 其他
-  - 為什麼爆紅：視覺設計社群對 Three.js 互動組件有高度需求，此 repo 提供了現成的目錄與源碼，降低了高階 UI 開發門檻。
-  - 架構亮點：以 HTML 為基底的組件庫，整合 Three.js 提供即時互動呈現，結構強調模組化與可重用性。
-  - 安全風險：未見明顯風險，但需注意第三方依賴套件的版本安全性與潛在的 XSS 攻擊點。
-
-## 2026-08-22
-
-- **[SigmanticAI/apex-inference-chip](https://github.com/SigmanticAI/apex-inference-chip)** · GitHub · 基礎設施
-  - 為什麼爆紅：在 FPGA 上實現 LLM 推論且公開 RTL 實作，對於邊緣運算與自定義硬體加速有極高的技術參考與驗證價值。
-  - 架構亮點：在 FPGA 上以 RTL 實作 Transformer 解碼器層，位元級對齊黃金模型（Golden Model），實現高效能的晶片推論驗證。
-  - 安全風險：未見明顯風險
-
-- **[DenisSergeevitch/desktop-fly](https://github.com/DenisSergeevitch/desktop-fly)** · GitHub · 其他
-  - 為什麼爆紅：將嚴肅的神經科學連接體數據（FlyWire）轉化為具備生物真實感的桌面寵物，滿足了用戶對高技術含量與視覺趣味性的雙重追求。
-  - 架構亮點：基於真實的果蠅大腦連接體（Connectome）脈衝仿真模型，以 Swift 開發，實現了具備神經網路驅動行為的 3D 桌面互動組件。
-  - 安全風險：未見明顯風險
