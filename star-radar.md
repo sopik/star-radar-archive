@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-15
+
+- **[kolbicz/WQFiles](https://github.com/kolbicz/WQFiles)** · GitHub · 其他
+  - 為什麼爆紅：繞過了 iOS 封閉系統對檔案管理的嚴苛限制，提供無需越獄即可存取應用程式資料與清除快取的權限。
+  - 架構亮點：利用了特定 iOS 版本的漏洞或 API 邊界條件，實現對沙盒檔案系統的非越獄存取。
+  - 安全風險：高度依賴未公開的系統漏洞，可能導致應用程式崩潰、資料遺失或被 Apple 官方審查強制封禁。
+
+- **[adriadam10/mkw-recomp](https://github.com/adriadam10/mkw-recomp)** · GitHub · 其他
+  - 為什麼爆紅：將封閉平台的遊戲進行靜態重編譯，實現原生 PC 執行，滿足復古遊戲愛好者對效能提升與跨平台需求。
+  - 架構亮點：採用靜態重編譯技術，將原本為 Switch 架構設計的代碼轉換為原生 x86/x64 PC 二進位檔。
+  - 安全風險：涉及軟體反向工程與版權繞過，可能面臨嚴格的智慧財產權法律風險。
+
+- **[SpaceX catches the Starship to end Flight 15](https://www.spacex.com/launches/starship-flight-15)** · HN · HN 新聞
+  - 為什麼爆紅：SpaceX 的 Starship 回收技術具備極高的工程視覺衝擊力，且代表了航太重複利用技術的重大里程碑。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[DevedevT/FFmpeg-GUI-Editor-Windows](https://github.com/DevedevT/FFmpeg-GUI-Editor-Windows)** · GitHub · 媒體／創作
+  - 為什麼爆紅：解決了 FFmpeg 繁瑣的命令行操作痛點，提供 Windows 環境下開箱即用的無損剪輯 GUI，符合大眾需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)** · GitHub · AI Agent
+  - 為什麼爆紅：作為銜接開發者工具與 AI Agent 的關鍵橋樑，允許模型直接調用瀏覽器除錯 API，大幅提升自動化開發效率。
+  - 架構亮點：實現了 Model Context Protocol (MCP)，將 Chrome DevTools 的功能抽象化為 Agent 可調用的標準化介面。
+  - 安全風險：賦予 AI 模型控制瀏覽器與除錯器的權限，若處理惡意腳本，可能導致 Cookie 竊取或未經授權的操作。
+
+- **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)** · GitHub · 其他
+  - 為什麼爆紅：提供極佳的 UI/UX 與簡易部署體驗，填補了自架監控工具市場中，輕量化且視覺美觀的缺口。
+  - 架構亮點：採用 Node.js 開發，前後端整合良好；支援多種通知管道並提供直觀的即時監控儀表板。
+  - 安全風險：因屬於自架服務，若暴露於公網且缺乏強認證，可能被濫用作為內網掃描或 DDoS 的跳板。
+
 ## 2026-11-14
 
 - **[deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo)** · GitHub · 其他
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：資料不足，目前僅知為 Python 開發的面板類專案，推測與爬蟲管理或伺服器控制相關。
   - 架構亮點：資料不足
   - 安全風險：若具備後端伺服器控制權限，未經嚴格認證的面板恐導致遠端命令執行（RCE）風險。
-
-- **[cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video)** · GitHub · 媒體／創作
-  - 為什麼爆紅：將 AI 影片生成流程模組化，降低了製作「數位分身」簡報影片的技術門檻，適用於快速內容生產。
-  - 架構亮點：提供與供應商無關（Provider-neutral）的技能接口，允許串接不同 AI 生成模型進行影片合成。
-  - 安全風險：高度易被用於製作 Deepfake 假新聞或詐騙影片，針對授權圖像的驗證強度是關鍵隱憂。
-
-- **[MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)** · GitHub · 其他
-  - 為什麼爆紅：透過擬人化的「小鯨魚娘」軟體互動與即時餘額監控，將枯燥的 API 額度管理轉化為具備遊戲性的前端體驗。
-  - 架構亮點：利用 JavaScript 實現 DOM 操作與動畫渲染，支援拖拽、吸附與狀態翻轉的動態 UI 邏輯。
-  - 安全風險：未見明顯風險，但需注意 API Key 若嵌入在瀏覽器儲存層可能面臨 XSS 攻擊竊取風險。
-
-- **[ShadowAqueduct/watermark-remover](https://github.com/ShadowAqueduct/watermark-remover)** · GitHub · 資安
-  - 為什麼爆紅：解決了目前 AI 生成內容（AIGC）濫用隱形浮水印的問題，滿足了內容創作者與隱私偏好者的清洗需求。
-  - 架構亮點：整合多種格式（PNG, PDF, DOCX 等）的 metadata 清除與 statistical rewrite 機制，進行去識別化處理。
-  - 安全風險：可能被用於規避版權保護機制，或隱蔽非法內容的溯源資訊，存在法律合規與濫用版權的風險。
-
-- **[duty1g/x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server)** · GitHub · AI Agent
-  - 為什麼爆紅：將 AI 代理能力與底層除錯器打通，實現「AI 直接分析並控制崩潰程式」的自動化流程，極具實用價值。
-  - 架構亮點：使用 Zig 語言開發，具備零依賴與單二進位執行檔特性；透過 MCP 協議標準化除錯器的指令集接口。
-  - 安全風險：若 MCP 端點無適當存取控制，惡意模型可能被誘騙執行記憶體寫入或敏感數據竊取指令。
-
-## 2026-08-23
-
-- **[Rust Glancer: Rust LSP using 100x less RAM](https://rust-glancer.github.io/blog/hello-world/)** · HN · HN 新聞
-  - 為什麼爆紅：記憶體消耗是 Rust LSP（如 rust-analyzer）常見瓶頸，號稱節省 100 倍記憶體極具技術吸引力。
-  - 架構亮點：推測採用了更輕量的 AST 分析策略或記憶體映射（Memory-mapped）技術，優化了符號索引效率。
-  - 安全風險：極致輕量化若透過捨棄部分語法分析精準度實現，可能導致 IDE 報錯誤判或安全掃描遺漏。
-
-- **[Canada will match US tariffs 'dollar for dollar' as trade talks break down](https://www.bbc.com/news/articles/cvgvyy4x2mvo)** · HN · HN 新聞
-  - 為什麼爆紅：美加貿易戰升級具有高度地緣政治敏感性，直接影響全球供應鏈與市場穩定，觸發廣泛關注。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險，但新聞傳播可能引發金融市場投機或資訊戰風險。
