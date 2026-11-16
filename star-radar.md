@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-16
+
+- **[Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests](https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html)** · HN · HN 新聞
+  - 為什麼爆紅：此事件罕見地連結了軟體雲端服務中斷與現實物理環境災難（化學中毒），引發對關鍵基礎設施依賴性的恐慌。
+  - 架構亮點：資料不足
+  - 安全風險：突顯工業系統未考慮雲端依賴的故障轉移能力，軟體故障直接導致硬體自動化系統進入錯誤狀態。
+
+- **[duwqijlk/muse-protocol](https://github.com/duwqijlk/muse-protocol)** · GitHub · 其他
+  - 為什麼爆紅：透過逆向分析 Muse.ai 的註冊與兌換協議，吸引了對於繞過服務限制或自動化帳號管理感興趣的用戶。
+  - 架構亮點：純 Python HTTP 實現的協議解析，對目標系統的 API 請求進行了封裝與模仿。
+  - 安全風險：屬於逆向工程與協議破解行為，可能違反服務條款，且包含用戶私有憑證處理，存在安全隱憂。
+
+- **[Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)** · GitHub · 其他
+  - 為什麼爆紅：以極致的 WebGPU 代碼化渲染技術，達成 97KB 極小體積呈現高畫質場景，展示了瀏覽器圖形開發的極限。
+  - 架構亮點：採用純程式碼生成的 WebGPU 著色器，無需外部資產即可渲染動態場景，極致壓縮體積。
+  - 安全風險：未見明顯風險。
+
+- **[hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon)** · GitHub · AI Agent
+  - 為什麼爆紅：結合 MCP 標準將 AI 模型引入專業 3D 軟體，大幅降低 Blender 複雜操作的學習曲線與執行效率。
+  - 架構亮點：利用 Model Context Protocol (MCP) 連接多種大模型，並深度集成 Blender 的 bpy Python API。
+  - 安全風險：通過 AI 自動生成並執行 bpy 指令具備極高權限，若模型被操縱可能導致惡意篡改或刪除本地專案檔案。
+
+- **[backnotprop/plannotator](https://github.com/backnotprop/plannotator)** · GitHub · AI Agent
+  - 為什麼爆紅：提供一站式 Agent 工作流管理平台，簡化了從規劃、代碼審查到反饋循環的複雜協作流程。
+  - 架構亮點：資料不足
+  - 安全風險：集中式處理 Agent 反饋與代碼庫互動，若權限控管不足，可能導致敏感原始碼外洩或執行惡意建議代碼。
+
+- **[ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)** · GitHub · AI Agent
+  - 為什麼爆紅：滿足開發者將 AI Agent 直接整合至前端介面的需求，解決了當前 UI 與 AI 互動流程割裂的痛點。
+  - 架構亮點：專注於定義 Agent 與前端組件間的交互協議，標準化了數據傳輸與狀態同步機制。
+  - 安全風險：前端直接接入 Agent 可能導致提示詞注入或未授權的 API 調用，需嚴格限制前端權限範圍。
+
 ## 2026-11-15
 
 - **[kolbicz/WQFiles](https://github.com/kolbicz/WQFiles)** · GitHub · 其他
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：將 Claude Code 引入 UI 交互設計，透過「捲動即時間軸」的創意自動化驗證流程，極大降低了動態頁面製作門檻。
   - 架構亮點：利用截圖驗證機制實現閉環控制，將捲動事件作為狀態機觸發器，精確同步滾動位置與渲染時間軸。
   - 安全風險：自動化截圖涉及隱私風險，且若授權 Claude API 使用不當，可能導致內部預覽頁面內容在未經授權下傳輸。
-
-- **[Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926)** · HN · HN 新聞
-  - 為什麼爆紅：打破了 Apple 在移動端處理器單核效能的壟斷神話，小米處理器在多核表現上的飛躍，觸發硬體愛好者的激烈論戰。
-  - 架構亮點：顯示新架構在提升頻率與 IPC 效率上取得平衡，尤其是在多執行緒排程優化方面超越了現有的旗艦級別基準。
-  - 安全風險：若涉及供應鏈韌體層面的改動，可能對處理器的系統安全性與後門漏洞防禦提出新的挑戰。
-
-- **[How Europe is killing makers and micro-entrepreneurs](https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs)** · HN · HN 新聞
-  - 為什麼爆紅：精準切中歐洲中小企業與創客群體對繁瑣監管法規的不滿，引發關於創新成本與經濟自主權的廣泛共鳴。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[tobi/walgit](https://github.com/tobi/walgit)** · GitHub · 其他
-  - 為什麼爆紅：Rust 語言開發，結合「Wal」（預寫式日誌）與 Git 的概念，解決了開發者在處理 Git 事務時的高效能與可靠性痛點。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed)** · GitHub · 其他
-  - 為什麼爆紅：大眾對 Grok 的 macOS 原生體驗有高度需求，此專案透過逆向重建滿足了用戶對非官方客戶端功能擴展的渴望。
-  - 架構亮點：基於 TypeScript，採用模組化架構對 Grok Bot 進行逆向拆解並重新封裝，實現了 macOS 原生環境下的交互邏輯。
-  - 安全風險：逆向工程存在授權條款衝突；可能包含未經審核的遠端 API 請求，用戶帳號資訊有被攔截或外洩的風險。
-
-## 2026-08-24
-
-- **[iAmCorey/Wake](https://github.com/iAmCorey/Wake)** · GitHub · AI Agent
-  - 為什麼爆紅：現代開發者需同時處理多個 AI 代理會話，本工具填補了「會話管理與回顧」的垂直需求缺口。
-  - 架構亮點：採用 Rust 語言編寫搭配 GPUI 框架，實現高效能的 UI 渲染與本機編碼會話索引搜索。
-  - 安全風險：若索引數據庫未進行適當加密，包含代碼庫與提示詞在內的敏感專案資訊恐存在外洩風險。
-
-- **[amirh00sain/SpiderPanel](https://github.com/amirh00sain/SpiderPanel)** · GitHub · 開發工具
-  - 為什麼爆紅：資料不足，目前僅知為 Python 開發的面板類專案，推測與爬蟲管理或伺服器控制相關。
-  - 架構亮點：資料不足
-  - 安全風險：若具備後端伺服器控制權限，未經嚴格認證的面板恐導致遠端命令執行（RCE）風險。
