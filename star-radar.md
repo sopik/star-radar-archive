@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-17
+
+- **[ZiChuanLan/freebie-radar](https://github.com/ZiChuanLan/freebie-radar)** · GitHub · 其他
+  - 為什麼爆紅：自動化聚合網路上分散的優惠與福利資訊，並引入 AI 二審機制過濾垃圾訊息，節省了用戶搜尋與驗證的時間成本。
+  - 架構亮點：採用分散式爬蟲進行資訊採集，結合 AI 進行內容分析與過濾，並透過訊息佇列處理 Telegram 推送與分級分類。
+  - 安全風險：可能淪為惡意連結傳播管道。AI 二審若失效，用戶可能點擊含有釣魚網站或惡意軟體的推廣連結。
+
+- **[Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/)** · HN · HN 新聞
+  - 為什麼爆紅：卡內基梅隆大學作為 CS 頂尖學府，提供的高品質免費教材具有強大的品牌效應與公共價值，引發教育公平討論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險。
+
+- **[Eynnzerr/TelemetryCleaner](https://github.com/Eynnzerr/TelemetryCleaner)** · GitHub · 其他
+  - 為什麼爆紅：精準切中用戶對 Android 系統內建追蹤與數據收集行為的厭惡，結合 Shizuku 免 Root 特性，降低了隱私清理門檻。
+  - 架構亮點：利用 Shizuku 作為跨進程通訊媒介，繞過應用層權限限制直接對系統服務執行指令，實現非侵入式數據清理。
+  - 安全風險：誤刪系統核心服務可能導致裝置不穩定、開機失敗或關鍵功能失效，存在系統崩潰風險。
+
+- **[google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)** · GitHub · Skills / Claude
+  - 為什麼爆紅：符合 Agentic AI 趨勢，透過標準化 Agent Skills 介面，解決了 coding agents 與不同工具間的整合相容性痛點。
+  - 架構亮點：遵循 Agent Skills 開放標準，專為 Stitch MCP 伺服器設計，架構具備高度模組化與 API 導向的互操作性。
+  - 安全風險：授權 Agent 執行技能時可能產生越權操作。若技能定義缺乏細粒度權限控制，AI 可能被誘騙執行惡意程式碼。
+
+- **[ggml-org/ggml](https://github.com/ggml-org/ggml)** · GitHub · 其他
+  - 為什麼爆紅：為大語言模型提供高效的張量運算庫，大幅降低消費級硬體運行 AI 的門檻，是眾多本地 LLM 專案的技術核心。
+  - 架構亮點：針對 CPU 運算高度優化，採用自定義的張量資料結構與高效記憶體管理，支援多種權重量化格式以提升推論速度。
+  - 安全風險：未見明顯風險。主要風險在於依賴庫的供應鏈安全，以及模型權重檔本身可能存在的惡意指令注入風險。
+
+- **[KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)** · GitHub · 其他
+  - 為什麼爆紅：提供全离线且涵盖 263 種格式的檔案轉換，解決了用戶對雲端轉換服務隱私洩漏的擔憂，且不需安裝大型 Office 套件。
+  - 架構亮點：C# 開發，強調本機原生執行環境，透過封裝多種轉換引擎實現離線跨格式處理，避免檔案上傳。
+  - 安全風險：檔案轉換需處理複雜格式，若底層調用的轉換庫存在漏洞，可能在解析惡意畸形檔案時觸發緩衝區溢位等問題。
+
 ## 2026-11-16
 
 - **[Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests](https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：強調極簡安裝且無硬依賴（如 Docker），符合開發者追求「即裝即用」AI Agent 工具的需求。
   - 架構亮點：整合 ReAct 模型與 Agent Team 模式，原生支援 TUI 終端介面，降低部署複雜度。
   - 安全風險：自動化代理程式若被授予過高系統權限，可能引發非預期的指令執行或機敏資料外洩。
-
-- **[Nitter and XCancel receive cease and desist notices](https://github.com/zedeus/nitter/issues/1442)** · HN · HN 新聞
-  - 為什麼爆紅：大型科技公司打壓替代性前端工具，觸發開發者社群對平台封閉性與資訊自由的激烈辯論。
-  - 架構亮點：資料不足
-  - 安全風險：開源工具遭禁可能導致替代前端專案棄置，使用者轉向潛在惡意的非官方抓取工具。
-
-- **[New Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/)** · HN · HN 新聞
-  - 為什麼爆紅：結合高效能 M5 系列晶片的 Mac Studio 產品更新，直接吸引專業開發者與創作工作站用戶。
-  - 架構亮點：高密度整合的 M5 Max 與 M5 Ultra SoC，強調單位瓦數的效能（Performance per Watt）。
-  - 安全風險：未見明顯風險
-
-- **[Apple introduces M6 and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/)** · HN · HN 新聞
-  - 為什麼爆紅：資料不足
-  - 架構亮點：採用 M6 與 M5 Ultra 晶片，針對 AI 推論與大模型運算進行指令集與記憶體架構優化。
-  - 安全風險：未見明顯風險
-
-- **[Dolly Parton has died](https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead)** · HN · HN 新聞
-  - 為什麼爆紅：全球知名指標性巨星逝世，具備極高的新聞權重與社群討論熱度。
-  - 架構亮點：資料不足
-  - 安全風險：此類重大訃聞常被用作釣魚郵件或惡意軟體分發的誘餌，需防範相關詐騙連結。
-
-## 2026-08-25
-
-- **[MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/)** · HN · HN 新聞
-  - 為什麼爆紅：揭露了微軟應用在用戶不知情下隱寫 GUID 資訊，引發對於隱私追蹤與數位檔案溯源機制的信任危機。
-  - 架構亮點：透過位元平面分析發現系統在儲存影像時，隱寫入了唯一的識別符，證明即使是本地端產生檔案亦具備溯源標記。
-  - 安全風險：隱蔽的數位指紋涉及隱私收集與檔案被追蹤的風險，可能導致用戶在匿名分享時暴露身份資訊。
-
-- **[nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft)** · GitHub · Skills / Claude
-  - 為什麼爆紅：將 Claude Code 引入 UI 交互設計，透過「捲動即時間軸」的創意自動化驗證流程，極大降低了動態頁面製作門檻。
-  - 架構亮點：利用截圖驗證機制實現閉環控制，將捲動事件作為狀態機觸發器，精確同步滾動位置與渲染時間軸。
-  - 安全風險：自動化截圖涉及隱私風險，且若授權 Claude API 使用不當，可能導致內部預覽頁面內容在未經授權下傳輸。
