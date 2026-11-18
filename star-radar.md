@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-18
+
+- **[GPT‑6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/)** · HN · HN 新聞
+  - 為什麼爆紅：作為業界頂尖 AI 實驗室發布的技術更新，直接影響 AI 模型應用領域的技術走向與生態布局。
+  - 架構亮點：多模態處理架構，優化了即時推理效率與 Astra/Sol 模型的邏輯與視覺處理能力。
+  - 安全風險：高階 AI 模型存在幻覺風險、惡意指令注入風險，及針對多模態輸入的安全性審查挑戰。
+
+- **[Immortal-Protocols/lastbook](https://github.com/Immortal-Protocols/lastbook)** · GitHub · 其他
+  - 為什麼爆紅：提供離線 AI 知識庫功能，切中對極端環境、離線生存能力以及數據主權的需求。
+  - 架構亮點：向量搜尋與本地 LLM 推論引擎，具備將大規模離線文件編碼並實現離線檢索與生成的能力。
+  - 安全風險：離線執行環境安全性取決於本地模型權重來源，需注意惡意模型注入風險。
+
+- **[gylive/google-ultra](https://github.com/gylive/google-ultra)** · GitHub · 其他
+  - 為什麼爆紅：名稱暗示與 Google 模型相關的封裝或 API 工具，吸引追求最新 AI 模型效能的開發者關注。
+  - 架構亮點：資料不足
+  - 安全風險：若為第三方封裝，可能存在 API 金鑰洩露或未經授權的模型調用濫用風險。
+
+- **[krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)** · GitHub · 其他
+  - 為什麼爆紅：解決了不同廠商硬體軟體臃腫、無法統一監控電量的痛點，提供輕量級開源替代方案。
+  - 架構亮點：整合 Windows HID 與藍牙協議堆疊，攔截並解析多種外設供應商的專有電量數據封包。
+  - 安全風險：需存取低階藍牙與 HID 介面權限，若處理不當可能導致系統穩定性問題或潛在權限提升漏洞。
+
+- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** · GitHub · Skills / Claude
+  - 為什麼爆紅：整合多個社群平台進行資訊聚合與 AI 合成，滿足使用者對碎片化數據進行深度摘要的強烈需求。
+  - 架構亮點：多源資料爬蟲架構結合 LLM 合成邏輯，具備跨平台數據擷取能力與資訊篩選處理流程。
+  - 安全風險：爬蟲行為可能違反各平台服務條款，存在 IP 被封鎖風險，且 AI 合成可能受到來源資料偏誤影響。
+
+- **[sveltejs/svelte](https://github.com/sveltejs/svelte)** · GitHub · 其他
+  - 為什麼爆紅：作為成熟的 Web 前端框架，憑藉其編譯時而非執行時的優化機制，長期佔據開發者社群關注度。
+  - 架構亮點：採用編譯器架構，將聲明式代碼在編譯階段轉換為高效、無虛擬 DOM 的原生 JavaScript 指令，大幅降低執行負擔。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-17
 
 - **[ZiChuanLan/freebie-radar](https://github.com/ZiChuanLan/freebie-radar)** · GitHub · 其他
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：資料不足
   - 架構亮點：資料不足
   - 安全風險：資料不足
-
-- **[wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield)** · GitHub · 開發工具
-  - 為什麼爆紅：整合多樣化 AI 生成模型於單一介面，解決了現行生成式工具工作流零散的痛點。
-  - 架構亮點：統一 Prompt 介面調用多種後端模型，並建立集中式 Gallery 對接不同模型的參數配置。
-  - 安全風險：多模型 API 聚合需考量憑證洩露風險，以及處理 AI 生成內容（如 Deepfake）的濫用責任。
-
-- **[GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash)** · HN · HN 新聞
-  - 為什麼爆紅：Tim Curry 為跨世代影視指標人物，其辭世引發廣大社群的集體懷舊與悼念潮。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[Nvidia agrees to acquire Hugging Face for $13B](https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8)** · HN · HN 新聞
-  - 為什麼爆紅：Nvidia 併購 Hugging Face 涉及 AI 算力基礎設施與模型開源社群的深度綁定，具行業轉折性意義。
-  - 架構亮點：資料不足
-  - 安全風險：可能加劇 AI 模型生態的壟斷，開源社群對於模型審查與數據隱私政策變更存在擔憂。
-
-- **[AWS Acquires DuckLabs](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws)** · HN · HN 新聞
-  - 為什麼爆紅：雲端巨頭 AWS 的併購行動直接影響開發者生態與市場競爭格局，引發技術圈對服務整合方向的關注。
-  - 架構亮點：資料不足
-  - 安全風險：供應鏈安全性風險：併購後可能改變基礎建設供應鏈或數據存取路徑，需審視安全性整合。
-
-## 2026-08-26
-
-- **[bryllim/workout-guide](https://github.com/bryllim/workout-guide)** · GitHub · 開發工具
-  - 為什麼爆紅：提供結構化的運動圖庫與跨框架 npm 套件，解決了前端開發者在建構健康類應用時的資源需求。
-  - 架構亮點：架構中立的 npm 套件設計，適合嵌入各類 JavaScript 框架，具備高度的模組化與可攜性。
-  - 安全風險：未見明顯風險
-
-- **[ApodexAI/FrontierAgent](https://github.com/ApodexAI/FrontierAgent)** · GitHub · AI Agent
-  - 為什麼爆紅：強調極簡安裝且無硬依賴（如 Docker），符合開發者追求「即裝即用」AI Agent 工具的需求。
-  - 架構亮點：整合 ReAct 模型與 Agent Team 模式，原生支援 TUI 終端介面，降低部署複雜度。
-  - 安全風險：自動化代理程式若被授予過高系統權限，可能引發非預期的指令執行或機敏資料外洩。
