@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-19
+
+- **[Unauthenticated remote code execution in Nginx](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities)** · HN · HN 新聞
+  - 為什麼爆紅：Nginx 作為網際網路核心基礎設施，其未經身份驗證的遠端執行程式碼（RCE）漏洞具有極高的攻擊價值與廣泛影響面。
+  - 架構亮點：針對 Nginx HTTP/2 處理協定中的記憶體管理或解析錯誤，透過特製封包觸發遠端執行漏洞。
+  - 安全風險：極高。攻擊者可直接繞過認證控制，獲取伺服器執行權限，建議立即更新相關軟體版本。
+
+- **[CzzzzzzJ/mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian)** · GitHub · 其他
+  - 為什麼爆紅：切中自媒體跨平台營運需求，解決同時管理多平台數據與發布流程的效率問題，並結合視覺化監控。
+  - 架構亮點：整合多平台 API 的聚合發布引擎，結合飛書卡片通知與前端數據儀表板，實現集中式狀態監控架構。
+  - 安全風險：儲存大量平台 Token 與敏感數據，若架構缺乏加密存儲，存在帳號被劫持或數據外洩風險。
+
+- **[Hut-hzf/ung220z-tool](https://github.com/Hut-hzf/ung220z-tool)** · GitHub · 資安
+  - 為什麼爆紅：針對特定熱門光貓設備提供簡化的憑據破解與配置提取方案，滿足用戶獲取管理員權限的需求。
+  - 架構亮點：資料不足
+  - 安全風險：存在濫用風險。可用於未經授權的設備存取、竊取寬帶配置或作為獲取路由器控制權的攻擊跳板。
+
+- **[erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything)** · GitHub · 其他
+  - 為什麼爆紅：解決現有系統遷移至 Rust 時的高風險痛點，透過行為對比驗證，實現分階段、低風險的重構流程。
+  - 架構亮點：建立一套雙向行為比對驗證機制，在替換舊語言代碼時同步校驗輸入輸出，確保新舊系統邏輯一致性。
+  - 安全風險：未見明顯風險
+
+- **[elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)** · GitHub · Skills / Claude
+  - 為什麼爆紅：將 Claude Code 整合為自動化滲透測試工具包，整合大量已知漏洞模式與攻擊矩陣，顯著提升紅隊作業效率。
+  - 架構亮點：包含 82 種技能、15 種斜線指令及 681 種公開漏洞模式，支援跨多類別資安漏洞的自動化分析架構。
+  - 安全風險：高風險。可能遭惡意利用進行自動化漏洞掃描、攻擊甚至生成攻擊負載，對目標基礎設施構成威脅。
+
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** · GitHub · 其他
+  - 為什麼爆紅：大幅降低 LLM 訓練門檻，讓開發者僅需兩小時與消費級硬體即可從零訓練 64M 參數模型，滿足個人學習與實驗需求。
+  - 架構亮點：採用輕量化模型架構，專注於端到端訓練管線的最佳化，移除冗餘組件以加速收斂與推論效能。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-18
 
 - **[GPT‑6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：作為功能強大且開源的本地 PDF 處理工具，提供極高的透明度與隱私保障，直接取代需要付費的雲端服務。
   - 架構亮點：基於 Java 開發，提供完整的 PDF 文件處理管道，支持各類編輯、轉換與安全性操作。
   - 安全風險：處理含有惡意腳本或嵌入式惡意程式碼的 PDF 文件時，若底層解析庫存在漏洞，可能觸發遠端執行風險。
-
-- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** · GitHub · AI Agent
-  - 為什麼爆紅：解決了 AI 與網頁 UI 互動的最後一哩路，讓大語言模型能直接操作瀏覽器完成複雜網路任務，應用場景廣泛。
-  - 架構亮點：整合瀏覽器自動化驅動程式與模型代理接口，具備識別 DOM 結構並轉換為指令的適應能力。
-  - 安全風險：Agent 可能被誘導執行未經授權的網頁操作，包括釣魚攻擊、資料刪除或濫用用戶的 Cookie 等身份權限。
-
-- **[ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)** · GitHub · AI Agent
-  - 為什麼爆紅：主打「完全無人維護」的 AI 自主開發模式，挑戰了軟體工程的傳統邊界，引起技術社群對 AI 自主演進的強烈好奇。
-  - 架構亮點：使用 Rust 編寫，強調效能與安全性；整合了自動化 Agent 協作機制與代碼庫自我維護演算法。
-  - 安全風險：完全無人干預的代碼演進可能導致系統陷入不可控的邏輯路徑，或成為自動化漏洞注入的溫床。
-
-- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** · GitHub · 其他
-  - 為什麼爆紅：滿足開發者對於「自動化懶人開發」的痛點需求，以幽默的產品定位與極致精簡代碼的哲學引起共鳴。
-  - 架構亮點：資料不足
-  - 安全風險：自動化生成代碼若缺乏審查，可能引入隱蔽的邏輯漏洞或不安全的第三方依賴。
-
-- **[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · GitHub · AI Agent
-  - 為什麼爆紅：由 DeepSeek 官方發布，憑藉強大的品牌背書及「萬物皆插件」的模組化架構設計，吸引開發者探索其模型擴充性。
-  - 架構亮點：採用高度解耦的插件化架構（Plugin-based architecture），允許開發者靈活擴展模型功能而無需修改核心邏輯。
-  - 安全風險：插件系統若缺乏嚴格的隔離沙盒機制，惡意插件可能導致執行環境被劫持或敏感數據外洩。
-
-## 2026-08-27
-
-- **[themartiano/try-omarchy](https://github.com/themartiano/try-omarchy)** · GitHub · 其他
-  - 為什麼爆紅：提供零配置（Zero-setup）體驗，有效降低了技術門檻，對開發者環境部署極具吸引力。
-  - 架構亮點：封裝了特定於 Apple Silicon 的容器或編譯優化流程，實現環境隔離與快速啟動。
-  - 安全風險：未經審查的 Shell 指令腳本可能隱含惡意執行風險，需留意用戶權限與環境隔離完整性。
-
-- **[Tim Curry has died](https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film)** · HN · HN 新聞
-  - 為什麼爆紅：資料不足
-  - 架構亮點：資料不足
-  - 安全風險：資料不足
