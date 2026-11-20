@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-20
+
+- **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)** · GitHub · Skills / Claude
+  - 為什麼爆紅：針對本地 LLM 推論瓶頸提供自動化優化策略，解決開發者在不同硬體上配置與效能調校的門檻。
+  - 架構亮點：整合 speculative decoding、KV Cache 優化及 TTFT 調整，自動化搜尋硬體效能的最佳配置參數。
+  - 安全風險：自動化優化若過度觸發硬體極限，可能導致裝置過熱或系統不穩定，缺乏適當的硬體防護措施。
+
+- **[haziqahmedqasmi/PeakCut](https://github.com/haziqahmedqasmi/PeakCut)** · GitHub · 媒體／創作
+  - 為什麼爆紅：提供長影片與直播的 AI 自動剪輯方案，因自託管特性吸引對隱私敏感且希望降低第三方訂閱成本的用戶。
+  - 架構亮點：採用自託管架構（BYOK），允許用戶自行接入 AI 模型 API 進行內容檢索與剪輯。
+  - 安全風險：使用者自行輸入 API Key 若管理不當，可能面臨第三方服務費用的失控或帳戶濫用風險。
+
+- **[jquery/jquery](https://github.com/jquery/jquery)** · GitHub · 其他
+  - 為什麼爆紅：作為 Web 開發的常青樹，因其歷史累積的廣泛應用與穩定生態，持續獲得基礎設施依賴者的關注。
+  - 架構亮點：基於 DOM 操作的封裝，簡化跨瀏覽器兼容性問題，雖技術趨舊但具備極高穩定性。
+  - 安全風險：舊版 jQuery 常見 XSS 等安全性漏洞，若未定期更新至最新版本會成為網頁資安破口。
+
+- **[astral-sh/uv](https://github.com/astral-sh/uv)** · GitHub · 其他
+  - 為什麼爆紅：以 Rust 重寫 Python 套件管理工具，解決了 pip 與 venv 在大型專案中運作緩慢的痛點，顯著優化效能。
+  - 架構亮點：利用 Rust 的記憶體安全性與高效並發特性，極大化套件安裝與解析的平行處理速度。
+  - 安全風險：未見明顯風險
+
+- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** · GitHub · 其他
+  - 為什麼爆紅：精準切中「懶惰工程師」需求，透過自動化手段減少冗餘程式碼，引發開發者群體對效率與極簡開發的共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：AI 自動生成程式碼可能產生不安全的語法邏輯，若未經審查直接部署於生產環境極具風險。
+
+- **[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)** · GitHub · AI Agent
+  - 為什麼爆紅：由 DeepSeek 官方發佈，且標榜「Everything is a Plugin」的高度模組化設計，吸引開發者探究其架構靈活性。
+  - 架構亮點：採用全插件化設計（Everything is a Plugin），降低系統耦合度，便於擴充與自定義 AI 工作流程。
+  - 安全風險：高度模組化若缺乏嚴格的插件沙盒隔離，惡意插件可能直接存取主機系統權限。
+
 ## 2026-11-19
 
 - **[Unauthenticated remote code execution in Nginx](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：由 NSA 開發的工業級反組譯工具，具備強大靜態分析能力，且為開源免費，是資安研究人員的必備工具。
   - 架構亮點：基於 Java 開發的模組化架構，包含強大的反編譯器（Decompiler）、指令集處理器及協同分析功能。
   - 安全風險：作為反編譯工具，常被惡意軟體開發者用於分析漏洞與設計後門，需嚴防工具被用於惡意軟體逆向工程。
-
-- **[abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)** · GitHub · 媒體／創作
-  - 為什麼爆紅：視覺化原型至生產級程式碼的直接轉換，極大縮短了前端工程師與設計師的溝通與轉譯時間。
-  - 架構亮點：結合視覺識別模型（VLM）與前端框架生成器，將截圖影像解析並映射至 Tailwind/React/Vue 元件。
-  - 安全風險：若用戶上傳包含敏感資料（如內部帳號、後台截圖）的影像，可能在處理過程中暴露業務隱私。
-
-- **[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)** · GitHub · 其他
-  - 為什麼爆紅：放棄常見的向量資料庫（Vector Store），改用確定的 AST 解析建立知識圖譜，解決了 AI 處理大規模程式碼庫的幻覺與上下文模糊問題。
-  - 架構亮點：採用本地決定性 AST 解析技術，將程式碼、文件、SQL 與配置轉換為關聯知識圖譜，而非向量嵌入。
-  - 安全風險：處理專案原始碼時，若未對敏感配置或硬編碼金鑰進行過濾，可能將機敏資訊納入圖譜索引並造成洩漏。
-
-- **[garrytan/gstack](https://github.com/garrytan/gstack)** · GitHub · AI Agent
-  - 為什麼爆紅：結合網紅（Garry Tan）個人品牌效應與特定產業流程的最佳實踐（Opinionated AI Agent），降低決策成本。
-  - 架構亮點：由 23 種功能型工具組成，針對執行長、工程管理、QA 等角色進行高度模組化的自動化設計。
-  - 安全風險：過度授權 AI 代理人執行決策與程式碼部署，若工具邏輯存在漏洞，可能導致意外的生產環境變更。
-
-- **[odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)** · GitHub · 其他
-  - 為什麼爆紅：滿足開發者對 AI 隱私的焦慮，提供全本地化 AI 開發環境，無需依賴雲端模型服務。
-  - 架構亮點：資料不足
-  - 安全風險：因自託管特性，若使用者未適當配置存取控制與網路防火牆，可能暴露本地敏感開發資料。
-
-## 2026-08-28
-
-- **[HEJustinSun/my-girlfriend-jingtian-latex](https://github.com/HEJustinSun/my-girlfriend-jingtian-latex)** · GitHub · 其他
-  - 為什麼爆紅：典型的「迷因項目」或個人情感表達，因內容具備高社交傳播屬性，在社群中獲得意外的關注度。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** · GitHub · 基礎設施
-  - 為什麼爆紅：作為功能強大且開源的本地 PDF 處理工具，提供極高的透明度與隱私保障，直接取代需要付費的雲端服務。
-  - 架構亮點：基於 Java 開發，提供完整的 PDF 文件處理管道，支持各類編輯、轉換與安全性操作。
-  - 安全風險：處理含有惡意腳本或嵌入式惡意程式碼的 PDF 文件時，若底層解析庫存在漏洞，可能觸發遠端執行風險。
