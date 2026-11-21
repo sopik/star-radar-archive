@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-21
+
+- **[Hurried Announcement: Alessandro Masullo GRH](https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/)** · HN · HN 新聞
+  - 為什麼爆紅：延續前一項關於 GRH 的學術討論，社群在評估數學證明真實性時，因涉及基礎科學突破而引發高度討論熱度。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[bookwjitchieni1986/blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon)** · GitHub · AI Agent
+  - 為什麼爆紅：將 AI Agent 的 MCP（Model Context Protocol）標準引入 3D 建模工作流，極大化了自動化生成與編輯場景的效率。
+  - 架構亮點：利用 MCP 橋接 Blender 的 bpy Python API，實現跨模型 AI 助手對 3D 場景數據的即時調用與操作。
+  - 安全風險：透過 AI 控制 Blender API 可能執行惡意腳本，若處理未經審核的遠端模型指令，存在本地系統資源被濫用的風險。
+
+- **[Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]](https://alpo.ge/remark.pdf)** · HN · HN 新聞
+  - 為什麼爆紅：黎曼猜想（Generalized Riemann Hypothesis）是數學界的核心未解難題，任何關於該猜想的證明論點都會引發學術圈巨大關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus)** · GitHub · 其他
+  - 為什麼爆紅：符合市場對於 AI 數據隱私的擔憂，提供可完全自託管的 workspace，吸引不想將企業數據上傳至公有雲的用戶。
+  - 架構亮點：資料不足
+  - 安全風險：自行託管 AI 服務時，若未做好隔離，模型可能暴露於 Prompt Injection 攻擊；維護不當可能導致敏感檔案洩露。
+
+- **[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)** · GitHub · 其他
+  - 為什麼爆紅：提供 Notion 與 Miro 的開源替代方案，滿足用戶對資料自主權、隱私安全以及知識庫與協作白板整合的需求。
+  - 架構亮點：基於 Block-based 編輯器架構，支援可離線運作的本地數據存儲與端到端加密，具備高度自定義的插件化設計。
+  - 安全風險：若部署於私有環境，需承擔伺服器端的權限控管與數據備份風險；客戶端加密的密鑰管理若不當將導致資料永久丟失。
+
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** · GitHub · 其他
+  - 為什麼爆紅：解決了 LLM 開發者獲取網頁數據時，處理 JavaScript 渲染與解析結構化資料的高門檻痛點，標準化了數據清洗流程。
+  - 架構亮點：採用分散式網頁抓取架構，整合多種數據源並將動態頁面轉換為 LLM 友好的 Markdown 格式，透過單一 API 統一輸出。
+  - 安全風險：可能遭濫用於繞過網站的反爬蟲機制、抓取受版權保護內容或進行大規模隱私數據採集。
+
 ## 2026-11-20
 
 - **[sybil-solutions/inference-optimisation-skill](https://github.com/sybil-solutions/inference-optimisation-skill)** · GitHub · Skills / Claude
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：對當前 AI 工程技術棧的回歸式教學，滿足了開發者對底層實作原理的渴望。
   - 架構亮點：資料不足。
   - 安全風險：未見明顯風險。
-
-- **[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)** · GitHub · AI Agent
-  - 為什麼爆紅：將龐大的影片生產管線自動化，透過模組化工具群降低了高品質 AI 影片製作的門檻。
-  - 架構亮點：由 12 個生產管線與 700 多個 Agent 技能檔案組成，具備高度組合性的多代理協作（Multi-agent）工作流。
-  - 安全風險：大規模執行自動化腳本可能誤用雲端資源或觸發內容審查機制，需注意自動化生成的版權與合規性。
-
-- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** · GitHub · Skills / Claude
-  - 為什麼爆紅：直擊 LLM 開發高額 Token 成本的痛點，透過語言簡化優化策略，提供顯著的成本效益。
-  - 架構亮點：作為 Claude Code 的技能擴充，透過預處理輸入指令，強制進行高壓縮的文字編碼以降低 Token 消耗。
-  - 安全風險：過度精簡語言可能導致 LLM 對複雜業務邏輯產生誤解，進而導致生成程式碼的邏輯漏洞。
-
-- **[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)** · GitHub · AI Agent
-  - 為什麼爆紅：解決了 AI 在生成 UI 時缺乏品牌一致性的痛點，將「設計規範」標準化為可被 Agent 直接解析的格式。
-  - 架構亮點：資料不足。
-  - 安全風險：未見明顯風險。
-
-- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** · GitHub · Skills / Claude
-  - 為什麼爆紅：提供本地端優先的開源替代方案，打破 Claude Design 的封閉生態，並能直接輸出 HTML/PPTX 等實用檔案。
-  - 架構亮點：採用 BYOK（自備 API Key）架構，支援與 20 多種主流 AI Coding Agent（如 Cursor, Claude Code）無縫整合。
-  - 安全風險：因需處理本地資源與外部 API 通訊，若缺乏適當權限沙盒，可能導致本地敏感檔案遭惡意插件誤讀。
-
-## 2026-08-29
-
-- **[sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST)** · GitHub · 其他
-  - 為什麼爆紅：將 AI 從生成式轉向執行式，強調能進行「可執行的研究」，滿足科學與工程領域對自動化驗證的需求。
-  - 架構亮點：資料不足
-  - 安全風險：具備自動執行程式碼的權限，若該系統連接至真實資料庫或基礎建設，可能因模型輸出錯誤導致重大系統毀損。
-
-- **[NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)** · GitHub · 資安
-  - 為什麼爆紅：由 NSA 開發的工業級反組譯工具，具備強大靜態分析能力，且為開源免費，是資安研究人員的必備工具。
-  - 架構亮點：基於 Java 開發的模組化架構，包含強大的反編譯器（Decompiler）、指令集處理器及協同分析功能。
-  - 安全風險：作為反編譯工具，常被惡意軟體開發者用於分析漏洞與設計後門，需嚴防工具被用於惡意軟體逆向工程。
