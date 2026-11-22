@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-22
+
+- **[Lean verification of the Riemann Hypothesis](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)** · HN · HN 新聞
+  - 為什麼爆紅：黎曼猜想作為數學界聖杯，透過 Lean 形式化驗證工具進行證明，引發學術界與計算機科學界的極大關注。
+  - 架構亮點：利用 Lean 定理證明器提供的數學形式化架構，將複雜邏輯斷言轉換為機器可驗證的證明流程。
+  - 安全風險：未見明顯風險
+
+- **[hatsunemiku-ai/google-one-tools](https://github.com/hatsunemiku-ai/google-one-tools)** · GitHub · 其他
+  - 為什麼爆紅：針對 Google One 服務的非官方輔助工具，可能提供了官方 API 未開放的自動化操作功能，吸引相關需求用戶。
+  - 架構亮點：資料不足
+  - 安全風險：要求存取 Google 帳號授權，存在帳號劫持、憑證外洩或被 Google 封鎖帳號的重大風險。
+
+- **[iamajmeena/neonclipping](https://github.com/iamajmeena/neonclipping)** · GitHub · 媒體／創作
+  - 為什麼爆紅：精準切中了當前短影音自動化剪輯的需求，結合本地 LLM 技術大幅降低了內容創作者的製作成本與隱私疑慮。
+  - 架構亮點：基於音訊優先的處理流程，整合 YouTube 字幕解析與本地端 LLM 進行智慧內容切片與重組。
+  - 安全風險：運行本地模型消耗資源大，若無適當隔離，可能存在處理敏感檔案時的資料外洩疑慮。
+
+- **[ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida)** · GitHub · 其他
+  - 為什麼爆紅：逆向工程與遊戲重編譯技術具極高話題性，滿足了玩家對跨平台運行未發布遊戲的極致技術渴望。
+  - 架構亮點：利用靜態與動態二進位轉換技術，將 Xbox 專有指令集重新編譯為原生 PC 執行碼。
+  - 安全風險：涉及重大的版權侵權風險，且執行不明逆向程式可能導致系統資安漏洞與惡意程式植入。
+
+- **[XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)** · GitHub · 其他
+  - 為什麼爆紅：解決了多平台內容提取的剛性需求，透過整合式工具降低了技術門檻，滿足了開發者與一般用戶的自動化下載偏好。
+  - 架構亮點：採用 Python 編寫，推測具備高度模組化的解析引擎以應對不同平台的反爬蟲機制。
+  - 安全風險：可能涉及違規抓取受版權保護的內容，並存在隱藏腳本執行惡意指令的潛在風險。
+
+- **[nginx/nginx](https://github.com/nginx/nginx)** · GitHub · 其他
+  - 為什麼爆紅：作為全球網路基礎設施核心，其代碼庫的每一次變更與開源進度均受架構師與 DevOps 工程師高度關注。
+  - 架構亮點：採用高效能事件驅動、非阻塞的架構，以極低記憶體佔用處理高併發連線，是靜態資源與負載均衡的工業標準。
+  - 安全風險：因其普及度極高，任何核心漏洞都具有全網級影響，需持續監控其安全公告與補丁更新。
+
 ## 2026-11-21
 
 - **[Hurried Announcement: Alessandro Masullo GRH](https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：結合 AI 自動化求職流程，直接對接本地 CLI 工具，解決了求職市場資訊過載與篩選痛點。
   - 架構亮點：模組化處理：資料抓取、結構化評分（A-H 等級）、簡歷自定義，並與主流 AI CLI 工具無縫整合。
   - 安全風險：需處理敏感個人簡歷與帳號密碼資訊，若未落實端到端加密，極易成為釣魚或數據竊取目標。
-
-- **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** · GitHub · 其他
-  - 為什麼爆紅：將複雜程式碼視覺化為互動式知識圖譜，顯著降低了理解大型程式庫與異構程式碼結構的認知負荷。
-  - 架構亮點：支援多種 AI 編碼工具鏈串接，利用圖論結構解析原始碼並提供 LLM 查詢接口。
-  - 安全風險：將完整程式碼庫上傳至圖譜分析引擎若未經本地處理，恐造成企業私有代碼洩漏風險。
-
-- **[karpathy/autoresearch](https://github.com/karpathy/autoresearch)** · GitHub · Skills / Claude
-  - 為什麼爆紅：由 AI 權威 Andrej Karpathy 發布，旨在降低訓練小型模型的硬體門檻並實現自動化研究流程，具高度技術影響力。
-  - 架構亮點：針對單 GPU 環境優化，將深度學習模型的研究與 nanochat 訓練流程自動化。
-  - 安全風險：自動化訓練腳本若未設防火牆，可能被用於生成惡意內容或在受污染數據集上進行模型中毒。
-
-- **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：隨著 Claude 使用率飆升，開發者急需一套生態系統來擴展其自動化工作流，該 repo 提供即插即用的整合方案。
-  - 架構亮點：資料不足
-  - 安全風險：第三方工具整合可能導致 API 金鑰洩漏或授權過度擴張，遭攻擊者利用執行未經授權的操作。
-
-- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：開發者極度渴求能讓 AI 代理（Agents）從實驗階段邁向生產環境的標準化工程模式與技能庫。
-  - 架構亮點：資料不足
-  - 安全風險：若代理權限控管不當，注入式攻擊可能透過這些技能直接執行惡意程式碼或訪問敏感資源。
-
-## 2026-08-30
-
-- **[XiaoDuoYa/codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)** · GitHub · 其他
-  - 為什麼爆紅：結合 ChatGPT 的推理能力與 Codex 的程式碼生成與執行能力，彌補單一模型在規劃與實作上的不足。
-  - 架構亮點：解耦架構：以 ChatGPT 作為邏輯規劃器（Planner），透過 API 橋接至 Codex 進行程式碼操作與執行。
-  - 安全風險：跨模型協作可能導致 Prompt Injection 攻擊風險，且需同時暴露兩個系統的 API 權限，增加受攻擊面。
-
-- **[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** · GitHub · 其他
-  - 為什麼爆紅：對當前 AI 工程技術棧的回歸式教學，滿足了開發者對底層實作原理的渴望。
-  - 架構亮點：資料不足。
-  - 安全風險：未見明顯風險。
