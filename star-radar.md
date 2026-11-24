@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-24
+
+- **[Nvidia Reinstates Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)** · HN · HN 新聞
+  - 為什麼爆紅：Nvidia 作為 AI 產業的核心引擎，其最高層領導結構的變動直接影響全球科技資本市場與 AI 策略佈局，引發廣泛關注。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[AFK-surf/xnulinux](https://github.com/AFK-surf/xnulinux)** · GitHub · 其他
+  - 為什麼爆紅：實現了 macOS 核心 (XNU) 以模組形式運行於 Linux 之上，為開發者提供了極致的異構作業系統體驗與底層相容性。
+  - 架構亮點：利用 Linux 核心模組掛載機制，在 arm64 架構下模擬 XNU 核心的運行環境，並維持了一定程度的 macOS personality 特徵。
+  - 安全風險：核心級別的操作極易導致系統不穩定或崩潰；且因涉及 OS 核心攔截，可能被識別為潛在的 Rootkit 或系統特權篡改行為。
+
+- **[mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance)** · GitHub · AI Agent
+  - 為什麼爆紅：解決了開發者在面對審核時的資訊不透明焦慮，透過結構化的合規指南與自動化追蹤，直接降低產品被拒風險。
+  - 架構亮點：採用規則庫與追蹤引擎設計，整合了 AI 編碼代理的技能模組，支援對應各國隱私法規 (如歐盟 AI 法案、COPPA) 的自動化檢查。
+  - 安全風險：未見明顯風險
+
+- **[ivall/xcl](https://github.com/ivall/xcl)** · GitHub · 其他
+  - 為什麼爆紅：成功將封閉的 Xbox 主機軟體庫映射至 Windows 環境，實現跨平台原生執行，解決了玩家長期的硬體平台限制痛點。
+  - 架構亮點：透過相容性層 (Compatibility Layer) 攔截系統呼叫，將遊戲專有的 API 重新映射，並內建了 RDNA2 到 DXIL 的即時著色器轉譯器。
+  - 安全風險：涉及遊戲平台的技術逆向，可能觸發 DRM 保護機制，並潛在引入系統級別的記憶體存取漏洞。
+
+- **[Marvisak/VIctory](https://github.com/Marvisak/VIctory)** · GitHub · 其他
+  - 為什麼爆紅：針對尚未登陸 PC 平台的熱門遊戲大作進行逆向工程與模擬執行，觸發了遊戲社群對跨平台技術實現的高度好奇心與期待。
+  - 架構亮點：利用 Rust 語言的高效能特性，嘗試在非原生環境中解析遊戲二進位碼並轉譯執行指令，實作難度極高。
+  - 安全風險：可能違反遊戲發行商的 EULA，執行未經授權的遊戲代碼存在惡意軟體注入風險，且涉及複雜的著作權灰色地帶。
+
+- **[openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)** · GitHub · 其他
+  - 為什麼爆紅：作為英特爾推動的長期標準，它是邊緣運算與 AI 模型推論效能優化的工業級首選，廣泛應用於各類硬體整合。
+  - 架構亮點：核心為模型優化器 (Model Optimizer) 與推論引擎，支援將多框架模型轉換為優化的 IR 格式，並對硬體進行自動化調度與異構計算加速。
+  - 安全風險：未見明顯風險
+
 ## 2026-11-23
 
 - **[Toyota, Nissan, and Honda to standardize parts to lower costs](https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：主打「Agent-Native」概念，嘗試將傳統軟體介面強制轉換為 AI 可理解的控制流，解決了舊軟體在 AI 自主執行下的兼容性障礙。
   - 架構亮點：資料不足。
   - 安全風險：若任意軟體皆可被 Agent 操控，存在極大的權限擴張風險，惡意腳本可能藉此繞過系統防護執行未授權操作。
-
-- **[chenglou/pretext](https://github.com/chenglou/pretext)** · GitHub · 其他
-  - 為什麼爆紅：由知名開發者推出，針對文字測量與佈局提供極致的效能表現，解決了現代 UI 渲染中對於複雜文本處理的技術瓶頸。
-  - 架構亮點：資料不足。
-  - 安全風險：未見明顯風險。
-
-- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** · GitHub · AI Agent
-  - 為什麼爆紅：將求職自動化整合進 AI 編碼 CLI，將繁瑣的篩選與投遞工作轉化為本地化的 Agent 工作流，滿足求職市場的自動化需求。
-  - 架構亮點：具備自動化掃描、職位評分機制（A-H 報告）與簡歷客製化，完全運行於本地 AI CLI 環境中。
-  - 安全風險：需存取用戶個人簡歷與求職平台的機敏資訊，若 Agent 邏輯被污染，可能導致個人資料外流或誤投遞惡意鏈接。
-
-- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** · GitHub · AI Agent
-  - 為什麼爆紅：直擊 LLM 使用成本痛點，提供顯著的 Token 壓縮效果，對高頻使用 RAG 或編碼代理的用戶具有極高的金錢節省價值。
-  - 架構亮點：支援庫、Proxy 及 MCP Server 多種形態，能針對日誌、程式碼與 JSON 進行高效壓縮，並維持輸出一致性。
-  - 安全風險：作為 Proxy 介面傳輸數據，若處理過程缺乏適當加密或在轉換階段被注入惡意載荷，存在數據被竄改或隱私外洩的風險。
-
-- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** · GitHub · Skills / Claude
-  - 為什麼爆紅：作為 Claude Code 與 Cursor 等主流 AI 編碼工具的效能優化層，解決了開發者對 AI 代理執行效率與記憶管理的剛需痛點。
-  - 架構亮點：整合了記憶系統、安全機制與研究導向的開發框架，為不同 AI 代碼環境提供統一的 Agent Harness 優化介面。
-  - 安全風險：深入 AI Agent 的執行底層並處理記憶與安全功能，若遭劫持或配置錯誤，恐導致 Agent 產生權限濫用或洩漏敏感代碼。
-
-## 2026-09-01
-
-- **[Nanako0129/sepia](https://github.com/Nanako0129/sepia)** · GitHub · AI Agent
-  - 為什麼爆紅：將「去 AI 化」(De-AI) 寫作風格調整作為 Agent 技能模組，滿足使用者對 AI 生成內容「去機器味」的需求。
-  - 架構亮點：基於 StoryScope 學術模型，整合各類主流 Agent 框架的插件，專注於文本敘事結構與專業語調的修復與校正。
-  - 安全風險：被惡意用於大規模生成極具欺騙性的擬人化內容，可能被用於社群工程、詐騙或散播虛假訊息。
-
-- **[tt-a1i/archify](https://github.com/tt-a1i/archify)** · GitHub · AI Agent
-  - 為什麼爆紅：解決了 AI Agent 輸出複雜系統架構圖時，格式混亂且缺乏互動性的痛點，適合技術文件生成自動化場景。
-  - 架構亮點：利用前端渲染技術產生自帶動畫與導出功能的 HTML 文件，實現從 Agent 輸出到可視化架構圖的無縫轉譯。
-  - 安全風險：未見明顯風險；主要風險可能在於處理敏感系統架構圖時，若未進行加密儲存恐導致內部設計外洩。
