@@ -2,6 +2,33 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-25
+
+- **[The Spray Bottle](https://mechanical-pencil.com/products/spray-bottle)** · HN · HN 新聞
+  - 為什麼爆紅：技術社群對「極致簡約」與「工業設計」的偏執追求，使得這類結合工藝與極簡主義的實體產品常因討論設計哲學而爆紅。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Matrix Multiplication is Θ(n^2.25) [pdf]](https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf)** · HN · HN 新聞
+  - 為什麼爆紅：矩陣乘法複雜度是電腦科學的核心難題，若該論文證實 Θ(n^2.25) 為真，將大幅改寫運算效能理論上限，引發學術界震盪。
+  - 架構亮點：透過更高效的演算法設計，大幅降低矩陣乘法的漸近複雜度，推翻了過往對於乘法效率極限的認知。
+  - 安全風險：未見明顯風險
+
+- **[fxceless/victory-fork](https://github.com/fxceless/victory-fork)** · GitHub · 其他
+  - 為什麼爆紅：緊跟 Xbox 遊戲移植風潮，專注於執行特定主機標題，吸引了熱衷於硬體底層移植技術的開發者群體。
+  - 架構亮點：資料不足
+  - 安全風險：雖聲稱不包含遊戲檔案，但此類工具常被用於執行盜版遊戲資源，可能面臨嚴重的法律與合規風險。
+
+- **[4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi)** · GitHub · 其他
+  - 為什麼爆紅：《GTA VI》的 PC 版發布進度是全球玩家焦點，該專案透過匯集各類模擬與移植進度，滿足了社群對資訊彙整與追蹤的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[xcl-dev/xcl](https://github.com/xcl-dev/xcl)** · GitHub · 其他
+  - 為什麼爆紅：Xbox Series 遊戲在 Windows 原生執行是長期痛點，此專案實現了硬體抽象層並重編譯 RDNA2 着色器，突破了主機封閉生態的限制。
+  - 架構亮點：以 Rust 編寫，實現了 Xbox 系統函式庫的模擬重構，並將 RDNA2 架構的着色器即時轉譯為 DXIL，確保與 Windows 環境的兼容性。
+  - 安全風險：涉及逆向工程與私有 API 模擬，可能觸發與遊戲發行商的數位版權法（DMCA）法律糾紛，亦可能被惡意軟體用作執行未授權代碼的跳板。
+
 ## 2026-11-24
 
 - **[Nvidia Reinstates Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)** · HN · HN 新聞
@@ -2642,30 +2669,3 @@
   - 為什麼爆紅：利用 Claude Code 自動化執行求職過程（改寫履歷、投遞），直接切中技術人員對低效、重複求職程序的痛點與自動化渴望。
   - 架構亮點：基於 Claude Code 框架開發的 Agent 流程，整合了資訊檢索、自然語言生成以及本地端執行環境的權限控制。
   - 安全風險：頻繁呼叫 AI 介面可能導致 API 額度耗盡，且投遞過程若未經核對，可能造成大量垃圾申請甚至帳號違規風險。
-
-- **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** · GitHub · AI Agent
-  - 為什麼爆紅：AI 代理（Agent）開發潮下，將 HTML 轉為影片的需求激增。此工具解決了 UI 自動化產出多媒體素材的痛點，符合當前 Agent-first 趨勢。
-  - 架構亮點：將 HTML/CSS 視為渲染原始檔，透過架構將網頁架構直接映射至視訊影格，專為無頭瀏覽器與自動化代理執行環境優化。
-  - 安全風險：可能遭濫用於大規模自動化生成深偽（Deepfake）影片或垃圾資訊內容。
-
-- **[3b1b/manim](https://github.com/3b1b/manim)** · GitHub · 媒體／創作
-  - 為什麼爆紅：數學網紅 3Blue1Brown 的影片影響力極大，該引擎能精準生成複雜數學動畫，填補了程式碼驅動高品質數學視覺化的市場空白。
-  - 架構亮點：基於 Python 的程式碼編寫動畫引擎，透過指令式語法控制幾何對象的渲染與變形，具備強大的數學符號處理與時間軸控制能力。
-  - 安全風險：未見明顯風險
-
-- **[public-apis/public-apis](https://github.com/public-apis/public-apis)** · GitHub · 其他
-  - 為什麼爆紅：作為全球開發者公認的免費 API 聚合清單，是建立專案時尋找資料來源的必備工具書，具備極高的長尾搜尋價值與收藏效應。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-## 2026-09-02
-
-- **[crmne/fastpotify](https://github.com/crmne/fastpotify)** · GitHub · 其他
-  - 為什麼爆紅：以 Rust 重寫 Spotify 客戶端，滿足使用者對於輕量化與高效能音訊播放工具的追求，擺脫了官方 Electron 客戶端的資源臃腫。
-  - 架構亮點：採用 Rust 語言編寫，實現本地播放與 Spotify Connect 功能，顯著降低記憶體佔用與 CPU 負載。
-  - 安全風險：需與 Spotify API 進行身份驗證交互，若處理 Session Token 不當，存在遭中間人攻擊或用戶帳號被劫持的風險。
-
-- **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · GitHub · AI Agent
-  - 為什麼爆紅：主打「Agent-Native」概念，嘗試將傳統軟體介面強制轉換為 AI 可理解的控制流，解決了舊軟體在 AI 自主執行下的兼容性障礙。
-  - 架構亮點：資料不足。
-  - 安全風險：若任意軟體皆可被 Agent 操控，存在極大的權限擴張風險，惡意腳本可能藉此繞過系統防護執行未授權操作。
