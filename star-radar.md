@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-26
+
+- **[1Password Security Incident](https://1password.com/blog/update-on-nov-2026-security-incident)** · HN · HN 新聞
+  - 為什麼爆紅：身為主流密碼管理工具，1Password 的安全事故直接影響用戶數據隱私，觸發大眾對雲端安全架構的信任危機。
+  - 架構亮點：資料不足
+  - 安全風險：重大安全事故意味著用戶的主密碼或金鑰庫可能面臨潛在洩漏風險，必須進行全線密碼重置與安全憑證檢查。
+
+- **[Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening](https://scottaaronson.blog/?p=10379)** · HN · HN 新聞
+  - 為什麼爆紅：知名量子計算學者 Scott Aaronson 發布驚人觀點，引發社群對當前技術進程（如 AI 或量子突破）產生強烈焦慮與共鳴。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險，屬技術哲學討論；但在社會工程面可能引發恐慌，導致對新興技術產生非理性決策。
+
+- **[Belobug/VIctory-Belobug-AMD](https://github.com/Belobug/VIctory-Belobug-AMD)** · GitHub · 其他
+  - 為什麼爆紅：在短時間內爆紅且使用 Rust 編寫，推測與 AMD 硬體底層驅動優化、或針對特定平台的效能突破性技術有關。
+  - 架構亮點：資料不足
+  - 安全風險：涉及底層硬體控制與驅動程式修改，若程式存在記憶體不安全漏洞，可能導致系統崩潰或被攻擊者獲取核心權限。
+
+- **[os6/nospeaker](https://github.com/os6/nospeaker)** · GitHub · 其他
+  - 為什麼爆紅：極具創意的硬體黑客專案，利用 MacBook 觸控板的力回饋馬達產出聲音，創造出有趣的物理感知與駭客體驗。
+  - 架構亮點：直接調用 macOS 私有框架，透過精細控制觸控板 Taptic Engine 的頻率與波形來驅動震動發聲。
+  - 安全風險：未見明顯風險，但高頻震動可能導致觸控板機械零件加速損耗，或產生異常電磁干擾。
+
+- **[ubiquitarianism/leonida](https://github.com/ubiquitarianism/leonida)** · GitHub · 其他
+  - 為什麼爆紅：針對極受矚目的遊戲《GTA VI》提供 Xbox 到 PC 的移植介面，滿足了 PC 玩家提早體驗或硬體改裝的強烈需求。
+  - 架構亮點：資料不足
+  - 安全風險：涉及遊戲存檔修改、反作弊繞過機制，可能導致帳號遭遊戲平台封禁，且第三方移植工具常夾帶惡意二進位檔案。
+
+- **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** · GitHub · AI Agent
+  - 為什麼爆紅：解決了 AI Agent 與既有終端機軟體互動的痛點，透過標準化介面讓所有軟體具備 AI 驅動能力，降低自動化開發門檻。
+  - 架構亮點：採用 Agent-Native 設計模式，提供一套統一的交互協議層，允許大模型直接調用 CLI 指令與參數化工具。
+  - 安全風險：自動化執行權限過大可能導致系統指令注入，若缺乏嚴格的沙盒環境控制，易被惡意 Agent 濫用進行未授權操作。
+
 ## 2026-11-25
 
 - **[The Spray Bottle](https://mechanical-pencil.com/products/spray-bottle)** · HN · HN 新聞
@@ -2637,35 +2669,3 @@
   - 為什麼爆紅：Anthropic 官方釋出的垂直領域應用藍圖，提供電商、零售等場景的具體實作架構，對企業端開發 AI 購物系統具有極高參考價值。
   - 架構亮點：包含多領域（電商、電信、娛樂）的架構參考設計，結合 Claude 對複雜商業邏輯與多步驟交易流程的處理能力。
   - 安全風險：商業代理涉及用戶個資與支付邏輯，若鑑權機制不嚴謹，容易產生 API 權限濫用、交易漏洞或敏感數據洩漏風險。
-
-- **[Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：準確切中學術界痛點，提供符合 Nature 期刊標準的科研數據處理與自動化繪圖解決方案，降低撰寫高質量論文的門檻。
-  - 架構亮點：資料不足
-  - 安全風險：未見明顯風險
-
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** · GitHub · AI Agent
-  - 為什麼爆紅：基於 Nous Research 在開源模型界的技術聲譽，且強調「隨使用者成長」的代理機制，吸引尋求高度自適應 AI 代理的開發者關注。
-  - 架構亮點：資料不足
-  - 安全風險：代理程式具備學習與自主決策能力，若訓練過程欠缺保護，可能發生模型權重中毒或自主執行未經授權的外部網路請求。
-
-- **[mattpocock/skills](https://github.com/mattpocock/skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：由知名技術網紅 Matt Pocock 發布，針對開發者代理（AI Agents）的指令集與自動化工作流程，切中當前工程師優化開發效率的需求。
-  - 架構亮點：以 .agents 目錄結構為核心，模組化封裝工程師常用的 Shell 腳本與任務邏輯，便於 AI 工具調用執行。
-  - 安全風險：若自動化腳本包含未經審核的執行權限，可能導致攻擊者透過 prompt injection 執行惡意 Shell 指令或非法存取機敏檔案。
-
-## 2026-09-03
-
-- **[GangTailorUpgrade/undress-service](https://github.com/GangTailorUpgrade/undress-service)** · GitHub · 其他
-  - 為什麼爆紅：針對私密影像處理需求，因具備強烈的感官刺激與倫理爭議，通常會在非法或成人社群中迅速傳播。
-  - 架構亮點：資料不足
-  - 安全風險：高度濫用風險。涉及製作非合意色情內容（NCII），嚴重侵犯隱私並違反多國法律與 AI 倫理規範。
-
-- **[cbrock84/headcount](https://github.com/cbrock84/headcount)** · GitHub · Skills / Claude
-  - 為什麼爆紅：將 Claude Code 的代理能力模組化並模仿企業架構組織，提供了一種系統化管理多個 AI 職能單位的框架，便於擴展複雜任務。
-  - 架構亮點：模組化代理設計，包含超過 15 個部門與 125 個獨立安裝的技能模組，採用類似組織樹的架構來派發與執行跨職能任務。
-  - 安全風險：若代理權限控管不當，可能導致 AI 誤操作或未經授權的系統訪問；模組生態系若包含惡意來源則有資安隱憂。
-
-- **[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)** · GitHub · Skills / Claude
-  - 為什麼爆紅：利用 Claude Code 自動化執行求職過程（改寫履歷、投遞），直接切中技術人員對低效、重複求職程序的痛點與自動化渴望。
-  - 架構亮點：基於 Claude Code 框架開發的 Agent 流程，整合了資訊檢索、自然語言生成以及本地端執行環境的權限控制。
-  - 安全風險：頻繁呼叫 AI 介面可能導致 API 額度耗盡，且投遞過程若未經核對，可能造成大量垃圾申請甚至帳號違規風險。
