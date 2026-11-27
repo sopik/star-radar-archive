@@ -2,6 +2,33 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-27
+
+- **[AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting)** · HN · HN 新聞
+  - 為什麼爆紅：AI 降低了維護複雜服務的門檻，讓過去專業門檻較高的自託管（Self-hosting）變得容易，引發技術愛好者共鳴。
+  - 架構亮點：利用 LLM 作為自託管基礎設施的設定與故障排除輔助，優化了 Docker、Nginx 等服務的自動化部署流程。
+  - 安全風險：過度依賴 AI 自動配置可能產生安全設定疏漏，若生成的腳本缺乏審查，易引入公開暴露的服務埠或權限漏洞。
+
+- **[Tell HN: Happy Thanksgiving](https://news.ycombinator.com/item?id=50655664)** · HN · HN 新聞
+  - 為什麼爆紅：節慶情感共鳴，作為社群傳統的互動貼文，在感恩節期間聚合了大量用戶的社交互動與情緒反饋。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險。
+
+- **[crhywun/g1-acq](https://github.com/crhywun/g1-acq)** · GitHub · 其他
+  - 為什麼爆紅：專案描述缺失，目前僅因社群對開發者過往貢獻或其技術棧預期而產生熱度，屬於高度投機性增長。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險。
+
+- **[alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm)** · GitHub · 其他
+  - 為什麼爆紅：挑戰軟體極限，將 LLM 推理、作業系統及訓練器完全以原始 NASM 組語實作，體積極小且不依賴任何 C 或 libc 庫。
+  - 架構亮點：全純 x86-64 NASM 組語架構，無 C 語言與函式庫依賴，實現 bare-metal 可啟動系統，展現極致的記憶體管理與指令集控制。
+  - 安全風險：未見明顯風險。此專案屬於底層技術演示，極高的複雜度限制了惡意軟體植入的隱蔽性。
+
+- **[avatarmanz/VIctory-7900XTX](https://github.com/avatarmanz/VIctory-7900XTX)** · GitHub · 其他
+  - 為什麼爆紅：Xbox Series 遊戲直接移植 PC 技術備受關注，因其繞過模擬器的高資源消耗，能直接發揮硬體效能，且鎖定高階顯卡需求。
+  - 架構亮點：使用 Rust 編寫，專注於硬體層級的 API 映射與移植，針對 RX 7900 XTX 架構進行特定優化以執行 Series X 版本資源。
+  - 安全風險：涉及逆向工程與遊戲原始碼轉譯，可能觸發 DRM 版權保護機制或被發行商認定為違反服務條款。
+
 ## 2026-11-26
 
 - **[1Password Security Incident](https://1password.com/blog/update-on-nov-2026-security-incident)** · HN · HN 新聞
@@ -2642,30 +2669,3 @@
   - 為什麼爆紅：由知名開發者維護，聚焦設計與工程領域的技能樹，滿足軟體產業對跨領域技能結構化的強烈需求。
   - 架構亮點：資料不足
   - 安全風險：未見明顯風險
-
-- **[anthropics/skills](https://github.com/anthropics/skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：由頂尖 AI 模型公司 Anthropic 發佈，開發者試圖藉此理解其代理人技能的標準化實作，以提升自建 AI 應用的對齊度。
-  - 架構亮點：資料不足
-  - 安全風險：公開技能模組可能被用於自動化詐騙或未經授權的遠端操作，需關注其對 Tool-use 權限的沙盒隔離機制。
-
-- **[obra/superpowers](https://github.com/obra/superpowers)** · GitHub · AI Agent
-  - 為什麼爆紅：結合代理人（Agentic）技能框架與軟體開發方法論，直接對接開發者提升自動化生產力的需求，引發社群高度關注。
-  - 架構亮點：資料不足
-  - 安全風險：代理人框架可能涉及權限提升與過度授權風險，若指令解析不嚴格，易遭 Prompt Injection 攻擊。
-
-## 2026-09-04
-
-- **[GPT-6 Astra](https://openai.com/index/gpt-6-astra/)** · HN · HN 新聞
-  - 為什麼爆紅：作為 OpenAI 旗艦模型的重大迭代，GPT-6 Astra 承載市場對下一代多模態智慧、推理能力與執行效率提升的巨大預期。
-  - 架構亮點：資料不足
-  - 安全風險：大幅提升的自動化執行與推理能力，可能導致生成假訊息、社會工程攻擊規模化，或在未經授權下自動操控系統資源。
-
-- **[.name Termination](https://neil.fraser.name/news/2026/09/03/)** · HN · HN 新聞
-  - 為什麼爆紅：頂級域名（TLD）.name 即將終止服務，牽涉大量個人網頁持有者的數位資產遷移與數位身份備份議題，引發廣泛社群討論。
-  - 架構亮點：資料不足
-  - 安全風險：域名撤銷後可能引發大規模域名搶註與釣魚網站風險，導致原用戶的連結失效並可能遭惡意接管。
-
-- **[anthropics/commerce-agents](https://github.com/anthropics/commerce-agents)** · GitHub · AI Agent
-  - 為什麼爆紅：Anthropic 官方釋出的垂直領域應用藍圖，提供電商、零售等場景的具體實作架構，對企業端開發 AI 購物系統具有極高參考價值。
-  - 架構亮點：包含多領域（電商、電信、娛樂）的架構參考設計，結合 Claude 對複雜商業邏輯與多步驟交易流程的處理能力。
-  - 安全風險：商業代理涉及用戶個資與支付邏輯，若鑑權機制不嚴謹，容易產生 API 權限濫用、交易漏洞或敏感數據洩漏風險。
