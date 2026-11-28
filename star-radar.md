@@ -2,6 +2,38 @@
 
 每日 bot 選入的 GitHub 新星與 Hacker News。由新到舊。
 
+## 2026-11-28
+
+- **[Michael Nielsen took down his book on neural nets](https://neuralnetworksanddeeplearning.com/)** · HN · HN 新聞
+  - 為什麼爆紅：作為經典的深度學習入門權威教材，作者無預警下架引發學術圈與開發者社群對知識傳承與開放獲取的廣泛討論。
+  - 架構亮點：資料不足
+  - 安全風險：未見明顯風險
+
+- **[Credit card skimming scripts using WebRTC found on popular shopping sites](https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer)** · HN · HN 新聞
+  - 為什麼爆紅：WebRTC 被發現用於繞過傳統內容安全策略（CSP）進行信用卡數據盜取，具備高度隱蔽性，對電商安全構成新威脅。
+  - 架構亮點：利用 WebRTC 的點對點通訊特性，將竊取的支付資訊從瀏覽器繞過伺服器監控直接傳輸至駭客端。
+  - 安全風險：屬於嚴重的惡意程式攻擊，導致用戶信用卡個資外洩，電商平台防禦機制面臨失效挑戰。
+
+- **[nexu-io/opengame](https://github.com/nexu-io/opengame)** · GitHub · AI Agent
+  - 為什麼爆紅：將 AI Agent 工作流與遊戲開發結合，提供「AI 遊戲工作室」概念，可直接發布至熱門社交平台，降低遊戲開發門檻。
+  - 架構亮點：透過連接多種編碼 Agent（如 Claude/DeepSeek），實現自動化遊戲開發流水線，並提供跨平台一鍵發布引擎。
+  - 安全風險：生成的遊戲可能隱含未經審核的內容，或被用於生成惡意軟體、釣魚網站，且平台託管安全性未知。
+
+- **[ProjectLeonida/mandy](https://github.com/ProjectLeonida/mandy)** · GitHub · 其他
+  - 為什麼爆紅：作為熱門大作《GTA VI》的 Xbox 轉 PC 移植介面，直接切中玩家搶先遊玩與反向工程的強烈興趣。
+  - 架構亮點：資料不足
+  - 安全風險：存在嚴重的法律風險，且執行這類非官方移植工具可能導致帳號封禁或系統遭惡意程式感染。
+
+- **[trustno1-coder/VIctory-NVIDIA](https://github.com/trustno1-coder/VIctory-NVIDIA)** · GitHub · 其他
+  - 為什麼爆紅：實現了 Xbox Series 遊戲在 NVIDIA 硬體上的模擬相容層，並提供 DLSS 幀生成功能，極大滿足硬體玩家對跨平台遊戲性能提升的需求。
+  - 架構亮點：採用模擬相容層技術，整合多個專案成果，針對 NVIDIA RTX 架构進行特定渲染優化，並實作即時幀生成。
+  - 安全風險：運行未經授權的遊戲模擬器可能觸發著作權問題；且此類層級轉換器可能被惡意軟體偽裝利用。
+
+- **[obra/superpowers](https://github.com/obra/superpowers)** · GitHub · Skills / Claude
+  - 為什麼爆紅：結合「Agentic Skills」與軟體開發方法論，直接對應當前 AI 軟體工程開發流程需求，且星數增長極快。
+  - 架構亮點：資料不足
+  - 安全風險：自動化 Agent 若被賦予過高系統權限，可能導致非預期的程式碼注入或執行風險。
+
 ## 2026-11-27
 
 - **[AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting)** · HN · HN 新聞
@@ -2636,36 +2668,4 @@
 - **[2akouwu/reverify](https://github.com/2akouwu/reverify)** · GitHub · AI Agent
   - 為什麼爆紅：針對 AI 常見的「幻覺」痛點，提出具體的驗證流程，透過確定性工具對抗機率模型的隨機性，引起開發者共鳴。
   - 架構亮點：整合 MCP (Model Context Protocol) 伺服器與 CLI，將事實查核邏輯解耦至確定性系統中進行驗證。
-  - 安全風險：未見明顯風險
-
-- **[bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)** · GitHub · 其他
-  - 為什麼爆紅：提供突破網路限制的工具，其資訊傳播具備強烈的使用剛需與社群傳播效應，長期維持高關注度。
-  - 架構亮點：資料不足
-  - 安全風險：使用翻牆工具本身具備法律與資安風險，若中間人節點不可控，存在流量監控與隱私洩露的隱憂。
-
-- **[anomalyco/opencode](https://github.com/anomalyco/opencode)** · GitHub · AI Agent
-  - 為什麼爆紅：作為開源 AI Coding Agent，直接對標並挑戰當前閉源 AI 編程工具的市場壟斷，滿足開發者對開源生態的高度需求。
-  - 架構亮點：資料不足
-  - 安全風險：自動化代碼生成可能引入未經審核的安全漏洞或惡意軟體依賴，使用者在執行生成的程式碼時面臨潛在風險。
-
-## 2026-09-05
-
-- **[shadcn-ui/cn](https://github.com/shadcn-ui/cn)** · GitHub · 其他
-  - 為什麼爆紅：宣稱效能較現有標準（tailwind-merge, clsx）提升 30 倍，解決了大規模專案中 CSS 合併的效能瓶頸。
-  - 架構亮點：針對 Tailwind CSS 類名合併進行了底層演算法優化，強調效能極致化與 API 相容性。
-  - 安全風險：未見明顯風險
-
-- **[Discovery of a new OpenAI agent message board](https://collusion.wiki/)** · HN · HN 新聞
-  - 為什麼爆紅：揭露了 OpenAI 代理人內部或相關生態的私密溝通管道，觸動了技術社群對 AI 行為透明度與潛在合謀風險的好奇心。
-  - 架構亮點：資料不足
-  - 安全風險：可能揭露系統漏洞或敏感協議，且該論壇本身可能成為惡意代理人傳遞控制命令的中繼站。
-
-- **[lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas)** · GitHub · 其他
-  - 為什麼爆紅：連結 Material 3 設計系統與「vibe-coding」提示詞工程，大幅降低 UI 設計與程式碼生成的轉譯摩擦成本。
-  - 架構亮點：採用瀏覽器端渲染與視覺化拖拽架構，將 UI 狀態直接映射為 AI 可理解的提示詞格式。
-  - 安全風險：生成的 UI 程式碼若未經過濾，可能在前端注入惡意腳本（XSS）。
-
-- **[emilkowalski/skills](https://github.com/emilkowalski/skills)** · GitHub · Skills / Claude
-  - 為什麼爆紅：由知名開發者維護，聚焦設計與工程領域的技能樹，滿足軟體產業對跨領域技能結構化的強烈需求。
-  - 架構亮點：資料不足
   - 安全風險：未見明顯風險
